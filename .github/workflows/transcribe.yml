@@ -16,6 +16,7 @@ concurrency:
 jobs:
   transcribe-one:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
 
 
     env:
