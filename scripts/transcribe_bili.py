@@ -426,7 +426,14 @@ def main():
     ensure_dirs()
     clear_continue()
 
-    queue = load_or_build_queue()
+    try:
+        queue = load_or_build_queue()
+    except Exception as exc:
+        save_progress("discovery_failed", note=repr(exc))
+        git_commit_and_push("state: record discovery failure")
+        log(f"[error] discovery failed: {exc}")
+        raise
+
     done = load_existing_done()
     failed = load_existing_failed()
 
