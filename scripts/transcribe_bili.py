@@ -1,0 +1,516 @@
+from __future__ import annotations
+
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+from pathlib import Path
+from typing import TYPE_CHECKING, Dict, List, Optional
+
+if TYPE_CHECKING:
+    from faster_whisper import WhisperModel
+from transcription_integrity import (
+    probe_audio_duration,
+    transcribe_audio_chunked,
+    transcribe_audio_whole,
+    validate_download_duration,
+    validate_transcription,
+)
+
+SPACE_URL = os.getenv("BILIBILI_SPACE_URL", "https://space.bilibili.com/280534030/video")
+COOKIES_FILE = Path(os.getenv("BILIBILI_COOKIES_FILE", "cookies.txt"))
+
+STATE_DIR = Path("state")
+TRANSCRIPTS_DIR = Path("transcripts")
+TMP_DIR = Path("tmp_audio")
+ERRORS_DIR = STATE_DIR / "errors"
+
+QUEUE_FILE = STATE_DIR / "queue.json"
+DONE_FILE = STATE_DIR / "done.txt"
+FAILED_FILE = STATE_DIR / "failed.txt"
+PROGRESS_FILE = STATE_DIR / "progress.json"
+CONTINUE_FLAG = STATE_DIR / "continue.flag"
+
+MODEL_NAME = os.getenv("WHISPER_MODEL", "medium")
+DEVICE = os.getenv("WHISPER_DEVICE", "cpu")
+COMPUTE_TYPE = os.getenv("WHISPER_COMPUTE_TYPE", "int8")
+LANGUAGE = os.getenv("WHISPER_LANGUAGE", "zh")
+AUDIO_FORMAT = os.getenv("AUDIO_FORMAT", "mp3")
+AUDIO_QUALITY = os.getenv("AUDIO_QUALITY", "7")
+BEAM_SIZE = int(os.getenv("BEAM_SIZE", "1"))
+VAD_FILTER = os.getenv("VAD_FILTER", "1") == "1"
+TRANSCRIBE_CHUNK_SECONDS = int(os.getenv("TRANSCRIBE_CHUNK_SECONDS", "1800"))
+TRANSCRIBE_CHUNKED = os.getenv("TRANSCRIBE_CHUNKED", "0").strip().lower() in {"1", "true", "yes", "on"}
+MAX_TRAILING_GAP_SECONDS = float(os.getenv("MAX_TRAILING_GAP_SECONDS", "120"))
+MAX_TRAILING_GAP_RATIO = float(os.getenv("MAX_TRAILING_GAP_RATIO", "0.10"))
+GIT_BRANCH = os.getenv("GITHUB_REF_NAME", "").strip()
+YTDLP_RETRIES = max(1, int(os.getenv("YTDLP_RETRIES", "3")))
+YTDLP_RETRY_DELAY = max(0.0, float(os.getenv("YTDLP_RETRY_DELAY", "5")))
+
+
+def log(msg: str):
+    print(msg, flush=True)
+
+
+def ensure_dirs():
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    TRANSCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
+    TMP_DIR.mkdir(parents=True, exist_ok=True)
+    ERRORS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def atomic_write_text(path: Path, content: str, encoding: str = "utf-8"):
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(content, encoding=encoding)
+    tmp.replace(path)
+
+
+def append_line(path: Path, line: str):
+    with path.open("a", encoding="utf-8") as f:
+        f.write(line.rstrip("\n") + "\n")
+
+
+def load_json(path: Path, default):
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def save_json(path: Path, data):
+    atomic_write_text(path, json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def load_set(path: Path) -> set:
+    if not path.exists():
+        return set()
+    return {x.strip() for x in path.read_text(encoding="utf-8").splitlines() if x.strip()}
+
+
+def seconds_to_hms(sec: float) -> str:
+    sec = max(0, int(sec))
+    h = sec // 3600
+    m = (sec % 3600) // 60
+    s = sec % 60
+    return f"{h:02d}:{m:02d}:{s:02d}"
+
+
+def sanitize_filename(name: str, max_len: int = 200) -> str:
+    name = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', "_", name).strip()
+    name = re.sub(r"\s+", " ", name)
+    return name[:max_len].rstrip(" .") or "untitled"
+
+
+def run(cmd: List[str], capture: bool = False, check: bool = True):
+    log("[cmd] " + " ".join(cmd))
+    return subprocess.run(cmd, text=True, capture_output=capture, check=check)
+
+
+def git_run(cmd: List[str], check: bool = True):
+    log("[git] " + " ".join(cmd))
+    return subprocess.run(cmd, text=True, check=check)
+
+
+def format_video_url(entry: Dict) -> Optional[str]:
+    url = entry.get("url") or entry.get("webpage_url") or ""
+    vid = (entry.get("id") or "").strip()
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+    if vid.startswith("BV"):
+        return f"https://www.bilibili.com/video/{vid}"
+    if url.startswith("BV"):
+        return f"https://www.bilibili.com/video/{url}"
+    return None
+
+
+def extract_bvid(value: object) -> str:
+    """Return a BVID found in an extractor id or URL, without trusting titles."""
+    text = str(value or "")
+    match = re.search(r"(?<![0-9A-Za-z])(BV[0-9A-Za-z]+)(?![0-9A-Za-z])", text)
+    return match.group(1) if match else ""
+
+
+def is_collection_url(value: object) -> bool:
+    text = str(value or "")
+    return "/lists/" in text or "/collectiondetail" in text
+
+
+def cookie_args() -> List[str]:
+    """Use repository-provided cookies when present; public videos need none."""
+    try:
+        if COOKIES_FILE.is_file() and COOKIES_FILE.stat().st_size > 0:
+            return ["--cookies", str(COOKIES_FILE)]
+    except OSError:
+        pass
+    return []
+
+
+def fetch_playlist_json(url: str) -> Dict:
+    """Fetch one playlist page with bounded retries and no cookie leakage in logs."""
+    cmd = [
+        "yt-dlp", *cookie_args(),
+        "--no-warnings", "--flat-playlist", "--dump-single-json", "--skip-download",
+        "--retries", "3", "--fragment-retries", "3",
+        "--socket-timeout", "30", "--user-agent", "Mozilla/5.0",
+        url,
+    ]
+    last_error = ""
+    for attempt in range(1, YTDLP_RETRIES + 1):
+        log(f"[discover] fetching playlist ({attempt}/{YTDLP_RETRIES}): {url}")
+        result = run(cmd, capture=True, check=False)
+        raw = (result.stdout or "").strip()
+        if result.returncode == 0 and raw:
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError as exc:
+                last_error = f"invalid JSON: {exc}"
+            else:
+                if isinstance(data, dict):
+                    return data
+                last_error = "yt-dlp JSON root is not an object"
+        else:
+            stderr = (result.stderr or "").strip().replace("\n", " ")
+            last_error = stderr[-500:] or f"exit code {result.returncode}"
+        if attempt < YTDLP_RETRIES and YTDLP_RETRY_DELAY:
+            time.sleep(YTDLP_RETRY_DELAY)
+    raise RuntimeError(f"unable to discover {url}: {last_error}")
+
+
+def collect_video_entries(data: Dict, source_url: str = "", max_depth: int = 3) -> List[Dict]:
+    """Flatten direct space entries and nested collection playlists in stable order."""
+    videos: List[Dict] = []
+    seen_videos = set()
+    seen_collections = set()
+
+    def visit(payload: Dict, origin: str, depth: int):
+        entries = payload.get("entries") or []
+        if not isinstance(entries, list):
+            return
+        for index, entry in enumerate(entries):
+            if not isinstance(entry, dict):
+                continue
+            entry_url = entry.get("webpage_url") or entry.get("url") or ""
+            bvid = extract_bvid(entry.get("id")) or extract_bvid(entry_url)
+            if bvid:
+                if bvid in seen_videos:
+                    continue
+                video_url = f"https://www.bilibili.com/video/{bvid}"
+                title = str(entry.get("title") or bvid or f"item_{index}").strip()
+                videos.append({
+                    "id": bvid,
+                    "title": title,
+                    "url": video_url,
+                    "duration": entry.get("duration"),
+                })
+                seen_videos.add(bvid)
+                continue
+
+            collection_url = entry_url if is_collection_url(entry_url) else ""
+            if not collection_url or depth >= max_depth or collection_url in seen_collections:
+                continue
+            seen_collections.add(collection_url)
+            try:
+                child = fetch_playlist_json(collection_url)
+            except Exception as exc:
+                log(f"[warn] collection discovery skipped: {collection_url}: {exc}")
+                continue
+            visit(child, collection_url, depth + 1)
+
+    visit(data, source_url, 0)
+    return videos
+
+
+def save_progress(status: str, note: str = "", current: Optional[Dict] = None, queue_total: int = 0, queue_index: int = 0):
+    payload = {
+        "status": status,
+        "note": note,
+        "space_url": SPACE_URL,
+        "queue_total": queue_total,
+        "queue_index": queue_index,
+        "updated_at": int(time.time()),
+        "updated_at_readable": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+    }
+    if current:
+        payload["current_bvid"] = current.get("id", "")
+        payload["current_title"] = current.get("title", "")
+        payload["current_url"] = current.get("url", "")
+    save_json(PROGRESS_FILE, payload)
+
+
+def load_existing_done() -> set:
+    done = load_set(DONE_FILE)
+    for p in TRANSCRIPTS_DIR.glob("BV*.txt"):
+        done.add(p.stem)
+    return done
+
+
+def load_existing_failed() -> set:
+    return load_set(FAILED_FILE)
+
+
+def record_done(bvid: str):
+    done = load_set(DONE_FILE)
+    if bvid not in done:
+        append_line(DONE_FILE, bvid)
+
+
+def record_failed(bvid: str):
+    failed = load_set(FAILED_FILE)
+    if bvid not in failed:
+        append_line(FAILED_FILE, bvid)
+
+
+def write_error_file(bvid: str, title: str, url: str, err: Exception):
+    path = ERRORS_DIR / f"{bvid}.txt"
+    body = (
+        f"bvid: {bvid}\n"
+        f"title: {title}\n"
+        f"url: {url}\n"
+        f"time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}\n"
+        f"error: {repr(err)}\n"
+    )
+    atomic_write_text(path, body)
+
+
+def extract_queue_from_space() -> List[Dict]:
+    if cookie_args():
+        log(f"[discover] using repository cookie file: {COOKIES_FILE}")
+    else:
+        log("[discover] no cookie file supplied; public videos only")
+    data = fetch_playlist_json(SPACE_URL)
+    queue = collect_video_entries(data, SPACE_URL)
+    if not queue:
+        raise RuntimeError("queue is empty; space discovery returned no BVIDs")
+    return queue
+
+
+def load_or_build_queue() -> List[Dict]:
+    if QUEUE_FILE.exists():
+        queue = load_json(QUEUE_FILE, [])
+        if queue:
+            log(f"[info] loaded queue from state: {len(queue)} items")
+            return queue
+
+    log("[info] building queue from bilibili space")
+    queue = extract_queue_from_space()
+    save_json(QUEUE_FILE, queue)
+    log(f"[info] queue saved: {len(queue)} items")
+    return queue
+
+
+def find_next_item(queue: List[Dict], done: set, failed: set) -> Optional[Dict]:
+    for item in queue:
+        bvid = item["id"]
+        transcript_file = TRANSCRIPTS_DIR / f"{bvid}.txt"
+        if bvid in done or bvid in failed or transcript_file.exists():
+            continue
+        return item
+    return None
+
+
+def has_more_pending(queue: List[Dict], done: set, failed: set) -> bool:
+    for item in queue:
+        bvid = item["id"]
+        transcript_file = TRANSCRIPTS_DIR / f"{bvid}.txt"
+        if bvid in done or bvid in failed or transcript_file.exists():
+            continue
+        return True
+    return False
+
+
+def download_audio(video_url: str, bvid: str) -> Path:
+    outtmpl = str(TMP_DIR / f"{bvid}.%(ext)s")
+    run([
+        "yt-dlp",
+        *cookie_args(),
+        "--no-playlist",
+        "-f", "ba/bestaudio",
+        "-x",
+        "--audio-format", AUDIO_FORMAT,
+        "--audio-quality", AUDIO_QUALITY,
+        "-o", outtmpl,
+        video_url
+    ])
+
+    files = [p for p in TMP_DIR.glob(f"{bvid}.*") if p.is_file() and not p.name.endswith(".part")]
+    if not files:
+        raise RuntimeError(f"audio file not found for {bvid}")
+    files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    return files[0]
+
+
+def load_model() -> WhisperModel:
+    try:
+        from faster_whisper import WhisperModel as FasterWhisperModel
+    except ModuleNotFoundError as exc:
+        raise RuntimeError("faster-whisper is required for transcription") from exc
+    log(f"[info] loading model: {MODEL_NAME}, device={DEVICE}, compute_type={COMPUTE_TYPE}")
+    return FasterWhisperModel(MODEL_NAME, device=DEVICE, compute_type=COMPUTE_TYPE)
+
+
+def transcribe_audio(model: WhisperModel, audio_path: Path, audio_duration: float) -> Dict:
+    kwargs = {
+        "language": LANGUAGE if LANGUAGE else None, "beam_size": BEAM_SIZE,
+        "vad_filter": VAD_FILTER, "condition_on_previous_text": False,
+    }
+    if TRANSCRIBE_CHUNKED:
+        result = transcribe_audio_chunked(
+            model, audio_path, audio_duration, TMP_DIR, run, kwargs,
+            seconds_to_hms, TRANSCRIBE_CHUNK_SECONDS,
+        )
+    else:
+        result = transcribe_audio_whole(model, audio_path, audio_duration, kwargs, seconds_to_hms)
+    # Preserve the legacy single text field and timestamp delimiter.
+    result["text"] = result.pop("timestamp_text").replace(" --> ", " - ")
+    result["plain_text"] = result["text"]
+    return result
+
+
+def write_transcript(item: Dict, result: Dict):
+    bvid = item["id"]
+    title = sanitize_filename(item["title"], 300)
+    url = item["url"]
+
+    out = TRANSCRIPTS_DIR / f"{bvid}.txt"
+    body = (
+        f"BV号：{bvid}\n"
+        f"标题：{title}\n"
+        f"链接：{url}\n"
+        f"识别语言：{result.get('language', '')}\n"
+        f"语言置信度：{result.get('language_probability', '')}\n"
+        f"分段数：{result.get('segments', 0)}\n"
+        f"生成时间：{time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}\n"
+        f"\n"
+        f"{result.get('text', '').strip()}\n"
+    )
+    atomic_write_text(out, body)
+
+
+def cleanup_temp_file(path: Optional[Path]):
+    try:
+        if path and path.exists():
+            path.unlink(missing_ok=True)
+    except Exception as e:
+        log(f"[warn] cleanup failed: {e}")
+
+
+def touch_continue():
+    CONTINUE_FLAG.write_text("1\n", encoding="utf-8")
+
+
+def clear_continue():
+    CONTINUE_FLAG.unlink(missing_ok=True)
+
+
+def git_commit_and_push(message: str):
+    git_run(["git", "add", "transcripts", "state"], check=False)
+    diff = subprocess.run(["git", "diff", "--cached", "--quiet"])
+    if diff.returncode == 0:
+        log("[info] no git changes to commit")
+        return
+
+    git_run(["git", "commit", "-m", message])
+
+    if GIT_BRANCH:
+        subprocess.run(["git", "pull", "--rebase", "origin", GIT_BRANCH], check=False)
+        git_run(["git", "push", "origin", f"HEAD:{GIT_BRANCH}"])
+    else:
+        git_run(["git", "push"])
+
+
+def main():
+    ensure_dirs()
+    clear_continue()
+
+    queue = load_or_build_queue()
+    done = load_existing_done()
+    failed = load_existing_failed()
+
+    next_item = find_next_item(queue, done, failed)
+    if not next_item:
+        save_progress("finished", note="all items completed", queue_total=len(queue), queue_index=len(done))
+        git_commit_and_push("state: finished all transcripts")
+        log("[info] all items completed")
+        return
+
+    model = load_model()
+    audio_path = None
+    idx = next((i for i, x in enumerate(queue) if x["id"] == next_item["id"]), 0)
+
+    try:
+        save_progress("downloading_audio", current=next_item, queue_total=len(queue), queue_index=idx)
+        audio_path = download_audio(next_item["url"], next_item["id"])
+        audio_duration = probe_audio_duration(audio_path, run)
+        validate_download_duration(next_item, audio_duration)
+        log(f"[ok] downloaded audio duration: {audio_duration:.3f}s")
+
+        save_progress("transcribing", current=next_item, queue_total=len(queue), queue_index=idx)
+        result = transcribe_audio(model, audio_path, audio_duration)
+        validate_transcription(result, MAX_TRAILING_GAP_SECONDS, MAX_TRAILING_GAP_RATIO)
+
+        save_progress("writing_transcript", current=next_item, queue_total=len(queue), queue_index=idx)
+        write_transcript(next_item, result)
+
+        record_done(next_item["id"])
+        done.add(next_item["id"])
+
+        if has_more_pending(queue, done, failed):
+            touch_continue()
+            save_progress(
+                "done_one",
+                note="one video processed, more pending",
+                current=next_item,
+                queue_total=len(queue),
+                queue_index=idx + 1
+            )
+        else:
+            clear_continue()
+            save_progress(
+                "finished",
+                note="one video processed, no more pending",
+                current=next_item,
+                queue_total=len(queue),
+                queue_index=idx + 1
+            )
+
+        git_commit_and_push(f"transcript: {next_item['id']}")
+        log(f"[ok] completed: {next_item['id']} {next_item['title']}")
+
+    except Exception as e:
+        record_failed(next_item["id"])
+        failed.add(next_item["id"])
+        write_error_file(next_item["id"], next_item["title"], next_item["url"], e)
+
+        if has_more_pending(queue, done, failed):
+            touch_continue()
+            save_progress(
+                "error",
+                note=repr(e),
+                current=next_item,
+                queue_total=len(queue),
+                queue_index=idx + 1
+            )
+        else:
+            clear_continue()
+            save_progress(
+                "finished_with_errors",
+                note=repr(e),
+                current=next_item,
+                queue_total=len(queue),
+                queue_index=idx + 1
+            )
+
+        git_commit_and_push(f"state: mark failed {next_item['id']}")
+        log(f"[error] {next_item['id']}: {e}")
+        raise
+
+    finally:
+        cleanup_temp_file(audio_path)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,5 @@
+cookies.txt
+tmp_audio/
+*.pyc
+__pycache__/
+.pytest_cache/
