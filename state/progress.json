@@ -1,9 +1,9 @@
 {
   "status": "discovery_failed",
-  "note": "RuntimeError('unable to discover https://space.bilibili.com/280534030/video: try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later.')",
+  "note": "RuntimeError('unable to discover https://space.bilibili.com/280534030/video: rver (352) ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later. ERROR: Request is blocked by server (412), please wait and try later.')",
   "space_url": "https://space.bilibili.com/280534030/video",
   "queue_total": 0,
   "queue_index": 0,
-  "updated_at": 1787869091,
-  "updated_at_readable": "2026-08-27 22:18:11"
+  "updated_at": 1787916361,
+  "updated_at_readable": "2026-08-28 11:26:01"
 }
