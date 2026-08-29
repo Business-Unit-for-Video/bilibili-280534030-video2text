@@ -57,8 +57,7 @@ jobs:
         shell: bash
         run: |
           if [ -n "$BILIBILI_COOKIE_CONTENT" ]; then
-            printf '%s' "$BILIBILI_COOKIE_CONTENT" > cookies.txt
-            echo "repository cookie configured"
+            python scripts/prepare_bilibili_cookies.py cookies.txt
           else
             : > cookies.txt
             echo "repository cookie not configured; public videos will be attempted"

@@ -1,6 +1,8 @@
 from pathlib import Path
 import sys
 
+import pytest
+
 
 sys.path.insert(0, str(Path("scripts").resolve()))
 import transcribe_bili
@@ -29,6 +31,26 @@ def test_script_defaults_to_target_space_and_optional_cookie():
     assert "https://space.bilibili.com/280534030/video" in script
     assert "no cookie file supplied; public videos only" in script
     assert '"/lists/"' in script
+
+
+def test_bilibili_json_cookie_export_is_converted_without_leaking_values():
+    from prepare_bilibili_cookies import convert
+
+    output = convert(
+        '{"cookie_info":{"domains":[".bilibili.com"],"cookies":['
+        '{"name":"SESSDATA","value":"secret-value","expires":1801216602,"secure":0}'
+        ']}}'
+    )
+    assert "SESSDATA" in output
+    assert "secret-value" in output
+    assert output.startswith("# Netscape HTTP Cookie File")
+
+
+def test_bilibili_cookie_conversion_rejects_non_bilibili_domains():
+    from prepare_bilibili_cookies import convert
+
+    with pytest.raises(ValueError, match="no usable Bilibili cookies"):
+        convert('{"cookies":[{"name":"x","value":"y","domain":".example.com"}]}')
 
 
 def test_collection_entries_are_recursive_and_deduplicated(monkeypatch):

@@ -12,7 +12,7 @@
 
 ## 仓库级 Secret
 
-可在本仓库配置 `BILIBILI_SOURCE_COOKIE_FILE_280534030`，值为 yt-dlp 可读取的 Netscape Cookie 文件内容。Cookie 只在 Actions 临时目录中使用。
+可在本仓库配置 `BILIBILI_SOURCE_COOKIE_FILE_280534030`，值可以是 yt-dlp 的 Netscape Cookie 文件内容，也可以是 Bilibili 导出的 `cookies.json` 原文。Actions 会在临时目录中校验并转换 JSON；Cookie 值不会写入仓库或日志。
 
 没有配置 Cookie 时，工作流仍会尝试发现和转写公开可访问的视频；受登录限制的视频会记录为失败，之后可配置 Cookie 并从失败重试工作流重新处理。
 
