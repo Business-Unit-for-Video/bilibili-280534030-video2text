@@ -1,0 +1,10 @@
+BV号：BV1CaHnzqEWN
+标题：BV1CaHnzqEWN
+链接：https://www.bilibili.com/video/BV1CaHnzqEWN
+识别语言：zh
+语言置信度：1
+分段数：2
+生成时间：2026-08-29 22:31:27
+
+[00:00:00 - 00:00:06] 其实我是外星人
+[00:00:06 - 00:00:08] 我想通过OpenAI控制你们
