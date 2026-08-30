@@ -1,0 +1,347 @@
+BV号：BV1rQCpYUEuR
+标题：BV1rQCpYUEuR
+链接：https://www.bilibili.com/video/BV1rQCpYUEuR
+识别语言：zh
+语言置信度：1
+分段数：339
+生成时间：2026-08-30 22:20:49
+
+[00:00:00 - 00:00:02] AI Agent with Self-Reflection
+[00:00:02 - 00:00:04] Reliable in solving complex tasks
+[00:00:04 - 00:00:06] Consciously taking decisions
+[00:00:06 - 00:00:09] This Self-Reflecting AI Agents is here
+[00:00:09 - 00:00:11] And it is 100% Free
+[00:00:11 - 00:00:14] Praise in AI, the future of AI Agents is here
+[00:00:15 - 00:00:18] Transform your AI Workflow with Self-Reflecting Agents
+[00:00:18 - 00:00:21] I spend months to build this AI Agents Framework
+[00:00:21 - 00:00:23] Just so that it makes you work easier
+[00:00:23 - 00:00:26] And it is officially an AI Agents Framework
+[00:00:26 - 00:00:31] Natively running AI agents without any third party integration
+[00:00:31 - 00:00:33] Transforming the future of AI development
+[00:00:33 - 00:00:35] Start your AI journey today
+[00:00:35 - 00:00:38] No coding experience, no problem
+[00:00:38 - 00:00:41] Just tell your agents what to do in plain English
+[00:00:41 - 00:00:43] One single command to get started
+[00:00:43 - 00:00:45] Building examples and templates
+[00:00:45 - 00:00:47] Helpful community support as well
+[00:00:47 - 00:00:49] It's beyond traditional AI agents
+[00:00:49 - 00:00:52] 100 plus large language models support with one framework
+[00:00:52 - 00:00:55] Self-reflecting agents that can learn
+[00:00:55 - 00:00:58] Code Chat Voice All Unified
+[00:00:58 - 00:00:59] 想想明天
+[00:00:59 - 00:01:00] 你的AIagents
+[00:01:00 - 00:01:02] 会自动合作
+[00:01:02 - 00:01:02] 完美的工作
+[00:01:02 - 00:01:04] 完成在你睡觉
+[00:01:04 - 00:01:05] 完美的 Code Generated
+[00:01:05 - 00:01:07] 自动试试
+[00:01:07 - 00:01:09] 全都用零件的方式
+[00:01:09 - 00:01:09] 需要
+[00:01:09 - 00:01:11] 是一种游戏改变
+[00:01:11 - 00:01:12] 这就是时间
+[00:01:12 - 00:01:14] 可以看到
+[00:01:14 - 00:01:15] AIagents
+[00:01:15 - 00:01:17] 会更有名
+[00:01:17 - 00:01:19] than any other years before
+[00:01:19 - 00:01:21] 计划AIagents
+[00:01:21 - 00:01:22] 进入你的 own software
+[00:01:22 - 00:01:24] 会保持你走走
+[00:01:24 - 00:01:32] 前一陣子, 工程設計需要創造AIA agents, 限制模式支持, 和需要 manual oversight.
+[00:01:32 - 00:01:38] 但現在, 它是一臺設定的, 100% 加上大學模式支持, 全程式的運用
+[00:01:38 - 00:01:41] 一種程式, 用最終的機會
+[00:01:41 - 00:01:47] just pip install prisen ai set your api key and watch ai agents collaborate
+[00:01:47 - 00:01:53] you can just get started with a single agent scale to multiple agents and then deploy enterprise solutions
+[00:01:53 - 00:02:00] prisen ai one of the popular ai agents framework also is downloaded more than 100 000 times
+[00:02:00 - 00:02:07] with automatic ai agents creation so you define the task and automatically the required agents will get created
+[00:02:07 - 00:02:10] 但今天我們會專注於
+[00:02:10 - 00:02:12] 自然反應AI的
+[00:02:12 - 00:02:14] 完成 complex task
+[00:02:14 - 00:02:16] 和 consciously making decisions
+[00:02:16 - 00:02:17] 我們也會看到
+[00:02:17 - 00:02:18] 如何可以組織這件事
+[00:02:18 - 00:02:20] 用 OLAMA to run locally
+[00:02:20 - 00:02:22] 還有用 grok
+[00:02:22 - 00:02:24] 做超快AI agents
+[00:02:24 - 00:02:26] 所以為何自然反應AI agents
+[00:02:26 - 00:02:28] 為了一位傳統AI agent
+[00:02:28 - 00:02:29] 你問了問題
+[00:02:29 - 00:02:32] 而AI agent 能夠表現 task
+[00:02:32 - 00:02:33] 用了 能夠的功能
+[00:02:33 - 00:02:36] 但自然反應AI agents
+[00:02:36 - 00:02:38] 当你提出一个问题或任何任何任何的问题
+[00:02:38 - 00:02:40] 它会发生最初的回答
+[00:02:40 - 00:02:41] 使用它的计划
+[00:02:41 - 00:02:45] 然后同样的总统会反映在自己的自己的回答中
+[00:02:45 - 00:02:47] 去重复最初的回答
+[00:02:47 - 00:02:49] 然后它可以再次重复这个程度
+[00:02:49 - 00:02:50] 多少次的效果
+[00:02:50 - 00:02:54] 这将会发生更高的高级回答
+[00:02:54 - 00:02:56] 并完成更高级的任何任何任何的任何的回答
+[00:02:56 - 00:02:58] 所以当答案完成了
+[00:02:58 - 00:03:00] 它将会再次送回到使用
+[00:03:00 - 00:03:01] 所以想想
+[00:03:01 - 00:03:03] 有10个总统
+[00:03:03 - 00:03:06] 10个不同的公司能够自动反应
+[00:03:06 - 00:03:09] 这将增加了公司的质疑
+[00:03:09 - 00:03:11] 在描写中,我将提供所有的文件
+[00:03:11 - 00:03:13] Praise and AI 2.0
+[00:03:13 - 00:03:15] 计划Praise and AI
+[00:03:15 - 00:03:18] 没有公司的解决和评论
+[00:03:18 - 00:03:21] 没有公司是一个评论
+[00:03:21 - 00:03:23] 只要发行公司和评论
+[00:03:23 - 00:03:26] 发行者只会有几个文件
+[00:03:26 - 00:03:28] 自行解决
+[00:03:28 - 00:03:29] 简单的
+[00:03:29 - 00:03:31] 开始,打开Praise and AI
+[00:03:31 - 00:03:32] 然后打开
+[00:03:32 - 00:03:35] 然后打开开开AI的按键
+[00:03:35 - 00:03:36] 然后打开开Enter
+[00:03:36 - 00:03:38] 这些可以发生从开AI.com
+[00:03:38 - 00:03:41] 我们将用GPD4O模式
+[00:03:41 - 00:03:42] 我会也给大家看看
+[00:03:42 - 00:03:45] 我们可以用Olama和Groc
+[00:03:45 - 00:03:46] 同样的方式
+[00:03:46 - 00:03:47] 所以后面打开Enter
+[00:03:47 - 00:03:50] 接下来就按Auto
+[00:03:50 - 00:03:51] 然后按Auto的目标
+[00:03:51 - 00:03:53] 你想要表演
+[00:03:53 - 00:03:54] 我会说
+[00:03:54 - 00:03:55] 创作一部电影
+[00:03:55 - 00:03:56] 《选择》
+[00:03:56 - 00:03:58] 《选择》《选择》《选择》《选择》
+[00:03:58 - 00:03:59] 然后打开Enter
+[00:03:59 - 00:04:00] 现在这是Auto模式
+[00:04:00 - 00:04:04] which means automatically it will create the required agent
+[00:04:04 - 00:04:07] So, these are the agents which it automatically created
+[00:04:07 - 00:04:10] The concept developer, plot developer and the script writer
+[00:04:11 - 00:04:14] So, first it created the agent concept developer
+[00:04:14 - 00:04:17] and is giving the movie title plotline
+[00:04:17 - 00:04:20] Primary characters futuristic storytelling techniques
+[00:04:20 - 00:04:23] So, this is a completely automatic mode
+[00:04:23 - 00:04:24] Now it's self reflection
+[00:04:25 - 00:04:26] This is where it changes
+[00:04:27 - 00:04:30] So, the agent is self reflecting on its own response
+[00:04:30 - 00:04:31] 然后它说
+[00:04:31 - 00:04:33] agent mark的责任责任
+[00:04:33 - 00:04:36] 接下来它进入下一责任
+[00:04:36 - 00:04:38] 那是plot developer agent
+[00:04:38 - 00:04:40] 发展plot from there
+[00:04:40 - 00:04:41] 名字
+[00:04:41 - 00:04:43] act1 discovery
+[00:04:43 - 00:04:44] act2 exploration
+[00:04:44 - 00:04:45] act3
+[00:04:45 - 00:04:49] 然后它自动在自己的责任中
+[00:04:49 - 00:04:52] Again agent mark的责任责任
+[00:04:52 - 00:04:54] 然后它进入
+[00:04:54 - 00:04:55] script write agent
+[00:04:55 - 00:04:57] 现在它写写了
+[00:04:57 - 00:04:59] 全部是在文化上
+[00:04:59 - 00:05:04] 最後的標誌完成了,名字、課程等其他東西
+[00:05:04 - 00:05:08] 然後自己在自己的回答中反映了,然後是很滿意的
+[00:05:08 - 00:05:11] 最後的標誌完成了,真是好看
+[00:05:11 - 00:05:14] 所以我沒有做任何事,我只是給了一個標誌
+[00:05:14 - 00:05:16] 創作一部電影 about robots and Mars
+[00:05:16 - 00:05:19] 然後它自然地創作了所有的需要領域
+[00:05:19 - 00:05:23] 例如 Concept Developer,Plot Developer, and Scriptwriter
+[00:05:23 - 00:05:26] 它自己的反應, 它自己的反應
+[00:05:26 - 00:05:29] 然後給予它高級的標誌
+[00:05:29 - 00:05:31] 這就是很棒的
+[00:05:31 - 00:05:33] 如果你想把你的自己的Agent
+[00:05:33 - 00:05:34] 改變成另一個頁面
+[00:05:34 - 00:05:36] 再選Agent
+[00:05:36 - 00:05:37] 然後再選Agent
+[00:05:37 - 00:05:38] 然後再選Agent
+[00:05:38 - 00:05:39] 然後再選Agent
+[00:05:39 - 00:05:40] 然後再選Agent
+[00:05:40 - 00:05:41] 然後再選Agent
+[00:05:41 - 00:05:43] 這個會自動地
+[00:05:43 - 00:05:44] 叫Agent.yaml
+[00:05:44 - 00:05:46] 所以你沒有在用什麼
+[00:05:46 - 00:05:48] 是只是一個文字
+[00:05:48 - 00:05:49] 我只是在開箱
+[00:05:49 - 00:05:50] 然後是一個文字
+[00:05:50 - 00:05:52] 然後是Agent
+[00:05:52 - 00:05:57] And here is the topic and the concept developer character specialist script writer.
+[00:05:57 - 00:05:59] And here it got the backstory.
+[00:05:59 - 00:06:04] Goal is to generate an intriguing plotline for a movie script for the concept developer.
+[00:06:04 - 00:06:07] Similarly for every single agent,
+[00:06:07 - 00:06:10] They have their own goal and a task to do.
+[00:06:10 - 00:06:12] If you want to modify anything here,
+[00:06:12 - 00:06:14] You are able to modify it as simple as that.
+[00:06:14 - 00:06:15] So once you are happy,
+[00:06:15 - 00:06:17] You can even add a tool.
+[00:06:17 - 00:06:18] For example,
+[00:06:18 - 00:06:20] If you want to add an internet search tool,
+[00:06:20 - 00:06:23] You can add that here and then save it.
+[00:06:23 - 00:06:28] Next after that coming to my terminal just type praise an AI and then click enter.
+[00:06:28 - 00:06:33] That's all it takes and that will automatically take the agents.yaml content.
+[00:06:33 - 00:06:38] First it goes to the concept developer as you can see here agent concept developer.
+[00:06:38 - 00:06:44] Then it performs the task and now it's generating the plot line and it goes through step by step.
+[00:06:44 - 00:06:48] Going through one agent after the other with self reflection.
+[00:06:48 - 00:06:49] That is powerful.
+[00:06:49 - 00:06:51] 我 θd准 show you one more
+[00:06:51 - 00:06:54] advanced feature that is hierarchical
+[00:06:54 - 00:06:55] by default
+[00:06:55 - 00:06:57] these agents are working as a sequential task
+[00:06:57 - 00:07:00] that is one after the other
+[00:07:00 - 00:07:03] what if if you have a manager or a supervisor
+[00:07:03 - 00:07:05] to look after these agents
+[00:07:05 - 00:07:09] and making sure they perform the task in order
+[00:07:09 - 00:07:11] and also with accuracy
+[00:07:11 - 00:07:15] that's when we have the process called hierarchical
+[00:07:15 - 00:07:17] this will automatically introduce
+[00:07:17 - 00:07:19] a new supervisor agent
+[00:07:19 - 00:07:21] So here is hierarchical agent
+[00:07:21 - 00:07:23] When we provide a complex task
+[00:07:23 - 00:07:24] In this case, it's a script writing
+[00:07:24 - 00:07:26] The manager will automatically
+[00:07:26 - 00:07:28] Layage with all these agents
+[00:07:28 - 00:07:30] Making sure the quality of the response
+[00:07:30 - 00:07:32] For each agent is better
+[00:07:32 - 00:07:34] If it's not good, it's going to revert the
+[00:07:34 - 00:07:36] Task back to the agent again
+[00:07:36 - 00:07:38] And finally we get the high quality answer
+[00:07:38 - 00:07:41] At the same time, all these agents
+[00:07:41 - 00:07:43] Have their own self reflection built in
+[00:07:43 - 00:07:46] Before responding to the manager agent
+[00:07:46 - 00:07:47] That is super powerful
+[00:07:47 - 00:07:48] To implement that
+[00:07:48 - 00:07:50] 就把這個Proser 標誌的標誌
+[00:07:50 - 00:07:51] 然後就完成了
+[00:07:51 - 00:07:54] 所有的事情都在後面的場面
+[00:07:54 - 00:07:56] 所以之後把這個資料剪掉
+[00:07:56 - 00:07:57] 回到電腦
+[00:07:57 - 00:07:59] 再按Ai 再按Enter
+[00:07:59 - 00:08:00] 現在可以看到
+[00:08:00 - 00:08:03] 標誌的數目和數目
+[00:08:03 - 00:08:04] 然後是指導者的方式
+[00:08:04 - 00:08:07] 首先是指導者的方式
+[00:08:07 - 00:08:09] 然後按導者的方式
+[00:08:09 - 00:08:11] 它是指導者的方式
+[00:08:11 - 00:08:12] 它是指導者的方式
+[00:08:12 - 00:08:15] 自己在自己的方式
+[00:08:15 - 00:08:18] 然後再送回到導者的方式
+[00:08:18 - 00:08:21] Here you can see the concept developer task is completed
+[00:08:21 - 00:08:27] State is completed and the manager is instructing to go to the character specialist next
+[00:08:27 - 00:08:30] And accordingly it's going to the character specialist
+[00:08:30 - 00:08:33] And it's generating the response with self reflection
+[00:08:33 - 00:08:34] That is super powerful
+[00:08:34 - 00:08:39] Now you are able to create more advanced AA agents to solve your complex tasks
+[00:08:39 - 00:08:42] Next I want to show you how you can integrate this with Olama
+[00:08:42 - 00:08:47] Olama is a powerful tool which you can download to run large language models
+[00:08:47 - 00:08:49] 例如Lama 3,5.3,Mistral,Jama 2
+[00:08:49 - 00:08:51] 在你 computer 上认识的
+[00:08:51 - 00:08:52] 完全免费
+[00:08:52 - 00:08:54] 所以就下落这Olama
+[00:08:54 - 00:08:55] 接下来在你的网站里
+[00:08:55 - 00:08:57] 就按Olama pull
+[00:08:57 - 00:08:59] Lama 3.2 然后打开进入
+[00:08:59 - 00:09:02] 这会自动下落Lama 3.2 模式
+[00:09:02 - 00:09:03] 接下来
+[00:09:03 - 00:09:05] 就把一个正确的键
+[00:09:05 - 00:09:07] 然后打开ABAZI URL
+[00:09:07 - 00:09:09] 这是Olama 结构
+[00:09:09 - 00:09:12] 然后打开ABAZI Models 名为Lama 3.2
+[00:09:12 - 00:09:13] 接下来
+[00:09:13 - 00:09:14] 就像之前
+[00:09:14 - 00:09:16] 打开ABAZI 然后打开进入
+[00:09:16 - 00:09:19] 现在可以看到你能够使用Groc的超级发动
+[00:09:19 - 00:09:23] 所以键盘键盘.grok.com 和发动你的 API 键
+[00:09:23 - 00:09:25] 现在加上Groc API 键
+[00:09:25 - 00:09:27] 选择开放AAPA 键
+[00:09:27 - 00:09:29] 然后发动Groc API 键
+[00:09:29 - 00:09:30] 后来
+[00:09:30 - 00:09:32] 选择开放AAPA Base URL
+[00:09:32 - 00:09:34] 这是Groc Base URL 这样
+[00:09:34 - 00:09:35] 然后打开打开
+[00:09:35 - 00:09:36] 后来你可以 even
+[00:09:36 - 00:09:38] 订议你的模式
+[00:09:38 - 00:09:40] 在你的Agenc.yaml 订订这样
+[00:09:40 - 00:09:42] 然后再打开打开
+[00:09:42 - 00:09:43] 然后打开打开
+[00:09:43 - 00:09:45] The structured output is a recent feature
+[00:09:45 - 00:09:49] So I believe this will get implemented in groc endpoint soon
+[00:09:49 - 00:09:51] And this will work as usual
+[00:09:51 - 00:09:54] Finally to integrate this with any other tool
+[00:09:54 - 00:09:58] Just I'm going to right click create a new file tools.py
+[00:09:58 - 00:09:59] And then click enter
+[00:09:59 - 00:10:01] There you can add your own tool
+[00:10:01 - 00:10:04] So here I'm going to add this search function
+[00:10:04 - 00:10:07] And describing what this search function does
+[00:10:07 - 00:10:10] This will be used by the large language model or AI agent
+[00:10:10 - 00:10:12] So based on the task, it's able to perform
+[00:10:12 - 00:10:15] 去发行网搜
+[00:10:15 - 00:10:17] 然后用网搜去完成
+[00:10:17 - 00:10:18] 一个任务
+[00:10:18 - 00:10:20] 所以去发行这个网搜
+[00:10:20 - 00:10:22] 我只是在网上写了一个名字
+[00:10:22 - 00:10:23] 然后去到agents.yaml
+[00:10:23 - 00:10:25] 在这里可以提到一个名字
+[00:10:25 - 00:10:27] 在这个网搜的部分里
+[00:10:27 - 00:10:29] 发行这个网搜的
+[00:10:29 - 00:10:31] 简单是这样
+[00:10:31 - 00:10:32] 现在当你发行Praise and AI
+[00:10:32 - 00:10:35] 这些网搜会自动发行
+[00:10:35 - 00:10:37] 由Praise and AI的网搜
+[00:10:37 - 00:10:39] 发行这个网搜
+[00:10:39 - 00:10:41] 所以你能够在
+[00:10:41 - 00:10:44] 进入自己的项目
+[00:10:44 - 00:10:46] 首先我们会建设一个研究员
+[00:10:46 - 00:10:48] 然后一个写意员
+[00:10:48 - 00:10:50] 然后将设计团体的团体
+[00:10:50 - 00:10:52] 然后终于完成这三个预设
+[00:10:52 - 00:10:54] 所以三步
+[00:10:54 - 00:10:55] 我们会看到
+[00:10:55 - 00:10:56] 有关与隐蔽的系列
+[00:10:56 - 00:10:58] 以及隐蔽的系列
+[00:10:58 - 00:11:00] 所以三个简单的步骤
+[00:11:00 - 00:11:01] 建设团体
+[00:11:01 - 00:11:02] 然后设计
+[00:11:02 - 00:11:03] 然后开始这些团体
+[00:11:03 - 00:11:05] 首先我建设一个叫App.py
+[00:11:05 - 00:11:08] 然后在你的设计中打开
+[00:11:08 - 00:11:10] 所以从团体的预设
+[00:11:10 - 00:11:13] 進入 職業 職業 職業
+[00:11:13 - 00:11:15] 下一步 創立職業
+[00:11:15 - 00:11:19] 首先 學者 從事職業的工作 工作 工作 工作
+[00:11:19 - 00:11:21] 職業的構圖是很像工程
+[00:11:21 - 00:11:23] 所以很容易讓你學習
+[00:11:23 - 00:11:25] 接下來 職業的職業
+[00:11:25 - 00:11:27] 同樣的教訓
+[00:11:27 - 00:11:30] 下一步 創立職業
+[00:11:30 - 00:11:31] 學者 職業的職業
+[00:11:31 - 00:11:34] 第一步是 學者 職業
+[00:11:34 - 00:11:37] 去查證 2024 年學業的進行
+[00:11:37 - 00:11:39] 然後 創立了細節的報告
+[00:11:39 - 00:12:03] 第二个 Task number two
+[00:12:03 - 00:12:04] WriteRagent
+[00:12:04 - 00:12:05] define the task
+[00:12:05 - 00:12:06] Task1,Task2
+[00:12:06 - 00:12:07] putting it all together
+[00:12:08 - 00:12:10] and agents.start
+[00:12:10 - 00:12:12] And first, we're gonna try Hierarchical
+[00:12:12 - 00:12:13] So now, opening my terminal
+[00:12:14 - 00:12:15] python.advertpy and clickEnter
+[00:12:16 - 00:12:17] now first, it's going to the manager agent
+[00:12:18 - 00:12:19] and it gives the task to the researcher
+[00:12:20 - 00:12:22] the researcher is creating a detailed report
+[00:12:22 - 00:12:24] about AIA advancement
+[00:12:24 - 00:12:25] next, go to the WriteRagent
+[00:12:26 - 00:12:27] and the task is complete
+[00:12:27 - 00:12:29] To make it sequential, just change this to
+[00:12:29 - 00:12:31] sequential,that's it
+[00:12:31 - 00:12:32] going back to the terminal
+[00:12:32 - 00:12:34] Python App.py and then click enter
+[00:12:34 - 00:12:36] and that will run in a sequential manner
+[00:12:36 - 00:12:37] as simple as that
+[00:12:37 - 00:12:40] now you are able to create complex task
+[00:12:40 - 00:12:42] and allow the agents to self reflect
+[00:12:42 - 00:12:44] and make the answer more accurate
+[00:12:44 - 00:12:46] do let me know in the comments below what you think about this
+[00:12:46 - 00:12:48] considering you already like praise and AI agents
+[00:12:48 - 00:12:50] I've also created another video
+[00:12:50 - 00:12:52] which explains different features
+[00:12:52 - 00:12:53] which you can try now
+[00:12:53 - 00:12:55] and I'll put the link in here
+[00:12:55 - 00:12:56] and I highly recommend for you to watch
+[00:12:56 - 00:12:57] and I will see you there
