@@ -1,0 +1,43 @@
+BV号：BV1VndkYREND
+标题：BV1VndkYREND
+链接：https://www.bilibili.com/video/BV1VndkYREND
+识别语言：zh
+语言置信度：1
+分段数：35
+生成时间：2026-08-30 07:37:36
+
+[00:00:00 - 00:00:11] 這 whole effort which was hugely expensive in terms of people and time and dollars and everything else was an experiment to further validate that the scaling laws keep going.
+[00:00:11 - 00:00:15] Why and turns out they do and they probably keep going for a long time.
+[00:00:15 - 00:00:21] I accept scaling laws like I accept quantum mechanics or something, but they still don't...
+[00:00:21 - 00:00:25] I still don't know why. Why should that be a property of the universe?
+[00:00:25 - 00:00:28] So why are scaling laws a property of the universe?
+[00:00:28 - 00:00:30] 我可以再說一步
+[00:00:30 - 00:00:34] 其實更加的壓力會帶來更多的精力
+[00:00:34 - 00:00:37] 這有很強的貢獻
+[00:00:37 - 00:00:43] 所以問題是為什麼更加的壓力會更加強
+[00:00:43 - 00:00:46] 還有很多的理念
+[00:00:46 - 00:00:48] 我喜歡的是
+[00:00:48 - 00:00:50] 關於財富的主要性的概念
+[00:00:50 - 00:00:56] 是在世界的資料中的財富
+[00:00:56 - 00:00:59] 特別是它是一個權力法
+[00:00:59 - 00:01:03] 所以100%最重要的概念
+[00:01:03 - 00:01:07] 會有100%的文章文章
+[00:01:07 - 00:01:08] 所以它們有很多詳細
+[00:01:08 - 00:01:10] 那如果我們做完完的資料
+[00:01:10 - 00:01:12] 然後想要有很大的資料
+[00:01:12 - 00:01:13] 我們可以回家
+[00:01:13 - 00:01:14] 這也就是說
+[00:01:14 - 00:01:15] 可能有可能的
+[00:01:15 - 00:01:16] 有可能的公共公司
+[00:01:16 - 00:01:17] 可以在地上
+[00:01:17 - 00:01:18] 做很大的
+[00:01:18 - 00:01:21] 作為選擇
+[00:01:21 - 00:01:22] 但是
+[00:01:22 - 00:01:24] 基本上
+[00:01:24 - 00:01:26] When you scoop up data passively
+[00:01:27 - 00:01:29] you are going to require
+[00:01:29 - 00:01:33] tennexing your compute and your data
+[00:01:33 - 00:01:36] to get the next constant number of things in that tail.
+[00:01:37 - 00:01:40] And where's just that tail keeps going
+[00:01:40 - 00:01:41] it's long you keep
+[00:01:41 - 00:01:45] you can keep mining it.
