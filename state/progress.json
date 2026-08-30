@@ -1,12 +1,12 @@
 {
-  "status": "error",
-  "note": "RuntimeError('transcription produced no text')",
+  "status": "done_one",
+  "note": "one video processed, more pending",
   "space_url": "https://space.bilibili.com/280534030/video",
   "queue_total": 478,
-  "queue_index": 251,
-  "updated_at": 1788060365,
-  "updated_at_readable": "2026-08-30 03:26:05",
-  "current_bvid": "BV1vsjrzNEgF",
-  "current_title": "BV1vsjrzNEgF",
-  "current_url": "https://www.bilibili.com/video/BV1vsjrzNEgF"
+  "queue_index": 252,
+  "updated_at": 1788060453,
+  "updated_at_readable": "2026-08-30 03:27:33",
+  "current_bvid": "BV1Vgj9zPEVc",
+  "current_title": "BV1Vgj9zPEVc",
+  "current_url": "https://www.bilibili.com/video/BV1Vgj9zPEVc"
 }
