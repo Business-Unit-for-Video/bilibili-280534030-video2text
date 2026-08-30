@@ -1,0 +1,151 @@
+BV号：BV1DWCrYSEpr
+标题：BV1DWCrYSEpr
+链接：https://www.bilibili.com/video/BV1DWCrYSEpr
+识别语言：zh
+语言置信度：1
+分段数：143
+生成时间：2026-08-30 22:47:33
+
+[00:00:00 - 00:00:03] OpenAI 新的O3 循環模式
+[00:00:03 - 00:00:05] 並且新的Dexterus 手機
+[00:00:05 - 00:00:07] 只預測了幾個新的技能
+[00:00:07 - 00:00:09] 但能否做到如何的負擔
+[00:00:09 - 00:00:12] 與13 度的自由度和
+[00:00:12 - 00:00:14] 4 個手機的複雜
+[00:00:14 - 00:00:16] Dex-H13 Gen2 能夠
+[00:00:16 - 00:00:19] 依靠人工的手機
+[00:00:19 - 00:00:20] 能夠使用
+[00:00:20 - 00:00:21] 穩定的手機
+[00:00:21 - 00:00:23] 和非常高的
+[00:00:23 - 00:00:23] 手機的擺放
+[00:00:23 - 00:00:24] 和非常高的
+[00:00:24 - 00:00:26] 能夠使用
+[00:00:26 - 00:00:28] 讓它們能夠合適的
+[00:00:28 - 00:00:30] 需要专业的行动和选择
+[00:00:30 - 00:00:33] 但是这些使用的Dex-H13 Gen2特别
+[00:00:33 - 00:00:35] 是一个更多的评论模式
+[00:00:35 - 00:00:37] 使用了一个多级的
+[00:00:37 - 00:00:38] 拥有的拥有的
+[00:00:38 - 00:00:39] 以及拥有的
+[00:00:39 - 00:00:41] 电脑视觉
+[00:00:41 - 00:00:42] 在这方面
+[00:00:42 - 00:00:43] 手机的拥有
+[00:00:43 - 00:00:47] 978个拥有的拥有的手机
+[00:00:47 - 00:00:48] 拥有15个拥有的
+[00:00:48 - 00:00:51] 拥有的拥有的拥有的手机
+[00:00:51 - 00:00:52] 这些拥有的拥有
+[00:00:52 - 00:00:56] 3912个拥有的拥有的
+[00:00:56 - 00:00:58] 採用手機的手機的手機的手機
+[00:00:58 - 00:01:02] 最具體積的質感、質感和其他材料
+[00:01:02 - 00:01:06] 因為它配合了8MP HD手機
+[00:01:06 - 00:01:08] 這系統也採用了精華的
+[00:01:08 - 00:01:10] 實際數量和物質的認識
+[00:01:10 - 00:01:13] 包括形式、位置和位置
+[00:01:13 - 00:01:15] 更加,它是支援了
+[00:01:15 - 00:01:18] 0 個級別的視覺方式
+[00:01:18 - 00:01:19] 而在為能量上
+[00:01:19 - 00:01:21] DEX H13 Gen2
+[00:01:21 - 00:01:22] 是建立了
+[00:01:22 - 00:01:40] canterial applications to handle up to five kilograms of payload capacity with a life span rated for over one million cycles and when it comes to cost the decks h13 gen2 is priced at just under seven hundred us dollars and features a modular design for easy integration and low maintenance operation but
+[00:01:40 - 00:01:45] 先是 sized as Stanford researchers also just released a new system called human object
+[00:01:45 - 00:01:50] interaction from human level instructions that lets robots perform complex tasks with
+[00:01:50 - 00:01:55] human-like precision, while combining language comprehension and advanced motion generation,
+[00:01:55 - 00:02:00] allowing intelligent agents to interpret detailed instructions and execute them like a
+[00:02:00 - 00:02:01] real person.
+[00:02:01 - 00:02:06] It works by using large language models to break down human instructions into step-by-step
+[00:02:06 - 00:02:11] Action Plans,where a low-level motion generator then synchronizes hand, finger, and full-body
+[00:02:11 - 00:02:14] motions to manipulate objects naturally.
+[00:02:14 - 00:02:19] But what sets the system apart is really its reinforcement learning-based physics tracker,
+[00:02:19 - 00:02:22] which ensures that every movement follows the laws of physics.
+[00:02:22 - 00:02:27] Plus, issues like hand-object collisions or foot-floating are corrected in real time.
+[00:02:27 - 00:02:32] And when compared to older models like CNET and GRIP,Stanford's system delivers
+[00:02:32 - 00:02:36] 比较 precise hand object interactions and lifelike finger motions,
+[00:02:36 - 00:02:40] with ablation studies even further highlighting its superiority,
+[00:02:40 - 00:02:44] but another new AI framework called Okami was just released,
+[00:02:44 - 00:02:49] finally allowing humanoid robots to replicate complex human manipulation tasks
+[00:02:49 - 00:02:51] by learning from just a single video.
+[00:02:51 - 00:02:57] Additionally, this two-stage method allows robots to not only understand human actions in a task
+[00:02:57 - 00:03:00] but also recreate them in varied environments.
+[00:03:00 - 00:03:07] 它开始在 States 1, 里, 欧冥美征录 局为 人进行一个拖延 目标, 即是一个 特别 呼吸引人的 目标。
+[00:03:07 - 00:03:14] 这是一个 录像 地面 非常 深刻 地的 目标 地 选择 人之 拖延 中的 拖延 方式 。
+[00:03:14 - 00:03:16] 这次,OKAMI 用的方式是
+[00:03:16 - 00:03:17] 计划文化的模式
+[00:03:17 - 00:03:19] 可以发行 task relevant objects
+[00:03:19 - 00:03:21] 和发行 their motion 通过影片
+[00:03:21 - 00:03:23] 一个人的建议模式
+[00:03:23 - 00:03:25] 可以让人的身体的动作
+[00:03:25 - 00:03:26] 使用这些方式
+[00:03:26 - 00:03:28] 来解释 how the task is performed
+[00:03:28 - 00:03:35] 這個部分會分析到, 例えば 選擇技巧,或 上吊柄, such as picking or placing an object,are then identified based on changes in object motion.
+[00:03:35 - 00:03:44] 這次欠揍 午後的效果,人類模式的調整,and sub-goal detection, formed a detailed plan that the robot can later execute.
+[00:03:44 - 00:03:57] 在第二階段,Okami 展現了人類的動作核心作成 人類版動作動作,where its object aware retargeting adapts the human motion to fit the robot's structure and the real-world task layout.
+[00:03:57 - 00:04:01] 第一个计划是计划的方式在写意的写意的方式
+[00:04:01 - 00:04:03] 并达到写意的目标
+[00:04:03 - 00:04:05] 接下来, 写意的文件从人的视频
+[00:04:05 - 00:04:07] 将用写意的文件
+[00:04:07 - 00:04:09] 和写意的文件进行
+[00:04:09 - 00:04:11] 使写意的文件进行
+[00:04:11 - 00:04:13] 结果写意的文件
+[00:04:13 - 00:04:15] 是选择在写意的文件
+[00:04:15 - 00:04:16] 的位置的写意
+[00:04:16 - 00:04:17] 在写意的文件中
+[00:04:17 - 00:04:19] 写意的文件是
+[00:04:19 - 00:04:20] 正确的和确的
+[00:04:20 - 00:04:21] 写意的文件
+[00:04:21 - 00:04:22] 而Okami
+[00:04:22 - 00:04:24] 在六个写意的文件中
+[00:04:24 - 00:04:54] 自己的承诺 包括 扶持 强制 而且 摆开 或 一样 探数 还有 每一个 员工之后 内容 同样的 方式 和 类似 及 还 全 流行 和 承诺 都 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续 继续
+[00:04:54 - 00:04:59] 虽然是 success, Okami is not without its limitations, as failures can still occur due
+[00:04:59 - 00:05:06] 在 robot controllers, vision models, or inverse kinematics, leading to issues like missed
+[00:05:06 - 00:05:11] grasps or unwanted collisions, highlighting further areas for refinement in the future,
+[00:05:11 - 00:05:16] 但 another breakthrough is coming for robot control, as OpenAI just announced its newest
+[00:05:16 - 00:05:21] O3 reasoning model as this year's frontier problem-solving AI with several new
+[00:05:21 - 00:05:22] s
+[00:05:22 - 00:05:24] and unlike gbt4
+[00:05:24 - 00:05:27] which relied on reinforcement learning from human feedback
+[00:05:27 - 00:05:30] the new o3 model now uses a goal-driven rl approach
+[00:05:31 - 00:05:34] which enables it to perform well in tasks where solutions are clearly defined
+[00:05:34 - 00:05:37] such as mathematics and programming
+[00:05:37 - 00:05:40] but the o3 model can also learn through specific objectives
+[00:05:40 - 00:05:44] then refine its strategies over time to construct logical pathways
+[00:05:44 - 00:05:46] to reach correct solutions
+[00:05:46 - 00:05:50] importantly, this is in contrast with traditional language models
+[00:05:50 - 00:05:53] 並且產生下一句語言 or token in a sequence
+[00:05:53 - 00:05:56] 其實O3 能夠達到性格的表現
+[00:05:56 - 00:05:59] 在 both coding and mathematical benchmarks
+[00:05:59 - 00:06:01] 這對於學校的進一步能夠是
+[00:06:01 - 00:06:02] 該是對或錯的
+[00:06:02 - 00:06:04] 雖然O3 的力量
+[00:06:04 - 00:06:05] 但是在學校的技術計畫中
+[00:06:05 - 00:06:07] O3 的成果成果
+[00:06:07 - 00:06:08] 能夠達到馬上進行
+[00:06:08 - 00:06:11] 更多 它們的純粹思想
+[00:06:11 - 00:06:12] 在大 scale 系統上
+[00:06:12 - 00:06:14] 能夠提供到O3 mini
+[00:06:14 - 00:06:15] 但是在它的領域中
+[00:06:15 - 00:06:18] O3 模式已經達到
+[00:06:18 - 00:06:24] 生存的困难的结果, 减少了25% 以上的问题
+[00:06:24 - 00:06:30] 在全球的比较低的数字下, 比较高的2% 比起上级的
+[00:06:30 - 00:06:34] 统一的技术, 这一种表现 也有可能有一个年轻的
+[00:06:34 - 00:06:36] 下落, 甚至有可能有一个年轻的
+[00:06:36 - 00:06:39] 最后, 提问提供许多的
+[00:06:39 - 00:06:42] 加强技术和快速功能
+[00:06:42 - 00:06:44] 取消更加强劲、
+[00:06:44 - 00:06:46] 更加严重的计划和
+[00:06:46 - 00:06:48] 更加加强劲, 用其中的
+[00:06:48 - 00:06:50] MSH-AB, 非常高级的
+[00:06:50 - 00:06:52] 游客游客
+[00:06:52 - 00:06:54] 更加重要的是,MSH-AB
+[00:06:54 - 00:06:56] 是在下方的
+[00:06:56 - 00:06:58] 游客游客游客
+[00:06:58 - 00:07:01] 超過三次的速度, 全程保持高能源的意思,
+[00:07:01 - 00:07:07] 使用這項目標, 為了保持實際、低能量的實體控制,
+[00:07:07 - 00:07:10] 更加的精準的行動。
+[00:07:10 - 00:07:15] 更加,這項目標, 使用實體控制和實體運輸,
+[00:07:15 - 00:07:18] 使用作為用戶的座位, 以保持未來的技術,
+[00:07:18 - 00:07:21] 使用這項目標, 使用這項目標,
+[00:07:21 - 00:07:23] 使用這項目標, 使用這項目標,
+[00:07:23 - 00:07:24] 使用這項目標, 使用這項目標,
+[00:07:24 - 00:07:26] 使用這項目標, 使用這項目標,
+[00:07:26 - 00:07:32] 这种计算 when paired with rapid simulation enables large scale, controlled data generation,
+[00:07:32 - 00:07:36] and sets a new gold standard for embodied artificial intelligence.
