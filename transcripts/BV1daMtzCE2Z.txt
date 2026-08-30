@@ -1,0 +1,50 @@
+BV号：BV1daMtzCE2Z
+标题：BV1daMtzCE2Z
+链接：https://www.bilibili.com/video/BV1daMtzCE2Z
+识别语言：zh
+语言置信度：1
+分段数：42
+生成时间：2026-08-30 02:16:55
+
+[00:00:00 - 00:00:02] 我們沒有用過的部分的技術
+[00:00:02 - 00:00:03] 能夠使用得到
+[00:00:03 - 00:00:05] 能夠理解成功能的功能
+[00:00:06 - 00:00:07] 能夠在大量的計劃中
+[00:00:08 - 00:00:09] 但也不足以使用
+[00:00:11 - 00:00:14] 有些不足以使用的方式
+[00:00:14 - 00:00:17] 使用得到足以足以高的方式
+[00:00:18 - 00:00:20] 有一個很 interesting combination
+[00:00:20 - 00:00:22] A.I. really struggles right now.
+[00:00:22 - 00:00:24] is knowing when it's made a wrong turn.
+[00:00:24 - 00:00:28] So this is one annoying thing about LLM-generated mathematics.
+[00:00:28 - 00:00:33] So we've had human-generated mathematics as very low quality.
+[00:00:33 - 00:00:37] like submissions with people who don't have the formal training and so forth.
+[00:00:37 - 00:00:41] But if the human proof is bad, you can tell it's bad pretty quickly.
+[00:00:41 - 00:00:43] It makes really basic mistakes.
+[00:00:43 - 00:00:48] But the AI-generated proofs, they can look superficially flawless.
+[00:00:48 - 00:00:50] 因為這就是我們學習的重點
+[00:00:50 - 00:00:51] 我們要訓練他們
+[00:00:52 - 00:00:54] 要把這些文字的看法
+[00:00:55 - 00:00:57] 對於很多的學習
+[00:00:57 - 00:00:58] 是很好的
+[00:00:59 - 00:01:00] 所以,他們很常
+[00:01:00 - 00:01:01] 很輕鬆
+[00:01:01 - 00:01:02] 然後你找到他們
+[00:01:02 - 00:01:03] 他們很瘋狂
+[00:01:03 - 00:01:05] 像沒有人
+[00:01:05 - 00:01:06] 會做錯
+[00:01:06 - 00:01:07] 有什麼感覺
+[00:01:07 - 00:01:08] 有什麼氣味
+[00:01:08 - 00:01:10] 這是一個人的想法
+[00:01:11 - 00:01:12] 有一個叫做
+[00:01:12 - 00:01:13] 有一個叫做
+[00:01:13 - 00:01:14] 有一個叫做
+[00:01:14 - 00:01:19] 這不明確如何解決AIS的進步
+[00:01:19 - 00:01:25] 所以 例如 AlphaZero 和 Chess 等等
+[00:01:25 - 00:01:29] 他們有種種種的香氣會發出 和測試的位置
+[00:01:29 - 00:01:31] 他們不可以解釋為什麼
+[00:01:31 - 00:01:36] 但是 因此 香氣讓他們能夠合作
+[00:01:36 - 00:01:40] 如果AIS能夠合作 也有種種種的優質
+[00:01:40 - 00:01:48] I'm gonna try to break up this problem into two small subtasks and they could say, Oh, this looks good.
+[00:01:48 - 00:01:54] Two tasks look like they're simpler tasks than your main tasks, and they still got a good chance of being true.
+[00:01:54 - 00:02:02] So if they can pick up a sense of smell, then they could maybe start competing with a human lower method.
