@@ -1,0 +1,2055 @@
+BV号：BV1R1J4zNEcQ
+标题：BV1R1J4zNEcQ
+链接：https://www.bilibili.com/video/BV1R1J4zNEcQ
+识别语言：zh
+语言置信度：1
+分段数：2047
+生成时间：2026-08-30 04:27:11
+
+[00:00:45 - 00:00:47] 請 welcome to the stage
+[00:00:47 - 00:00:50] Chief Product Officer of Anthropic
+[00:00:50 - 00:00:51] Mike Krieger
+[00:01:01 - 00:01:02] Good morning everyone
+[00:01:02 - 00:01:03] And welcome to code with claud
+[00:01:03 - 00:01:05] Anthropics first developer conference
+[00:01:05 - 00:01:07] I'm really happy to see you all here
+[00:01:07 - 00:01:08] Mike Krieger
+[00:01:08 - 00:01:11] I'm chief product officer here at Anthropic
+[00:01:11 - 00:01:13] I just hit my one year mark
+[00:01:13 - 00:01:16] Which in AI years is about like three years
+[00:01:16 - 00:01:17] But I'm having a blast
+[00:01:17 - 00:01:20] and before this I co-founded instagram
+[00:01:20 - 00:01:23] And also an AI-powered news app called artifact
+[00:01:23 - 00:01:24] which is where I first tried to get exposed
+[00:01:24 - 00:01:26] A.I. Technologies
+[00:01:26 - 00:01:29] I joined Anthropic because of its founder's vision
+[00:01:29 - 00:01:32] building AI systems that are powerful
+[00:01:32 - 00:01:34] as well as helpful and trustworthy
+[00:01:34 - 00:01:38] Today that vision includes something immediate and concrete
+[00:01:38 - 00:01:41] a commitment to empower developers like yourselves
+[00:01:41 - 00:01:43] to transform how work gets done
+[00:01:43 - 00:01:45] and how companies get built
+[00:01:45 - 00:01:48] This transformation is about augmenting
+[00:01:48 - 00:01:50] not replacing human creativity
+[00:01:50 - 00:01:53] AI agents are changing the way we work
+[00:01:53 - 00:01:55] 和我們建造的方式
+[00:01:55 - 00:01:57] 我們可以建造
+[00:01:57 - 00:01:59] 在有限量的
+[00:01:59 - 00:02:00] 人物產品的改善
+[00:02:01 - 00:02:02] 今天我們會聽到
+[00:02:02 - 00:02:04] 我們的產業領導人
+[00:02:04 - 00:02:05] 和一些我們的客人
+[00:02:05 - 00:02:09] 如何在前面推動
+[00:02:09 - 00:02:10] 給大家感受到
+[00:02:10 - 00:02:11] 今天可以預期的
+[00:02:11 - 00:02:12] 《Code with Claude》
+[00:02:12 - 00:02:14] 你可以在三個技術
+[00:02:14 - 00:02:17] 轉變成《Code with Claude》
+[00:02:18 - 00:02:20] 和五個領導人
+[00:02:20 - 00:02:22] 已經在安卓體系
+[00:02:22 - 00:02:24] 去重新製造
+[00:02:24 - 00:02:28] Candidated office hours and workshops for hands-on experience.
+[00:02:28 - 00:02:32] But before we talk about some exciting new API capabilities
+[00:02:32 - 00:02:35] I have for you,I want to invite a guest onstage.
+[00:02:35 - 00:02:39] Please welcome our CEO and co-founder Dario AMD.
+[00:02:39 - 00:02:49] Hey, everyone.
+[00:02:49 - 00:02:53] I'm going to be back in 20 minutes for a fireside.
+[00:02:53 - 00:02:57] So I'll be really, really brief with this appearance.
+[00:02:57 - 00:03:01] I'm not one to hype things up.
+[00:03:01 - 00:03:02] 所以我只要說這話
+[00:03:02 - 00:03:03] 毫不再說了
+[00:03:03 - 00:03:05] 我開心地說
+[00:03:05 - 00:03:07] 這時候的正確地
+[00:03:07 - 00:03:08] 我們在Claud 4 OPUS
+[00:03:08 - 00:03:10] 和Claud 4 SONET
+[00:03:10 - 00:03:12] 在所有的產品產品上
+[00:03:19 - 00:03:20] 現在我已經知道
+[00:03:20 - 00:03:23] 我們沒有有OPUS模型
+[00:03:23 - 00:03:25] 所以就算是一件事
+[00:03:25 - 00:03:27] OPUS是最能夠的
+[00:03:27 - 00:03:28] 和能力模型
+[00:03:28 - 00:03:29] 而SONET是一件
+[00:03:29 - 00:03:30] 最能力模型
+[00:03:30 - 00:03:32] 你們都知道和愛
+[00:03:32 - 00:03:32] 已經用了
+[00:03:32 - 00:03:36] 近年來的模型
+[00:03:36 - 00:03:43] 我們會試著設計他們 both of them so that there are use cases and times when it's optimal to use each one.
+[00:03:43 - 00:03:51] So I will talk very briefly about the two of them, and then and then turn it back over to Mike, and then I'll be back for the fireside.
+[00:03:51 - 00:03:53] First let's talk about Opus.
+[00:03:53 - 00:03:58] So it is especially designed for coding and agentic tasks.
+[00:03:58 - 00:04:05] It gets state of the art on SWE bench terminal bench, to do a lot of things to make sure that the user is not afraid of the problem.
+[00:04:05 - 00:04:09] we'll launch some things like that.
+[00:04:09 - 00:04:12] but I think in many ways,
+[00:04:12 - 00:04:15] as we are often finding with large models
+[00:04:15 - 00:04:17] benshmarks don't fully do justice to it.
+[00:04:17 - 00:04:20] Customers who we preview it to have found
+[00:04:21 - 00:04:25] that it can do tasks that take humans up to
+[00:04:25 - 00:04:28] 6-7 hours autonomously within enthropic.
+[00:04:28 - 00:04:31] I've seen some of our most senior engineers
+[00:04:31 - 00:04:35] be surprised at how much more productive it has made them
+[00:04:35 - 00:04:44] 我看了Claud 中文 文書 或是文章
+[00:04:44 - 00:04:47] 在過去的理念 素質也很不錯
+[00:04:47 - 00:04:50] 但也沒有太多錯誤
+[00:04:50 - 00:04:52] 因為我一直以為是那種專業的
+[00:04:52 - 00:04:56] 這是我第一次的錯誤
+[00:04:56 - 00:04:59] 然後我便翻譯了名字
+[00:04:59 - 00:05:01] 我認為這位團隊有發生的
+[00:05:01 - 00:05:02] 名字是Claud
+[00:05:02 - 00:05:08] 所以我覺得,在Sonnet,這會是很多人的改變
+[00:05:08 - 00:05:13] 在Sonnet,這會是很多人的改變
+[00:05:13 - 00:05:18] 在Sonnet 3.7的改變
+[00:05:18 - 00:05:20] 同樣的貨品和更好的智慧
+[00:05:20 - 00:05:22] 很多人會直接轉換
+[00:05:22 - 00:05:24] 從一到二
+[00:05:24 - 00:05:27] 它其實也做得正確的改變
+[00:05:27 - 00:05:30] 在一些的扣位,但我覺得
+[00:05:30 - 00:05:32] Lenr and more narrowly focused
+[00:05:32 - 00:05:34] I think in particular
+[00:05:34 - 00:05:36] It addresses some of the
+[00:05:36 - 00:05:38] feedback we got on
+[00:05:38 - 00:05:40] Sonnet 3.7 around over eagerness
+[00:05:40 - 00:05:42] The tendency to do more than you
+[00:05:42 - 00:05:43] Ask for
+[00:05:43 - 00:05:45] It's the opposite of laziness
+[00:05:45 - 00:05:47] Which was an earlier problem
+[00:05:47 - 00:05:49] And some of the reward hacking issues
+[00:05:49 - 00:05:51] So many of our customers
+[00:05:51 - 00:05:53] Have been trying it out
+[00:05:53 - 00:05:55] And view it as a strong upgrade
+[00:05:55 - 00:05:57] From 3.7
+[00:05:57 - 00:05:59] For example, cursor
+[00:05:59 - 00:06:02] 這個客戶已經是一個很知名的客戶
+[00:06:02 - 00:06:05] 我們正在嚐嚐這個
+[00:06:05 - 00:06:07] 這叫做這個建築的藍圖
+[00:06:07 - 00:06:10] 這叫做這個建築藍圖的藍圖
+[00:06:10 - 00:06:12] 這是一個異常的設施
+[00:06:13 - 00:06:14] 這個建築是一個很簡單的
+[00:06:14 - 00:06:16] 事實上我們以為
+[00:06:16 - 00:06:17] 很會經歷的
+[00:06:18 - 00:06:19] 在這個階段
+[00:06:19 - 00:06:21] 我們在臺灣的藍圖
+[00:06:21 - 00:06:22] 我們在臺灣的藍圖
+[00:06:22 - 00:06:24] 我們在臺灣的藍圖
+[00:06:24 - 00:06:26] 我們很喜歡這個藍圖
+[00:06:26 - 00:06:28] 我們在臺灣的藍圖
+[00:06:28 - 00:06:32] 最終會說的是我們會繼續調整
+[00:06:32 - 00:06:34] Claude 4系列的模式
+[00:06:34 - 00:06:38] 我們預期將在日式會傳播
+[00:06:38 - 00:06:41] 可能會有更多的新版的新版
+[00:06:41 - 00:06:42] 也更多的了
+[00:06:42 - 00:06:45] 所以我們應該會在這裏
+[00:06:45 - 00:06:46] 我們應該可以嘗試
+[00:06:46 - 00:06:49] 基本上所有的檔案
+[00:06:49 - 00:06:50] 如今的檔案
+[00:06:50 - 00:06:52] 因為我認為 Free Tier 檔案
+[00:06:52 - 00:06:53] 只有檔案
+[00:06:53 - 00:06:54] 卻所有的檔案
+[00:06:54 - 00:06:57] 也包括所有的API檔案
+[00:06:57 - 00:06:58] 所以我希望你享受這模式
+[00:06:58 - 00:07:00] 然後我會把這模式轉回到麥克風
+[00:07:09 - 00:07:10] 謝謝Dario
+[00:07:10 - 00:07:11] 兩款新模式
+[00:07:11 - 00:07:12] 你也聽過了
+[00:07:12 - 00:07:13] 首先
+[00:07:13 - 00:07:14] 我們會看到Dario
+[00:07:14 - 00:07:15] 再次提及
+[00:07:15 - 00:07:17] 最後的 agenda for Q&A
+[00:07:17 - 00:07:17] 我會問他
+[00:07:17 - 00:07:19] 問題在你的 mind
+[00:07:20 - 00:07:21] 現在的
+[00:07:21 - 00:07:22] 我個人來說
+[00:07:22 - 00:07:22] 非常期待
+[00:07:22 - 00:07:24] 我們客人來試試
+[00:07:24 - 00:07:26] Claude Opus 4 和 Sonnet 4
+[00:07:26 - 00:07:28] 我們的團隊都很愛在工作
+[00:07:28 - 00:07:30] 我們也認為你們也會
+[00:07:30 - 00:07:32] 現在Dario 也有分享我們的大型模型
+[00:07:32 - 00:07:35] 我們會多說一些關於我們細節的 API Roadmap
+[00:07:36 - 00:07:38] 我們的目標是在Claude 4 建造
+[00:07:38 - 00:07:39] 我們是很清楚的
+[00:07:39 - 00:07:41] 我們想建造強大的 AI
+[00:07:41 - 00:07:43] 讓新模型的能量安全地進展
+[00:07:43 - 00:07:45] 繼續進行前往的方向
+[00:07:45 - 00:07:47] 以應用 AI 作為優惠
+[00:07:47 - 00:07:50] 讓Claude 變成你的 virtual collaborator
+[00:07:50 - 00:07:51] 這就是我們所在的
+[00:07:51 - 00:07:53] Claude Opus 4 和 Sonnet 4
+[00:07:53 - 00:07:55] 像Sonic3.7,
+[00:07:55 - 00:07:57] 雙凸4模式是我們稱為的
+[00:07:57 - 00:07:58] 溫度模式,
+[00:07:58 - 00:07:59] 有兩種模式,
+[00:07:59 - 00:08:00] 一種是接近時期的方式
+[00:08:00 - 00:08:01] 和接近思考時期的方式
+[00:08:01 - 00:08:03] 需要更多的理由
+[00:08:03 - 00:08:04] 我驚訝過,
+[00:08:04 - 00:08:05] 有多少名客人
+[00:08:05 - 00:08:06] 使用更多的理由
+[00:08:06 - 00:08:07] 甚至是用 non-coding
+[00:08:07 - 00:08:08] 和 non-math use cases
+[00:08:08 - 00:08:10] OPUS4是最高能夠
+[00:08:10 - 00:08:11] 理解你的程序
+[00:08:11 - 00:08:12] 和計劃的方式
+[00:08:12 - 00:08:14] 它是非常有效的
+[00:08:14 - 00:08:15] 和每一種的方式
+[00:08:15 - 00:08:16] 都很合理
+[00:08:16 - 00:08:18] 和有效的方式
+[00:08:18 - 00:08:19] 它是最適合
+[00:08:19 - 00:08:20] 你最有效的
+[00:08:20 - 00:08:21] 工程
+[00:08:21 - 00:08:22] 如果你找到
+[00:08:22 - 00:08:25] 你打開了其他模式在你的使用程式上
+[00:08:25 - 00:08:26] 我覺得你會很開心地驚訝
+[00:08:26 - 00:08:28] 你能做到的事
+[00:08:28 - 00:08:29] Sonnet 4  meanwhile
+[00:08:29 - 00:08:31] 推出了每天的規定項目
+[00:08:31 - 00:08:34] 項目的設計和計劃
+[00:08:34 - 00:08:36] 也有 ideal for high volume use cases
+[00:08:36 - 00:08:39] 它完全是足夠的能量和表現
+[00:08:39 - 00:08:42] 你只要在規定項目上思考
+[00:08:42 - 00:08:43] 這兩款模式都在生
+[00:08:43 - 00:08:44] 今天 大家可以看到
+[00:08:44 - 00:08:45] Claude 和Claude Code
+[00:08:45 - 00:08:48] 也有anthropic API 、 Amazon Bedrock
+[00:08:48 - 00:08:50] 還有Google Clouds Vertex AI
+[00:08:50 - 00:08:54] 这些模式将用来建议AI的能量
+[00:08:54 - 00:08:55] 他们可以用计划像是在计划中
+[00:08:55 - 00:08:57] 用网搜的时候的计划
+[00:08:57 - 00:08:59] 将计划的计划和计划
+[00:08:59 - 00:09:01] 将计划的计划
+[00:09:02 - 00:09:03] 将计划的计划
+[00:09:03 - 00:09:05] 将计划的计划
+[00:09:05 - 00:09:06] 将计划的计划
+[00:09:06 - 00:09:08] 将计划的计划
+[00:09:08 - 00:09:10] 这些不只是提升的方式
+[00:09:10 - 00:09:13] 它们能改变自己的计划
+[00:09:13 - 00:09:14] 现在我认为
+[00:09:14 - 00:09:15] 计划的方式
+[00:09:15 - 00:09:16] 在这些日子中
+[00:09:16 - 00:09:18] 我会有一个个人的语言
+[00:09:18 - 00:09:18] 就是
+[00:09:18 - 00:09:20] 我认为我可以做一个会议
+[00:09:20 - 00:09:22] 不说话的语言
+[00:09:22 - 00:09:24] 我觉得我做了17分钟
+[00:09:25 - 00:09:26] 但是今天我们要谈到
+[00:09:26 - 00:09:28] 是有些人在海外的语言
+[00:09:28 - 00:09:30] 我觉得最重要的是
+[00:09:30 - 00:09:32] 对对调整的模式
+[00:09:32 - 00:09:34] 和对调整的平台的团体
+[00:09:34 - 00:09:34] AI的语言
+[00:09:34 - 00:09:36] 可以使人的想象
+[00:09:36 - 00:09:38] 进入专业的实际上
+[00:09:38 - 00:09:39] 有不过的属性
+[00:09:39 - 00:09:41] 而且特别重要
+[00:09:41 - 00:09:43] 充滿了自己的專業
+[00:09:43 - 00:09:45] 我自己的 founder
+[00:09:45 - 00:09:47] 我認為在社交平台上
+[00:09:47 - 00:09:49] 我們一家小組
+[00:09:49 - 00:09:51] 也有做過很難的
+[00:09:51 - 00:09:53] 決定
+[00:09:53 - 00:09:55] 要先去看
+[00:09:55 - 00:09:57] 影片的產品
+[00:09:57 - 00:09:59] 或在我們的創作中
+[00:09:59 - 00:10:01] 要先去看
+[00:10:01 - 00:10:03] 電腦的一部電腦
+[00:10:03 - 00:10:05] 或在網上發佈
+[00:10:05 - 00:10:07] 那些很單一的劇場
+[00:10:07 - 00:10:09] 在AI的領導人
+[00:10:09 - 00:10:11] 現在可以運用測試在同一程度
+[00:10:11 - 00:10:12] 學習從利用者
+[00:10:12 - 00:10:14] 然後建造產品快速於從前一步
+[00:10:14 - 00:10:16] 這是我聽過很多人的說話
+[00:10:17 - 00:10:18] A.I. 公司可以給你
+[00:10:18 - 00:10:20] 最佳的開始均衡
+[00:10:20 - 00:10:21] 註冊的技術
+[00:10:21 - 00:10:22] 你可能會得到
+[00:10:22 - 00:10:24] 最高能量的CFO
+[00:10:24 - 00:10:25] 我看到CFO在前面
+[00:10:25 - 00:10:26] 或是產品
+[00:10:26 - 00:10:28] 還在建造
+[00:10:28 - 00:10:29] 這些關鍵位置
+[00:10:29 - 00:10:30] 你不願意做這些高能量
+[00:10:30 - 00:10:31] 但你能夠高能量
+[00:10:31 - 00:10:33] Claude 現在的一些
+[00:10:33 - 00:10:34] 這些手段
+[00:10:34 - 00:10:36] 這個改變是沒有再有的
+[00:10:36 - 00:10:37] 的 theoretical
+[00:10:37 - 00:10:40] I see it in my role and my work every single day.
+[00:10:40 - 00:10:42] I personally spend a lot of time with Claude
+[00:10:42 - 00:10:43] maybe more time with Claude than my
+[00:10:43 - 00:10:45] significant other it's fine.
+[00:10:45 - 00:10:47] In fact, soon after I joined
+[00:10:47 - 00:10:49] entropic I sat down with
+[00:10:49 - 00:10:51] Amazon's Alexa team and they were
+[00:10:51 - 00:10:53] eager to see how Claude might become
+[00:10:53 - 00:10:54] part of their vision for the future
+[00:10:54 - 00:10:56] of voice assistance.
+[00:10:56 - 00:10:58] First my team planned on presenting
+[00:10:58 - 00:11:00] some slides, talking points, kind of
+[00:11:00 - 00:11:02] the plan we'd make for any other customer.
+[00:11:02 - 00:11:03] But in the days leading up to the
+[00:11:03 - 00:11:04] meeting I had this like persistent
+[00:11:04 - 00:11:06] 为何用Claude 自己的技术
+[00:11:06 - 00:11:07] 为了建立一条手续
+[00:11:07 - 00:11:09] 我以为会令这个谈话
+[00:11:09 - 00:11:10] 更有趣
+[00:11:10 - 00:11:11] 并带给我们
+[00:11:11 - 00:11:13] Claude 和 Alexa 功能性的能量
+[00:11:13 - 00:11:14] 一起建立
+[00:11:14 - 00:11:15] 这个挑战
+[00:11:15 - 00:11:16] 没有任何的关系
+[00:11:16 - 00:11:18] 进入 Alexa 的原来
+[00:11:18 - 00:11:19] 我们需要建立
+[00:11:19 - 00:11:20] Claude 功能性的能量
+[00:11:20 - 00:11:22] 和在一周的时间
+[00:11:22 - 00:11:23] 可以建立
+[00:11:23 - 00:11:25] Claude 的功能性
+[00:11:25 - 00:11:26] 一周的时间
+[00:11:26 - 00:11:27] 一周的时间
+[00:11:27 - 00:11:28] Claude 只有一个原因
+[00:11:28 - 00:11:29] 我们在这么一段时间
+[00:11:29 - 00:11:30] 为了这么一段时间
+[00:11:30 - 00:11:31] 我们想要建立
+[00:11:31 - 00:11:32] Claude 功能性的能量
+[00:11:32 - 00:11:34] 在這麼一個時間限制的程度上
+[00:11:34 - 00:11:35] 我們三個人的團隊
+[00:11:35 - 00:11:37] 包括San Francisco和London
+[00:11:37 - 00:11:38] 建立了一個功能的圖案
+[00:11:38 - 00:11:40] 展示了他們的能力
+[00:11:40 - 00:11:41] 然後謝謝Claud的努力
+[00:11:41 - 00:11:42] 成功了
+[00:11:42 - 00:11:43] 我甚至找到一些資訊
+[00:11:43 - 00:11:44] 你可以拿到
+[00:11:44 - 00:11:45] 研究機構的
+[00:11:45 - 00:11:46] 電腦系統
+[00:11:46 - 00:11:47] 但你不可以拿到我
+[00:11:47 - 00:11:48] 還有很多的
+[00:11:48 - 00:11:49] 前線的發展
+[00:11:49 - 00:11:51] 在自己的項目中
+[00:11:51 - 00:11:52] 當然了很多的工作
+[00:11:52 - 00:11:53] 在這個第一次的
+[00:11:53 - 00:11:55] 合作中
+[00:11:55 - 00:11:56] 但Claud現在是
+[00:11:56 - 00:11:57] 一種的模式
+[00:11:57 - 00:11:59] Amazon在使用 Alexa Plus
+[00:11:59 - 00:12:00] 在這年發展
+[00:12:00 - 00:12:01] 20来年, still rolling out.
+[00:12:01 - 00:12:04] and we were able I think to really show the potential thanks to Claude.
+[00:12:05 - 00:12:07] I've been watching this evolution towards the gentekai.
+[00:12:07 - 00:12:11] For years now when I first got a demo on Early Access of GitHub
+[00:12:11 - 00:12:12] co pilot back in 2021.
+[00:12:13 - 00:12:16] I called it the single most mind blowing application of machine
+[00:12:16 - 00:12:18] learning I've ever seen back in those days 2020.
+[00:12:18 - 00:12:21] We called it machine learning instead of AI that was generations
+[00:12:21 - 00:12:24] ago.but it was really clear the potential
+[00:12:24 - 00:12:25] for this early glimpse of agentai.
+[00:12:25 - 00:12:27] I had an even stronger feeling last summer.
+[00:12:27 - 00:12:29] When we launched artifacts.
+[00:12:29 - 00:12:31] 我可以描述我想要的字幕
+[00:12:31 - 00:12:32] or 視覺信息
+[00:12:32 - 00:12:33] hit send
+[00:12:33 - 00:12:34] go grab 咖啡
+[00:12:34 - 00:12:35] and come back to Claude
+[00:12:35 - 00:12:37] having built what I'd imagined
+[00:12:37 - 00:12:38] and over the following year
+[00:12:38 - 00:12:39] it's become clear
+[00:12:39 - 00:12:41] we're not just building better tools
+[00:12:41 - 00:12:44] we're creating genuine collaborators
+[00:12:44 - 00:12:46] Anthropics Economic Research
+[00:12:46 - 00:12:48] confirms what I've seen firsthand
+[00:12:48 - 00:12:49] for the majority of use cases
+[00:12:49 - 00:12:51] AI is augmenting people's work
+[00:12:51 - 00:12:52] instead of replacing it
+[00:12:52 - 00:12:53] it's much more about tasks
+[00:12:53 - 00:12:55] than entire roles
+[00:12:55 - 00:12:56] and this is similar to the influence
+[00:12:56 - 00:12:58] that your best colleagues have
+[00:12:58 - 00:13:00] 最 talented people you work with
+[00:13:00 - 00:13:01] 不要只會做
+[00:13:01 - 00:13:03] 他們明白你的層次
+[00:13:03 - 00:13:04] 他們學會了的經驗
+[00:13:04 - 00:13:06] 他們知道要拿出最好的方式
+[00:13:06 - 00:13:07] versus one to just check in
+[00:13:09 - 00:13:10] 有很多AI agents
+[00:13:10 - 00:13:11] 像是你能在我們的網站裡
+[00:13:11 - 00:13:13] 可以增加三個能量
+[00:13:13 - 00:13:16] 他們應該有層次的能量
+[00:13:16 - 00:13:18] 理解你和你的公司
+[00:13:18 - 00:13:19] 有一個不同的層次
+[00:13:19 - 00:13:21] 繼續學會了的經驗
+[00:13:21 - 00:13:22] 並不是只學習了
+[00:13:22 - 00:13:25] 但還要理解為什麼和如何
+[00:13:25 - 00:13:25] 這意味著模式
+[00:13:25 - 00:13:27] 學會和個人體制在同時
+[00:13:27 - 00:13:29] 並且成為一種不僅是貢獻
+[00:13:29 - 00:13:31] 但也有歐元和整體的記憶
+[00:13:31 - 00:13:32] 我總是說這件事
+[00:13:32 - 00:13:34] 你的100%的職業目標
+[00:13:34 - 00:13:36] 應該會更好比你的1%
+[00:13:36 - 00:13:37] 就像你的100%的職業目標
+[00:13:37 - 00:13:39] 應該會更好比你的1%
+[00:13:39 - 00:13:41] 如果你在練習中做正確的事
+[00:13:41 - 00:13:44] 2. 長期的行動
+[00:13:44 - 00:13:46] 操作是一個很 complex 多小時的職業
+[00:13:46 - 00:13:48] 沒有經驗
+[00:13:48 - 00:13:50] 和其他職業和人類的行動
+[00:13:50 - 00:13:52] 所以你會有這個層次
+[00:13:52 - 00:13:55] 然後你能夠做更長的時間
+[00:13:55 - 00:13:58] 第三, genuine collaboration
+[00:13:58 - 00:14:00] engaging in meaningful dialogue
+[00:14:00 - 00:14:01] adapting to your working style
+[00:14:01 - 00:14:04] and providing transparent reasoning for their actions.
+[00:14:04 - 00:14:07] The key insight here is that true agency
+[00:14:07 - 00:14:09] doesn't mean uncontrolled action
+[00:14:09 - 00:14:12] and autonomy doesn't mean just yoloing it.
+[00:14:12 - 00:14:13] It means intelligent autonomy
+[00:14:13 - 00:14:15] balanced with clear checkpoints
+[00:14:15 - 00:14:17] maintaining human oversight
+[00:14:17 - 00:14:18] for critical decisions
+[00:14:18 - 00:14:20] while delegating the smaller decisions
+[00:14:20 - 00:14:22] that usually consume so much of our time.
+[00:14:23 - 00:14:25] Now let's talk about those capabilities we're announcing
+[00:14:25 - 00:14:26] 来调整这三个需要
+[00:14:27 - 00:14:29] 我们开始 with our new code execution tool
+[00:14:29 - 00:14:31] which is available on the Anthropic API today
+[00:14:32 - 00:14:35] The code execution tool gives Claude an environment
+[00:14:35 - 00:14:36] where it can run code
+[00:14:36 - 00:14:38] enabling it to act as a data analyst
+[00:14:38 - 00:14:41] that can transform raw data into visual insights
+[00:14:41 - 00:14:42] Claude doesn't just write code anymore
+[00:14:42 - 00:14:44] now it can execute it
+[00:14:44 - 00:14:45] it sees the results
+[00:14:45 - 00:14:47] and it can iteratively refine the results
+[00:14:47 - 00:14:50] and the code to better highlight patterns in your data
+[00:14:51 - 00:14:53] Here we'll show Claude analyzing sales data
+[00:14:53 - 00:14:57] zoom in data to see how a specific type of product is performing.
+[00:14:57 - 00:15:01] clod can load your data set, clean it, generate exploratory
+[00:15:01 - 00:15:05] charts, and drill down into anomalies all in real time.
+[00:15:05 - 00:15:07] Alone who started the career as a data visualization analyst,
+[00:15:07 - 00:15:09] this resonates a bunch with me.
+[00:15:09 - 00:15:12] And the code execution tool is even more powerful when combined
+[00:15:12 - 00:15:15] with the intelligence of the cloud for models.
+[00:15:15 - 00:15:18] This is what we mean by agency the ability to take a complex task
+[00:15:18 - 00:15:21] and see it through to completion.
+[00:15:21 - 00:15:24] 第一Models capable of handling hours of tasks
+[00:15:24 - 00:15:26] saving you half, maybe even full days
+[00:15:26 - 00:15:27] when you work alongside them
+[00:15:27 - 00:15:29] and not just writing code snippets
+[00:15:29 - 00:15:31] but refactoring entire code bases
+[00:15:31 - 00:15:34] or implementing complex features from scratch
+[00:15:34 - 00:15:36] to give you a sense of the kind of progress
+[00:15:36 - 00:15:38] that we're seeing back in the day
+[00:15:38 - 00:15:38] when I started
+[00:15:38 - 00:15:41] you could delegate maybe minutes of work to clod3
+[00:15:41 - 00:15:44] cod37 meanwhile, could work autonomously
+[00:15:44 - 00:15:46] for about 45 minutes without losing its thread
+[00:15:46 - 00:15:49] and now we're breaking into hours of work
+[00:15:49 - 00:15:50] that called can take on autonomously
+[00:15:51 - 00:15:53] 如你所見,Rakuten 提及過
+[00:15:53 - 00:15:55] 他們借了Claude 職業
+[00:15:55 - 00:15:57] 在七小時內
+[00:15:57 - 00:15:58] 會持續出現
+[00:15:58 - 00:16:00] 可以做到沒有失敗的程序
+[00:16:00 - 00:16:01] 尤其是能夠擁有
+[00:16:01 - 00:16:03] 自己的記憶和手段
+[00:16:04 - 00:16:05] 我們已經加入了這個能力
+[00:16:05 - 00:16:06] 我們可以成功
+[00:16:06 - 00:16:08] 希望你們都 familiar 了
+[00:16:08 - 00:16:10] Claude Code 我們的原始程序
+[00:16:10 - 00:16:11] 我們在前幾個月
+[00:16:11 - 00:16:12] 發佈了一些研究
+[00:16:12 - 00:16:13] 我們在Claude Code 提供了
+[00:16:13 - 00:16:15] 通知的資料
+[00:16:15 - 00:16:16] 這其實開始
+[00:16:16 - 00:16:17] 作為一個內容的
+[00:16:17 - 00:16:18] 《貢獻》的項目
+[00:16:18 - 00:16:19] by Boris
+[00:16:19 - 00:16:20] 一位技術師
+[00:16:20 - 00:16:21] 這是他的報告
+[00:16:21 - 00:16:24] 想要Claude 直接用功能
+[00:16:24 - 00:16:27] 很早前我们叫Claude CLI 内容
+[00:16:27 - 00:16:28] 我认为我们的最好的新技术
+[00:16:28 - 00:16:30] 像是技术和功能
+[00:16:30 - 00:16:32] 从这种下层的课程中
+[00:16:32 - 00:16:33] 是一种文化
+[00:16:33 - 00:16:35] 我们尝试了在传统
+[00:16:35 - 00:16:37] within just two days of launching it internally
+[00:16:37 - 00:16:39] our usage chart went vertical
+[00:16:39 - 00:16:41] 人们说过货物质
+[00:16:41 - 00:16:43] 我们经常说过货物质
+[00:16:43 - 00:16:45] 像是人们内容的
+[00:16:45 - 00:16:46] 他们用的
+[00:16:46 - 00:16:46] 今天
+[00:16:46 - 00:16:48] 最多传统的工作人员
+[00:16:48 - 00:16:49] 都在为每个互联的
+[00:16:49 - 00:16:51] 用了一些非常大的研究
+[00:16:51 - 00:16:53] 我看了一些最前面的研究者
+[00:16:53 - 00:16:55] 用了很多的研究
+[00:16:55 - 00:16:57] 在很多的電腦中間
+[00:16:57 - 00:16:59] 他們在動作
+[00:16:59 - 00:17:01] 和經理的各種自然的
+[00:17:01 - 00:17:03] 經理的各種程式
+[00:17:03 - 00:17:05] 用了一些非常簡單的研究
+[00:17:05 - 00:17:07] 在很多的研究中間
+[00:17:07 - 00:17:08] 我發現我用了
+[00:17:08 - 00:17:09] 一種研究
+[00:17:09 - 00:17:10] 用了一種
+[00:17:10 - 00:17:11] 前面的研究
+[00:17:11 - 00:17:12] 和一種後面的研究
+[00:17:12 - 00:17:13] 用了一種
+[00:17:13 - 00:17:14] 研究的研究
+[00:17:14 - 00:17:15] 你怎麼做的
+[00:17:15 - 00:17:16] 你只要在路上
+[00:17:16 - 00:17:17] 研究可以解決
+[00:17:17 - 00:17:19] 它们的效果很漂亮
+[00:17:19 - 00:17:21] 已经改变了我们的用户
+[00:17:21 - 00:17:23] 大部分的研究者
+[00:17:23 - 00:17:24] 用了Claude Code 每天
+[00:17:24 - 00:17:25] 给你们一个感觉
+[00:17:25 - 00:17:27] 是我们的团队
+[00:17:27 - 00:17:28] 我们的技术
+[00:17:28 - 00:17:29] 和研究时间
+[00:17:29 - 00:17:31] 可以将2-3 天的时间
+[00:17:31 - 00:17:32] 进行2-3 天的时间
+[00:17:32 - 00:17:33] 进行2-3 天的时间
+[00:17:33 - 00:17:34] 我看到了
+[00:17:34 - 00:17:35] 能帮助你建立
+[00:17:35 - 00:17:36] 一个理解的研究基础
+[00:17:36 - 00:17:37] 尤其是一个大型的模式
+[00:17:37 - 00:17:38] 像我们的
+[00:17:38 - 00:17:39] 非常快的
+[00:17:39 - 00:17:40] 是一个很棒的
+[00:17:40 - 00:17:42] 纳维尔网
+[00:17:42 - 00:17:43] 今天我们将
+[00:17:43 - 00:17:44] Claude Code 能力
+[00:17:44 - 00:17:45] 直接进入VS Code
+[00:17:45 - 00:17:46] 和JetBrains
+[00:17:46 - 00:17:49] 用整个工程和工程的作用
+[00:17:49 - 00:17:51] 进入设备
+[00:17:51 - 00:17:52] 我们也会介绍
+[00:17:52 - 00:17:54] Claude Code SDK
+[00:17:54 - 00:17:55] 所以你能建议自己的
+[00:17:55 - 00:17:56] 项目在同一个
+[00:17:56 - 00:17:57] 科学程序上
+[00:17:57 - 00:17:59] 设备Claude Code
+[00:17:59 - 00:18:00] 作为一个例子
+[00:18:00 - 00:18:01] Claude Code SDK
+[00:18:01 - 00:18:03] 你可以现在设备Claude Code
+[00:18:03 - 00:18:04] 在GitHub
+[00:18:04 - 00:18:05] 你可以调整Claude Code
+[00:18:05 - 00:18:06] 在GitHub pull request
+[00:18:06 - 00:18:07] 或是问题
+[00:18:07 - 00:18:08] 然后它会回答
+[00:18:08 - 00:18:09] 和解决
+[00:18:09 - 00:18:10] 解决Code
+[00:18:10 - 00:18:12] 或是设备试试
+[00:18:13 - 00:18:14] 我们也会调整
+[00:18:14 - 00:18:16] 我们叫做关键
+[00:18:16 - 00:18:18] Claud Code is now helping build itself
+[00:18:18 - 00:18:20] and it demonstrates the power of self improvement
+[00:18:20 - 00:18:22] as it speeds up its own development.
+[00:18:23 - 00:18:26] It's incredible how Claude Code empowers developers like yourselves
+[00:18:26 - 00:18:27] to get more done.
+[00:18:27 - 00:18:29] I think back to when I was building Instagram
+[00:18:29 - 00:18:31] our team was between two and six engineers
+[00:18:31 - 00:18:32] before we got acquired
+[00:18:32 - 00:18:34] and we were supporting two mobile platforms.
+[00:18:34 - 00:18:36] We would have been able to produce prototypes
+[00:18:36 - 00:18:37] in days and not weeks
+[00:18:37 - 00:18:39] if we had a gentec coding products like this.
+[00:18:41 - 00:18:42] We've talked a lot about building
+[00:18:42 - 00:18:44] performant reliable agents.
+[00:18:44 - 00:18:46] 現在,公司不需要負責任的責任
+[00:18:46 - 00:18:47] 是很危險的
+[00:18:47 - 00:18:48] 尤其是當你提到
+[00:18:48 - 00:18:49] 自己的改變
+[00:18:49 - 00:18:50] 例如我們的Claude Code
+[00:18:50 - 00:18:51] 產品
+[00:18:51 - 00:18:52] 更多的
+[00:18:52 - 00:18:53] 在公司設置
+[00:18:53 - 00:18:54] 與貿易和貢獻的
+[00:18:54 - 00:18:55] 設計
+[00:18:56 - 00:18:57] 我認為
+[00:18:57 - 00:18:58] 大量的改變
+[00:18:58 - 00:18:59] 會需要
+[00:18:59 - 00:19:00] 改變
+[00:19:00 - 00:19:01] 模式的定義和
+[00:19:01 - 00:19:02] 判斷
+[00:19:02 - 00:19:03] 在
+[00:19:03 - 00:19:04] 信任、決定、
+[00:19:04 - 00:19:05] 和合作
+[00:19:05 - 00:19:06] 我們的模式
+[00:19:06 - 00:19:07] 已經很好的了
+[00:19:07 - 00:19:08] 但我們繼續改變
+[00:19:08 - 00:19:09] 保證他們知道
+[00:19:09 - 00:19:10] 什麼是好
+[00:19:10 - 00:19:11] 他們知道什麼是壞
+[00:19:11 - 00:19:12] 他們可以相信
+[00:19:12 - 00:19:13] 伸出他們的資料
+[00:19:13 - 00:19:14] 和成品的結構
+[00:19:14 - 00:19:16] 這就是 why every feature that we build
+[00:19:16 - 00:19:17] around our models
+[00:19:17 - 00:19:19] incorporates what we call
+[00:19:19 - 00:19:20] architectural safety
+[00:19:20 - 00:19:22] Checkpoints and controls
+[00:19:22 - 00:19:23] not just carte blanche
+[00:19:23 - 00:19:26] agents pausing on major decisions
+[00:19:26 - 00:19:27] while users can define
+[00:19:27 - 00:19:28] which actions need human approvals
+[00:19:28 - 00:19:32] which we've also built into the model context protocol
+[00:19:32 - 00:19:34] They are robust against exploitation
+[00:19:34 - 00:19:36] We battle-test them a lot
+[00:19:36 - 00:19:38] around things like prompt injection
+[00:19:38 - 00:19:40] And they're also transparent by design
+[00:19:40 - 00:19:43] 有明顯的信息和觀察性
+[00:19:44 - 00:19:45] 當你相信你的艇員
+[00:19:45 - 00:19:46] 要自行發展
+[00:19:46 - 00:19:47] 你會自由地重新進行
+[00:19:47 - 00:19:48] 進行新的進行
+[00:19:48 - 00:19:49] 而不是進行淹煞
+[00:19:51 - 00:19:51] 另一項目的地方
+[00:19:51 - 00:19:52] 我們大多數也在於
+[00:19:52 - 00:19:54] 是有關與解釋的
+[00:19:54 - 00:19:56] 理解到
+[00:19:56 - 00:19:57] 內心的智慧智慧智慧智慧智
+[00:19:57 - 00:19:58] 的智慧智慧智
+[00:19:59 - 00:20:00] Daria最近說過
+[00:20:00 - 00:20:01] 有關智慧智慧智慧智
+[00:20:01 - 00:20:02] 的智慧智慧智
+[00:20:02 - 00:20:03] AI systems actually work
+[00:20:03 - 00:20:04] if you read his essay
+[00:20:04 - 00:20:05] the urgency of interpretability
+[00:20:05 - 00:20:06] what he calls the race
+[00:20:06 - 00:20:08] between model intelligence
+[00:20:08 - 00:20:09] and interpretability
+[00:20:09 - 00:20:12] Effectively we want to be able to give our AI and MRI
+[00:20:12 - 00:20:14] to see what it's thinking about
+[00:20:14 - 00:20:16] and spot any potential problems like deception
+[00:20:16 - 00:20:18] swe can steer it in the right direction
+[00:20:19 - 00:20:20] When I joined Anthropik
+[00:20:20 - 00:20:21] I was excited about how our research pipeline
+[00:20:21 - 00:20:23] could directly fuel our products
+[00:20:23 - 00:20:24] take golden gate claude
+[00:20:24 - 00:20:26] I pushed the ship this in our second
+[00:20:26 - 00:20:27] my second weekend Anthropik
+[00:20:27 - 00:20:28] cause it didn't feel like it was
+[00:20:28 - 00:20:29] just a good research paper
+[00:20:29 - 00:20:31] it would make a fantastic demo
+[00:20:31 - 00:20:35] Visceral demonstration of how interpretability works in action.
+[00:20:35 - 00:20:39] When we amplified the Golden Gate Bridge feature inside the
+[00:20:39 - 00:20:42] clawed neural network, we saw that suddenly we could see what it means to
+[00:20:42 - 00:20:45] manipulate the inner workings of AI, and in this case, make it deeply
+[00:20:45 - 00:20:47] obsessed with our favorite bridge.
+[00:20:47 - 00:20:51] The techniques that we used to create Golden Gate Clawed
+[00:20:51 - 00:20:54] could in the future help us reduce harmful model behaviors
+[00:20:54 - 00:20:58] or improve model performance for specific domains.
+[00:20:58 - 00:21:00] And as we start employee virtual collaborators around companies,
+[00:21:00 - 00:21:03] 我希望是我們可以學習技術
+[00:21:03 - 00:21:05] 例如進行性能和自行能
+[00:21:05 - 00:21:06] 為他們的工作的階段
+[00:21:06 - 00:21:09] 讓我們能解決他們在行動中的事件
+[00:21:10 - 00:21:12] 這些是這樣的 breakthroughs
+[00:21:12 - 00:21:13] 我們會幫助他們
+[00:21:13 - 00:21:14] 進行添加技術的學習
+[00:21:14 - 00:21:17] 進行添加技術的學習
+[00:21:18 - 00:21:19] 像你所見
+[00:21:19 - 00:21:20] 我們現在在A.I. 模式
+[00:21:20 - 00:21:22] 可以將時間和平衡的
+[00:21:22 - 00:21:23] 技術的效果
+[00:21:23 - 00:21:25] 每幾個月都會有更多的效果
+[00:21:25 - 00:21:28] 但是只能夠用一種技術
+[00:21:28 - 00:21:30] 使用这些多-hours的工作和实验
+[00:21:30 - 00:21:33] 也需要使用实际的信息
+[00:21:33 - 00:21:35] 和关系到你的存在系统
+[00:21:35 - 00:21:37] 和购买的方式
+[00:21:37 - 00:21:38] 这就是我们在发展
+[00:21:38 - 00:21:40] 四个能力能力的进行
+[00:21:40 - 00:21:42] 使用力量的游客
+[00:21:42 - 00:21:44] 和他们的游客
+[00:21:44 - 00:21:46] 所以首先 开始一天
+[00:21:46 - 00:21:47] 我们可以将这些游客
+[00:21:47 - 00:21:49] 直接通过我们的公众
+[00:21:49 - 00:21:51] MCP已经被使用
+[00:21:51 - 00:21:54] 由Microsoft、Google、OpenAI、Block、Atlasi
+[00:21:54 - 00:21:56] Zapier、Linux
+[00:21:56 - 00:21:56] 还有很多更多
+[00:21:56 - 00:21:57] 这就是我们的梦想
+[00:21:57 - 00:21:59] 我們開始創造MCP的方式
+[00:21:59 - 00:22:00] 我們打開了
+[00:22:00 - 00:22:02] 這是夢想的
+[00:22:02 - 00:22:03] 可能一天我們會找到這些公司
+[00:22:03 - 00:22:04] 去適合他們的
+[00:22:04 - 00:22:06] 一年多後他們都會來臨
+[00:22:06 - 00:22:08] MCP是一種
+[00:22:08 - 00:22:09] 一種將來的
+[00:22:09 - 00:22:10] 將來的
+[00:22:10 - 00:22:11] 將來的
+[00:22:11 - 00:22:12] 將來的
+[00:22:12 - 00:22:13] 將來的
+[00:22:13 - 00:22:14] 將來的
+[00:22:14 - 00:22:15] 將來的
+[00:22:15 - 00:22:16] 將來的
+[00:22:16 - 00:22:17] 將來的
+[00:22:17 - 00:22:18] 將來的
+[00:22:18 - 00:22:19] 將來的
+[00:22:19 - 00:22:20] 將來的
+[00:22:20 - 00:22:21] 將來的
+[00:22:21 - 00:22:22] 將來的
+[00:22:22 - 00:22:23] 將來的
+[00:22:23 - 00:22:24] 將來的
+[00:22:24 - 00:22:25] 將來的
+[00:22:25 - 00:22:26] challenges.
+[00:22:28 - 00:22:32] Second, web search gives cloud real time access to current information.
+[00:22:32 - 00:22:37] This is intelligent data augmentation that allows cloud to reason about current events,
+[00:22:37 - 00:22:39] market trends and emerging technologies.
+[00:22:40 - 00:22:43] It's really powerful in combination with the MCP feature as well.
+[00:22:43 - 00:22:46] You can imagine searching across an internal knowledge source,
+[00:22:46 - 00:22:50] making some new insights and then going off and searching the web to contextualize them.
+[00:22:50 - 00:22:55] Third, the files API is available today in the API to streamline how
+[00:22:55 - 00:22:57] 使用了建筑和购买的
+[00:22:57 - 00:22:59] 进行计划和计划
+[00:22:59 - 00:23:01] 我们也在计划中
+[00:23:01 - 00:23:03] 发展了建筑和计划的
+[00:23:03 - 00:23:05] 能够建立的运动方式
+[00:23:05 - 00:23:06] 在这些新的
+[00:23:06 - 00:23:07] Claude 4 模式
+[00:23:07 - 00:23:09] 有很大的改变
+[00:23:09 - 00:23:11] 我们叫做自行写写的
+[00:23:11 - 00:23:12] 这些新的
+[00:23:12 - 00:23:13] 能够成为
+[00:23:13 - 00:23:14] 非常少的
+[00:23:14 - 00:23:15] 更新的
+[00:23:15 - 00:23:16] 用户的
+[00:23:16 - 00:23:17] 企业
+[00:23:17 - 00:23:18] 在这些
+[00:23:18 - 00:23:19] 计划中
+[00:23:19 - 00:23:20] 会看到Claude
+[00:23:20 - 00:23:21] 计划和写写
+[00:23:21 - 00:23:22] 和保持
+[00:23:22 - 00:23:23] 相同的关系
+[00:23:23 - 00:23:27] 最後, 能夠用力和能夠調整
+[00:23:27 - 00:23:29] 我們想讓我們能夠增加
+[00:23:29 - 00:23:32] 從產品到數百萬的產品
+[00:23:32 - 00:23:34] 讓你能夠控制價值和增加能力
+[00:23:34 - 00:23:36] 我們想Claude做你的工作
+[00:23:36 - 00:23:39] 讓你能夠達到很大的增加
+[00:23:39 - 00:23:41] 這就是我們最多的賣點
+[00:23:41 - 00:23:44] 我們最多的社交平台
+[00:23:44 - 00:23:45] 在Claude賣點
+[00:23:45 - 00:23:47] 客人可以增加更多的資料
+[00:23:47 - 00:23:50] 和資料的資料和產品
+[00:23:50 - 00:23:55] 減少的負擔是90% 而增加的貴金是85%
+[00:23:55 - 00:23:56] 每個客人我提及的
+[00:23:56 - 00:23:58] 我們今天在PromPcashing
+[00:23:58 - 00:23:59] 推出的一個很清楚的方式
+[00:23:59 - 00:24:01] 是一段時間內的TL
+[00:24:01 - 00:24:03] 所以在5分鐘的TL
+[00:24:03 - 00:24:05] 我們會推出的
+[00:24:05 - 00:24:06] 在PromPcashing 今天我們會推出
+[00:24:06 - 00:24:08] 一個一小時的TL
+[00:24:08 - 00:24:09] 12X的改善
+[00:24:09 - 00:24:11] 將會減少負擔
+[00:24:11 - 00:24:13] 在長期經濟的工作
+[00:24:13 - 00:24:15] 這個項目的建築方式
+[00:24:15 - 00:24:17] VIABLE at scale.
+[00:24:18 - 00:24:20] So these capabilities all compound.
+[00:24:20 - 00:24:22] When we think about building features into the API,
+[00:24:22 - 00:24:23] we don't think about them as one off.
+[00:24:23 - 00:24:25] We think about how do they complement each other?
+[00:24:25 - 00:24:27] How do they form a cohesive story?
+[00:24:27 - 00:24:28] Claude can now execute code,
+[00:24:28 - 00:24:30] understand your systems,
+[00:24:30 - 00:24:32] access current information on the web,
+[00:24:32 - 00:24:35] creating the foundation for agents that operate with full context,
+[00:24:35 - 00:24:36] even for long running tasks.
+[00:24:36 - 00:24:38] And it can use the files API
+[00:24:38 - 00:24:39] to maintain memory and context
+[00:24:39 - 00:24:41] during that entire execution.
+[00:24:42 - 00:24:43] Everything you've seen this morning
+[00:24:43 - 00:24:44] is just the beginning.
+[00:24:44 - 00:24:47] Our roadmap continues to build on three pillars.
+[00:24:47 - 00:24:51] The first is industry-leading agentic tools and applications
+[00:24:51 - 00:24:54] so you can use cloud autonomously to handle hours of work.
+[00:24:54 - 00:24:56] Noah can use the code environment,
+[00:24:56 - 00:25:00] code execution tool to execute code in its own environment.
+[00:25:00 - 00:25:02] Code code is now generally available,
+[00:25:02 - 00:25:03] integrating with VS Code and JetBrains
+[00:25:03 - 00:25:05] so you can use the extensive SDKs
+[00:25:05 - 00:25:07] to build your own custom workflows,
+[00:25:07 - 00:25:09] including inside GitHub.
+[00:25:09 - 00:25:13] We'll continue to push on integrating more context in the API.
+[00:25:13 - 00:25:15] Our updates today allow you to bring this context
+[00:25:16 - 00:25:17] via the model context protocol
+[00:25:17 - 00:25:20] as well as build on real-time updates from the web
+[00:25:20 - 00:25:24] and execute complex workflows across any data source
+[00:25:24 - 00:25:27] and across anything in the API via MCP
+[00:25:27 - 00:25:29] and finally, efficient scaling.
+[00:25:29 - 00:25:32] As of today you can use expanded one-hour prompt caching
+[00:25:32 - 00:25:35] to optimize performance and cost at scale.
+[00:25:36 - 00:25:38] Each advancement builds on what we've discussed today
+[00:25:39 - 00:25:40] with Cod4 as the foundation
+[00:25:40 - 00:25:42] Opus4 for your most complex
+[00:25:42 - 00:25:44] Agentic workflow's
+[00:25:44 - 00:25:47] Sonnet4 is your daily driver for everyday intelligence.
+[00:25:47 - 00:25:49] We're enabling a new class of applications.
+[00:25:49 - 00:25:53] Code execution expands the hours of work that cloud can do.
+[00:25:53 - 00:25:55] MCP expands the comprehensive information
+[00:25:55 - 00:25:57] that cloud can retrieve.
+[00:25:57 - 00:25:58] And our platform updates
+[00:25:58 - 00:26:01] ensure our models become increasingly efficient
+[00:26:01 - 00:26:03] for every dollar spent.
+[00:26:03 - 00:26:05] We're actively learning from developers like yourselves
+[00:26:05 - 00:26:07] to how you use these tools.
+[00:26:07 - 00:26:09] So please keep the feedback coming.
+[00:26:09 - 00:26:10] I love API feedback.
+[00:26:10 - 00:26:11] If you don't know this about me,
+[00:26:11 - 00:26:14] 我非常喜歡聽到
+[00:26:14 - 00:26:15] 我們可以繼續改變
+[00:26:15 - 00:26:16] API的發展方式
+[00:26:16 - 00:26:17] 或是自己的
+[00:26:17 - 00:26:19] MCP是個完美的例子
+[00:26:19 - 00:26:21] 它開始是個理想
+[00:26:21 - 00:26:22] 然後開始和建立
+[00:26:22 - 00:26:23] 社會的改變
+[00:26:23 - 00:26:24] 現在是一個
+[00:26:24 - 00:26:25] 重要的平台
+[00:26:25 - 00:26:26] 如果你看到
+[00:26:26 - 00:26:27] Microsoft Build Keynote
+[00:26:27 - 00:26:28] 他們建立MCP
+[00:26:28 - 00:26:29] 他們的實際資料
+[00:26:29 - 00:26:31] 也有很多
+[00:26:31 - 00:26:32] 我們想建立
+[00:26:32 - 00:26:33] 一個經濟系統的
+[00:26:33 - 00:26:34] AI-agents
+[00:26:34 - 00:26:35] 我們有了
+[00:26:35 - 00:26:37] 給你們的實際介紹
+[00:26:37 - 00:26:40] 今天我們在
+[00:26:40 - 00:26:41] 一個大大宗
+[00:26:41 - 00:26:44] Our latest models, combined with all the latest tools that we've released,
+[00:26:44 - 00:26:46] are giving you the seeds of a new era.
+[00:26:46 - 00:26:49] The future isn't about AI doing human work.
+[00:26:49 - 00:26:51] It's about AI helping humans do superhuman work.
+[00:26:51 - 00:26:55] And I'm really excited to build this vision together with you,
+[00:26:55 - 00:26:58] and I can't wait to see the kinds of applications it powers for all of your companies.
+[00:26:58 - 00:27:00] And to show you what's possible,
+[00:27:00 - 00:27:03] I'm next going to hand the mic to CatWoo from our product team
+[00:27:03 - 00:27:06] to demonstrate how accessing our new models inside Claude Code
+[00:27:06 - 00:27:08] transforms your development workflows,
+[00:27:08 - 00:27:11] 幫你傳送更多的工作
+[00:27:11 - 00:27:12] 在一個暫時的談判中
+[00:27:12 - 00:27:14] 歡迎再次歡迎Claude
+[00:27:14 - 00:27:15] 謝謝你
+[00:27:15 - 00:27:16] 希望大家會享受其他事
+[00:27:28 - 00:27:30] 大家好,我是Cat Wu
+[00:27:30 - 00:27:32] 產業管理員Claude Code
+[00:27:32 - 00:27:34] 像 Mike 說的
+[00:27:34 - 00:27:36] 我們最近發生了Claude Code
+[00:27:36 - 00:27:38] 我們的科學研究技術
+[00:27:38 - 00:27:40] 在研究前提
+[00:27:40 - 00:27:41] Claude Code 給導致
+[00:27:41 - 00:27:43] 直接的資源
+[00:27:43 - 00:27:44] 給我們正常的
+[00:27:44 - 00:27:46] 在他們的端口中
+[00:27:46 - 00:27:48] 正在工作的地方
+[00:27:48 - 00:27:51] 今天,Clawed Code
+[00:27:51 - 00:27:53] 是在於
+[00:27:53 - 00:28:02] 在研究的歷史中
+[00:28:02 - 00:28:04] 我們繼續向高級的
+[00:28:04 - 00:28:06] 行動
+[00:28:06 - 00:28:08] 從機構
+[00:28:08 - 00:28:10] 向高級的行動
+[00:28:10 - 00:28:12] 向高級的行動
+[00:28:12 - 00:28:14] 我們在Clawed Code
+[00:28:14 - 00:28:16] 和更加的行動
+[00:28:16 - 00:28:17] 我們在看待
+[00:28:17 - 00:28:19] 另一步
+[00:28:19 - 00:28:22] 概念AI和web-configuring software
+[00:28:22 - 00:28:24] 是属于
+[00:28:24 - 00:28:27] 今天,我们将来的新 Clod 4 模式
+[00:28:27 - 00:28:31] 用到Clod Code,给予更多的力量
+[00:28:31 - 00:28:33] 和更多的能力
+[00:28:33 - 00:28:36] 用到的固定人员
+[00:28:36 - 00:28:39] 在新的模式上,我们正在建议
+[00:28:39 - 00:28:42] 新的多双新的功能
+[00:28:42 - 00:28:43] 和更多的能力
+[00:28:43 - 00:28:48] 进行更多的能力
+[00:28:48 - 00:28:50] 在新的模式上,我們在註明了
+[00:28:50 - 00:28:52] 新的功能,我們在Code Code
+[00:28:52 - 00:28:54] 在註明了更多的
+[00:28:54 - 00:28:56] 稀釋的功能,我們在
+[00:28:56 - 00:28:58] 整個Dev的生活中,我們
+[00:28:58 - 00:29:00] 將會進行的
+[00:29:00 - 00:29:01] 新的功能,我們
+[00:29:01 - 00:29:03] 將會進行的
+[00:29:03 - 00:29:05] 新的功能,我們
+[00:29:05 - 00:29:07] 將會進行的
+[00:29:07 - 00:29:09] 新的功能,我們
+[00:29:09 - 00:29:11] 將會進行的
+[00:29:11 - 00:29:13] 新的功能,我們
+[00:29:13 - 00:29:15] 將會進行的
+[00:29:15 - 00:29:17] inline in your editor
+[00:29:19 - 00:29:23] We're also releasing the cloud code SDK
+[00:29:23 - 00:29:26] which allows developers to use cloud code
+[00:29:26 - 00:29:30] as a building block in your applications and workflows
+[00:29:31 - 00:29:34] The possibilities are endless with the SDK
+[00:29:35 - 00:29:37] To showcase these possibilities
+[00:29:38 - 00:29:40] We're releasing an open source example
+[00:29:40 - 00:29:44] of the SDK in action with cloud code in GitHub
+[00:29:45 - 00:29:50] You can tag cloud directly on poll requests and issues in GitHub
+[00:29:50 - 00:29:54] And Cloud Code will respond to review your feedback,
+[00:29:54 - 00:29:58] Fix CI errors, and add new functionality.
+[00:29:59 - 00:30:03] With these additions, Cloud Code now works everywhere you do,
+[00:30:03 - 00:30:07] Acting as a virtual teammate across all surfaces.
+[00:30:08 - 00:30:11] In the terminal for deep development work,
+[00:30:11 - 00:30:14] in remote environments like GitHub
+[00:30:14 - 00:30:17] for automated workflows built on the SDK
+[00:30:17 - 00:30:21] and in the IDE for seamless review
+[00:30:21 - 00:30:25] All in, Cloud Code is a versatile coding agent
+[00:30:25 - 00:30:28] for accelerating development wherever you are
+[00:30:28 - 00:30:30] whether you're working directly with Cloud Code
+[00:30:30 - 00:30:35] interactively or using it asynchronously
+[00:30:35 - 00:30:37] Great, my favorite part
+[00:30:37 - 00:30:41] let's see what these updates look like in a demo
+[00:30:41 - 00:30:45] I'm going to show Cloud Code tackling a real dev task
+[00:30:45 - 00:30:48] in a product that many of you are familiar with.
+[00:30:48 - 00:30:52] We'll use Excalidrol, an open source whiteboarding tool,
+[00:30:52 - 00:30:56] and ask Cloud Code to implement one of their most requested features,
+[00:30:56 - 00:30:59] adding a table component.
+[00:30:59 - 00:31:02] How many of you have gone that feature request
+[00:31:02 - 00:31:04] that's been on your backlog for ages
+[00:31:04 - 00:31:06] that you know your users would love
+[00:31:06 - 00:31:09] but you just haven't had the time to build?
+[00:31:09 - 00:31:12] 这是我们可以更快地行动的担任
+[00:31:12 - 00:31:13] 和解决的担任
+[00:31:14 - 00:31:16] 如果我们的担任是这样
+[00:31:16 - 00:31:17] 我会把解决的担任
+[00:31:17 - 00:31:18] 做一些咖啡
+[00:31:18 - 00:31:20] 打个电话和打个电话
+[00:31:20 - 00:31:23] 再回到我们的准备
+[00:31:23 - 00:31:25] 但是我今天只会有10分钟
+[00:31:25 - 00:31:27] 所以我们先展示一下
+[00:31:27 - 00:31:28] 但实际的工作
+[00:31:30 - 00:31:32] 这里是解决的担任
+[00:31:32 - 00:31:33] 担任的评论
+[00:31:33 - 00:31:34] 我们来写一个评论
+[00:31:34 - 00:31:37] 我们要求解决的担任
+[00:31:37 - 00:31:40] 我们将用Qoad Code 来提供一些
+[00:31:40 - 00:31:44] 使用的方式 用户 和其他设备
+[00:31:44 - 00:31:48] 来调整其他设备的方式
+[00:31:48 - 00:31:50] 这里是最有趣的
+[00:31:50 - 00:31:53] Qoad Code 首先会发生一个做法
+[00:31:53 - 00:31:58] 为了如何调整整个问题
+[00:31:58 - 00:32:00] 然后我们可以看到
+[00:32:00 - 00:32:02] Qoad Code 开始设备了
+[00:32:02 - 00:32:04] 开始设备了
+[00:32:04 - 00:32:08] 我们已经设备了的设备
+[00:32:08 - 00:32:14] 最好的部分是能看到DIFS的輸入和輸入
+[00:32:14 - 00:32:17] 這方法可以看到輸入的程式
+[00:32:17 - 00:32:19] 更多的 context
+[00:32:19 - 00:32:22] 所以可以接受改變和信心
+[00:32:22 - 00:32:24] 或給輸入輸入的信息
+[00:32:25 - 00:32:28] 我們可以證明每個輸入的程式
+[00:32:28 - 00:32:30] 或讓輸入的程式
+[00:32:30 - 00:32:33] 繼續做輸入的程式
+[00:32:33 - 00:32:38] 讓我們能夠分析輸入和輸入
+[00:32:38 - 00:32:41] 在这次读书中,我们给了QoadCode的能量
+[00:32:41 - 00:32:44] 为计辑、运动、试试、
+[00:32:44 - 00:32:46] 和强制PRs
+[00:32:47 - 00:32:50] QoadCode工作了90分钟在这个计辑中
+[00:32:50 - 00:32:52] 我希望可以帮你解释整个问题
+[00:32:52 - 00:32:54] 但我们需要把事情解释
+[00:32:54 - 00:32:56] 你所看到的是实际的
+[00:32:56 - 00:32:57] 不计辑的计辑
+[00:32:57 - 00:32:59] 从QoadCode
+[00:32:59 - 00:33:01] 一小时后
+[00:33:02 - 00:33:04] 它完成了
+[00:33:04 - 00:33:07] 它达到计辑的功能
+[00:33:07 - 00:33:12] 试试 绑架 改变 和 免费 到 联系 和 试过
+[00:33:13 - 00:33:14] 这正常需要我们
+[00:33:15 - 00:33:20] 理解 研究 建议 和 每个其他 技术 都 进行
+[00:33:21 - 00:33:25] 这次 CodeCode 正在做 工作 时务
+[00:33:26 - 00:33:27] 非常惊讶
+[00:33:29 - 00:33:30] 现在
+[00:33:30 - 00:33:37] 现在 let us run X Hopot Gianarity Locally
+[00:33:37 - 00:33:39] and just make sure the feature works as we expect
+[00:33:39 - 00:33:42] let's check that we have a fully functional
+[00:33:42 - 00:33:45] table Components by making a three row
+[00:33:45 - 00:33:47] by three column table great
+[00:33:47 - 00:33:49] we can reposition the table
+[00:33:49 - 00:33:51] we can try to resize
+[00:33:51 - 00:33:54] we can change the border pattern
+[00:33:54 - 00:33:56] and color and
+[00:33:56 - 00:33:57] we can add text.
+[00:33:57 - 00:33:58] to cells
+[00:33:58 - 00:34:01] this also integrates with X
+[00:34:01 - 00:34:03] Scaladraws existing UI
+[00:34:03 - 00:34:05] 这些都已经完成了
+[00:34:05 - 00:34:07] 用一种计划的方式
+[00:34:07 - 00:34:09] 进行调整
+[00:34:18 - 00:34:19] 接下来
+[00:34:19 - 00:34:21] 我们将调整
+[00:34:21 - 00:34:23] 使用GitHub CLI
+[00:34:23 - 00:34:25] 进行调整
+[00:34:25 - 00:34:27] 进行调整
+[00:34:27 - 00:34:29] 好 来看看
+[00:34:29 - 00:34:33] 现在我们有调整
+[00:34:33 - 00:34:35] 这是调整的
+[00:34:35 - 00:34:37] SDK的光源
+[00:34:37 - 00:34:39] 它让我们计划
+[00:34:39 - 00:34:41] 调整的工作
+[00:34:41 - 00:34:44] 包括GitHub Actions
+[00:34:45 - 00:34:48] 在GitHub Actions 上,我会更新
+[00:34:48 - 00:34:50] 我们可以再次打开IDE
+[00:34:51 - 00:34:52] 我们可以再次打开
+[00:34:52 - 00:34:53] GitHub Actions 上
+[00:34:53 - 00:34:56] 然后打开我们的文件
+[00:34:57 - 00:34:58] 在下方的视频里
+[00:34:59 - 00:35:00] 这次打开GitHub Actions
+[00:35:01 - 00:35:02] 是GitHub Code
+[00:35:03 - 00:35:05] 打开GitHub Actions 上
+[00:35:05 - 00:35:07] 它会让我们做出一个计划
+[00:35:07 - 00:35:08] 当它完成
+[00:35:08 - 00:35:12] You can also tag at quad on a GitHub issue
+[00:35:12 - 00:35:14] and I'll also make a PR for you there.
+[00:35:14 - 00:35:16] With this feature,
+[00:35:16 - 00:35:20] Codcode meets users on even more surfaces
+[00:35:20 - 00:35:21] where they're already working.
+[00:35:21 - 00:35:24] Dev's no longer need to contact switch
+[00:35:24 - 00:35:26] in their local environment
+[00:35:26 - 00:35:29] and you can even kick off runs on the go.
+[00:35:29 - 00:35:33] This is all built on the Quadcode SDK.
+[00:35:33 - 00:35:35] Beyond Power and GitHub actions,
+[00:35:35 - 00:35:38] 我们看到客人做了很好的事情
+[00:35:38 - 00:35:39] 在Sdk 上
+[00:35:39 - 00:35:42] 包括运动很多的确定数据
+[00:35:42 - 00:35:44] 去调整确定数据
+[00:35:44 - 00:35:46] 去提升确定数据
+[00:35:46 - 00:35:49] 和去做确定数据
+[00:35:50 - 00:35:51] 好 看起来
+[00:35:51 - 00:35:53] 这一项动作已经完成了
+[00:35:53 - 00:35:55] 我们可以看到确定数据
+[00:35:55 - 00:35:56] 进入更新的留言
+[00:35:56 - 00:35:58] 让我们知道它做的事
+[00:35:58 - 00:36:00] 我们来调整确定数据
+[00:36:00 - 00:36:04] 然后看到确定数据
+[00:36:04 - 00:36:07] 它提供了我們的紀錄
+[00:36:07 - 00:36:08] 在我們的PR
+[00:36:08 - 00:36:09] 和我們沒有做事的
+[00:36:09 - 00:36:15] 進行進行進行進行
+[00:36:15 - 00:36:17] 在10分鐘內
+[00:36:17 - 00:36:18] 你已經看到
+[00:36:18 - 00:36:21] 有些規定的計劃
+[00:36:21 - 00:36:23] 會有些計劃的計劃
+[00:36:23 - 00:36:25] 在每一天的進行進行
+[00:36:25 - 00:36:27] 寫著幾個字的計劃
+[00:36:27 - 00:36:29] 進行進行
+[00:36:29 - 00:36:31] 用下層的具體的計劃
+[00:36:31 - 00:36:35] 和做時間的工作
+[00:36:35 - 00:36:38] All of this is available to you today.
+[00:36:38 - 00:36:42] Quad code in GitHub Actions powered by our SDK
+[00:36:42 - 00:36:44] is available in beta.
+[00:36:44 - 00:36:46] And you can install it by running a simple command
+[00:36:46 - 00:36:49] on the screen within quad.
+[00:36:49 - 00:36:52] The VS code and JetBrains IDE extensions
+[00:36:52 - 00:36:55] are also live in beta.
+[00:36:55 - 00:36:59] Just run quad from your IDE to install.
+[00:36:59 - 00:37:02] Last but not least are latest models
+[00:37:02 - 00:37:05] Claud Opus 4 和 Claud Sonnet 4
+[00:37:05 - 00:37:08] 是今天用的Claud Code 用户
+[00:37:08 - 00:37:19] Claud Code 展示了
+[00:37:19 - 00:37:23] 能夠實際地理解和作用Code
+[00:37:23 - 00:37:25] 作為強大的經驗
+[00:37:25 - 00:37:29] 包括扣測和應用程式
+[00:37:29 - 00:37:32] 需要更多的精英模式
+[00:37:32 - 00:37:34] 需要正確的網站
+[00:37:34 - 00:37:37] 歡迎 Michael Gerstenhaber
+[00:37:37 - 00:37:39] 我們可以展示你
+[00:37:39 - 00:37:41] 我們如何做到的
+[00:37:41 - 00:37:49] 謝謝Cat
+[00:37:49 - 00:37:50] 各位早安
+[00:37:50 - 00:37:52] 謝謝你
+[00:37:52 - 00:37:53] 我是Michael Grzegorz
+[00:37:53 - 00:37:54] 創作人員
+[00:37:54 - 00:38:00] 在企業平台的電腦平台上
+[00:38:00 - 00:38:02] 有多少人在這裡
+[00:38:02 - 00:38:04] 已經用AI-generated code
+[00:38:04 - 00:38:06] 寫了他們的應用程式
+[00:38:06 - 00:38:09] 有多少人在他們的領域
+[00:38:09 - 00:38:10] 用AI-generated code
+[00:38:10 - 00:38:12] 寫了他們的應用程式
+[00:38:12 - 00:38:13] 像大家在這裡
+[00:38:13 - 00:38:14] 這是我認為的
+[00:38:14 - 00:38:19] A.I. applications in the world will be built by people already trying to solve the world's problems.
+[00:38:19 - 00:38:26] Whether you pass the code whiteboard interviews or getting started with vibes, we're all software engineers now.
+[00:38:26 - 00:38:29] But writing code is just the start.
+[00:38:29 - 00:38:35] You need to more quickly build stable, secure and maintainable A.I. applications.
+[00:38:35 - 00:38:43] And that's why we built the Anthropic Platform, a complete toolkit designed for building state-of-the-art A.I. applications and agents.
+[00:38:43 - 00:38:50] 和工人, our platform is already powering most of the world's AI delivery in every domain.
+[00:38:50 - 00:38:58] In finance, TurboTax helps millions of customers confidently file taxes with federal tax explainers.
+[00:38:58 - 00:39:07] In healthcare, Novo Nordisk is using cloud to draft clinical study reports in less than 10 minutes instead of 15 weeks.
+[00:39:07 - 00:39:11] And the world's best coding assistants run on our platform.
+[00:39:11 - 00:39:18] Each of these companies took cloud intelligence and turned it into something uniquely valuable for their users.
+[00:39:18 - 00:39:26] At its foundation, our platform provides reliable access to cloud through our model inference service,
+[00:39:26 - 00:39:28] which includes the messages API,
+[00:39:28 - 00:39:33] and essential tools like prompt caching to optimize performance and costs.
+[00:39:33 - 00:39:37] Over 50% of all input tokens are cached on the platform,
+[00:39:37 - 00:39:40] doubling the effective context window for our models.
+[00:39:40 - 00:39:44] notion can put vast amounts of your documents in the context window
+[00:39:44 - 00:39:47] but maintain snappy real-time execution.
+[00:39:47 - 00:39:50] This lets them adopt your voice for creative writing
+[00:39:50 - 00:39:52] and virtually eliminate hallucination.
+[00:39:53 - 00:39:54] Starting today
+[00:39:55 - 00:39:58] we're extending the cash time to live from five minutes
+[00:39:59 - 00:40:00] to one hour.
+[00:40:04 - 00:40:07] Your agents can now maintain complex context
+[00:40:07 - 00:40:09] across the entire user session
+[00:40:09 - 00:40:10] without breaking the bank
+[00:40:11 - 00:40:12] but that's just the foundation
+[00:40:12 - 00:40:16] 唔 powerfull agents our platform provide powerful building blocks
+[00:40:16 - 00:40:19] as Mike shared we're releasing two new capabilities
+[00:40:19 - 00:40:24] the files ABI and the code execution tool
+[00:40:24 - 00:40:27] just like you and me there are some
+[00:40:27 - 00:40:30] problems that are easier to solve by writing a script
+[00:40:30 - 00:40:33] our platform lets your agents write their own code
+[00:40:33 - 00:40:36] in production just like you would
+[00:40:36 - 00:40:39] these new features join existing components
+[00:40:39 - 00:40:42] like web search for real
+[00:40:42 - 00:40:44] for real time information
+[00:40:44 - 00:40:47] and citations for grounding responses
+[00:40:47 - 00:40:49] in-source documents.
+[00:40:49 - 00:40:52] When Thompson Reuters provides analysis to attorneys
+[00:40:52 - 00:40:55] in co-council, it's critical that they ground this
+[00:40:55 - 00:40:57] in their legal research, in case law,
+[00:40:57 - 00:41:00] not in the model's training data.
+[00:41:00 - 00:41:04] Our platform also connects your agents and your data
+[00:41:04 - 00:41:06] and businesses' business systems
+[00:41:06 - 00:41:08] through model context protocol.
+[00:41:08 - 00:41:12] MCP has taken off within our developer ecosystem.
+[00:41:12 - 00:41:15] 有超過3,000 項目的資訊
+[00:41:15 - 00:41:18] 建立在社區內
+[00:41:18 - 00:41:20] 如果你的社會員
+[00:41:20 - 00:41:23] 在中間的應用項目中
+[00:41:23 - 00:41:26] 在中間的工作項目中
+[00:41:26 - 00:41:28] 或在中間的工作項目中
+[00:41:28 - 00:41:29] MCP 網站
+[00:41:29 - 00:41:30] 能夠使用這項目的模式
+[00:41:30 - 00:41:32] 進行任何的用途
+[00:41:32 - 00:41:35] 資訊或項目的項目需要
+[00:41:35 - 00:41:36] 今天
+[00:41:36 - 00:41:38] 這個項目更容易
+[00:41:38 - 00:41:40] 是把所有技術的
+[00:41:40 - 00:41:44] 的 complexity of tool and API calling for you.
+[00:41:44 - 00:41:46] One thing that I want to emphasize about the platform
+[00:41:46 - 00:41:49] is the composability of the APIs.
+[00:41:49 - 00:41:50] They're building blocks that work together
+[00:41:50 - 00:41:52] as well as they work apart,
+[00:41:52 - 00:41:54] helping to solve unique problems that can't be coerced
+[00:41:54 - 00:41:56] into a cookie cutter shape.
+[00:41:56 - 00:42:00] Think of Cloud as the architect and general contractor
+[00:42:00 - 00:42:01] for your agent.
+[00:42:01 - 00:42:03] It doesn't execute predefined sequences
+[00:42:03 - 00:42:05] or stack components randomly.
+[00:42:05 - 00:42:08] Instead, it intelligently determines which materials
+[00:42:08 - 00:42:11] 需要在什麼程度和如何合作
+[00:42:11 - 00:42:13] 來建立更多的能量
+[00:42:13 - 00:42:15] 比任何個人的能量更強
+[00:42:15 - 00:42:17] 讓我給你看看我意思
+[00:42:17 - 00:42:18] 當你建立一個
+[00:42:18 - 00:42:20] 複製的資料檢查
+[00:42:20 - 00:42:22] Claude intelligently assesses the task
+[00:42:22 - 00:42:25] and orchestrates the right tools
+[00:42:25 - 00:42:28] 利用MCP to access financial data
+[00:42:28 - 00:42:29] 轉換了規定的規定
+[00:42:29 - 00:42:32] 或是資料檢查
+[00:42:32 - 00:42:33] 搜尋網站
+[00:42:33 - 00:42:35] 實際市場資料
+[00:42:35 - 00:42:40] 採訪和執行的詳細
+[00:42:40 - 00:42:42] 以免費的解釋
+[00:42:42 - 00:42:44] 沒有硬碟的工作
+[00:42:44 - 00:42:46] 沒有用戶的寫作
+[00:42:46 - 00:42:47] 只是有能力的契機
+[00:42:47 - 00:42:49] 讓你建立一個強大的
+[00:42:49 - 00:42:52] 和無法改善的新的能量
+[00:42:52 - 00:42:55] 讓我們學者們生活
+[00:42:56 - 00:42:57] 我們明白
+[00:42:57 - 00:42:58] 這個註冊的效果
+[00:42:58 - 00:42:59] 可以令我們解剖
+[00:42:59 - 00:43:00] NAI的應用
+[00:43:00 - 00:43:01] 這就是我們建立的
+[00:43:01 - 00:43:02] 註冊技術
+[00:43:02 - 00:43:03] 例如註冊技術
+[00:43:03 - 00:43:04] 和考量
+[00:43:04 - 00:43:09] Along with new observability features that help you get to production and scale faster.
+[00:43:10 - 00:43:18] Today we are already helping developers build faster with resources like cookbooks and guides that show you how to implement features like memory into your applications.
+[00:43:19 - 00:43:31] In the future, we'll adapt these for programmatic access and host them directly on the platform so you can build even more powerful agents that can research and remember on their own in production.
+[00:43:31 - 00:43:34] Everything we built centers on one goal
+[00:43:34 - 00:43:37] helping you ship better AI faster
+[00:43:37 - 00:43:40] You素res platform isn't just tools
+[00:43:40 - 00:43:42] It's your path to building industry leading agents
+[00:43:43 - 00:43:45] Thank you all for being here
+[00:43:45 - 00:43:47] Today with me at Code with Claude
+[00:43:47 - 00:43:49] I'll be on the floor of the rest of the conference
+[00:43:49 - 00:43:52] But it's my privilege to welcome Mario Rodriguez from GitHub
+[00:43:52 - 00:43:55] To show you exactly what this looks like in production
+[00:43:55 - 00:44:03] Thank you, thank you, Michael
+[00:44:03 - 00:44:07] 我們在Github are incredibly excited to be part of this energy and innovation
+[00:44:07 - 00:44:13] and to share more of our deepening partnership with Hantropic, this amazing team
+[00:44:13 - 00:44:17] everything Github does is anchored on two core beliefs, right?
+[00:44:17 - 00:44:19] Number one is giving developer choice
+[00:44:19 - 00:44:24] Number two is giving them the best developer experience
+[00:44:24 - 00:44:28] At GitHub Universe last year we kicked off the release of the new product
+[00:44:28 - 00:44:32] and we have been working on it for the past four years
+[00:44:32 - 00:44:34] 我們把這與fantropec的關係接近
+[00:44:34 - 00:44:38] 我們提出了Cloud Sonnet 3.5
+[00:44:38 - 00:44:39] 支持VS Code
+[00:44:39 - 00:44:42] 也在我們的談論中
+[00:44:42 - 00:44:43] 我們做了這
+[00:44:43 - 00:44:46] 因為我們有信心與fantropec的信心
+[00:44:46 - 00:44:50] AI能夠是一個強大的力量
+[00:44:50 - 00:44:51] 而是一個強大的力量
+[00:44:51 - 00:44:52] 為了發展
+[00:44:52 - 00:44:53] 增加了他們的能量
+[00:44:53 - 00:44:56] 並不只是增加了他們的能量
+[00:44:56 - 00:44:57] 而是自由他們的能量
+[00:44:57 - 00:44:59] 去採取他們的最好的
+[00:44:59 - 00:45:01] 這是想像和作用
+[00:45:01 - 00:45:03] 帮助在社会的发展中
+[00:45:03 - 00:45:04] 和一个变化
+[00:45:04 - 00:45:06] 从我们的变化之后
+[00:45:06 - 00:45:08] 我们的联系和经验
+[00:45:08 - 00:45:11] 在VS Code 和Github.com
+[00:45:11 - 00:45:13] 和我们的电脑网站
+[00:45:13 - 00:45:15] 只要提到一些
+[00:45:16 - 00:45:17] 今天
+[00:45:17 - 00:45:19] 我担心公布
+[00:45:19 - 00:45:21] Github 公布
+[00:45:21 - 00:45:23] 支持 Cloud Sonnet 4
+[00:45:23 - 00:45:25] 和Opus 4 现在
+[00:45:25 - 00:45:27] 我们就把这个推到
+[00:45:27 - 00:45:28] 当我们公布的
+[00:45:28 - 00:45:37] 每个网站的所有项目
+[00:45:37 - 00:45:39] 那是CM chip 和其他
+[00:45:39 - 00:45:41] 讓我告訴你,這很難做
+[00:45:42 - 00:45:44] 如果你做過一個重新的製作
+[00:45:44 - 00:45:46] 那你做過,但很難做
+[00:45:46 - 00:45:48] 所以,謝謝所有團隊
+[00:45:48 - 00:45:50] 讓這事發生
+[00:45:50 - 00:45:52] 現在,我們要確認
+[00:45:52 - 00:45:54] 未來的程序是...
+[00:45:54 - 00:45:55] 什麼? 正確
+[00:45:55 - 00:45:57] Agent Mode VS Code
+[00:45:57 - 00:45:59] 是一個充滿程序
+[00:45:59 - 00:46:01] 可以進行多次的程序
+[00:46:01 - 00:46:03] 根據你的國語的領域
+[00:46:03 - 00:46:05] 我們看到
+[00:46:05 - 00:46:10] 首先,我們看到 how having cloud intelligence directly within the editor
+[00:46:10 - 00:46:14] truly helps developers understand complex code bases,
+[00:46:14 - 00:46:17] get faster code to production,
+[00:46:17 - 00:46:18] and increase the productivity,
+[00:46:18 - 00:46:20] without ever leaving the environment,
+[00:46:20 - 00:46:23] they already know, love and trust.
+[00:46:23 - 00:46:25] But even that,
+[00:46:25 - 00:46:28] even that is single-threaded.
+[00:46:28 - 00:46:31] In my opinion, the future is multithreaded.
+[00:46:31 - 00:46:33] If you think about it, you are in your editor,
+[00:46:33 - 00:46:35] it becomes a waiting room.
+[00:46:35 - 00:46:38] 你快速走,但仍然有空間
+[00:46:38 - 00:46:42] 所以在星期天,我們再步步進行
+[00:46:42 - 00:46:46] Gihub的Copilot Codein Agent
+[00:46:46 - 00:46:48] Codein Agent是自行的
+[00:46:48 - 00:46:51] 自行的計劃人員
+[00:46:51 - 00:46:53] 不可以自行的
+[00:46:53 - 00:46:55] 現在是自行的計劃人員
+[00:46:55 - 00:46:58] 直接投入Gihub
+[00:46:58 - 00:47:01] Copilot Codein Agent 現在被強迫
+[00:47:01 - 00:47:02] 你可能是猜測的
+[00:47:02 - 00:47:03] cloud sonnet
+[00:47:04 - 00:47:05] in
+[00:47:05 - 00:47:11] you know the reason we chose that was very clear to me so let me just walk you through three things that made that decision possible
+[00:47:13 - 00:47:20] number one our evaluation show that cloud demonstrated three main strengths right strong software engineering and coding knowledge
+[00:47:21 - 00:47:29] powerful problem solving and that's very important because sometimes you have to go and look at the code and find the right place to make that edit
+[00:47:30 - 00:47:31] and then number three
+[00:47:32 - 00:47:34] excellent instruction following
+[00:47:34 - 00:47:37] 特别是在想用辅助和用辅助
+[00:47:37 - 00:47:40] 所以在建议上
+[00:47:40 - 00:47:41] 在建议上
+[00:47:41 - 00:47:43] 在用辅助和用辅助
+[00:47:43 - 00:47:44] 和系统上
+[00:47:44 - 00:47:46] 你也需要其他东西
+[00:47:46 - 00:47:48] 就是连续信息
+[00:47:48 - 00:47:50] 连续信息
+[00:47:50 - 00:47:51] 连续信息的支持
+[00:47:51 - 00:47:53] 我们从安逸企业
+[00:47:53 - 00:47:56] 让我们建议这些经验
+[00:47:56 - 00:47:58] 在更加的贵贵的方式
+[00:47:58 - 00:48:02] 每个商店都在购买中
+[00:48:02 - 00:48:04] 所以我們保持更好的體驗
+[00:48:04 - 00:48:06] 可以給我們的客人
+[00:48:06 - 00:48:07] 現在在上面
+[00:48:07 - 00:48:09] Cloud已經是最常見的
+[00:48:09 - 00:48:11] 模式選擇模式
+[00:48:11 - 00:48:13] 所以我們把所有的東西放在一起
+[00:48:13 - 00:48:14] 它很清楚給我們
+[00:48:14 - 00:48:17] Cloud Sonnet是最適合模式選擇
+[00:48:17 - 00:48:18] 用Agented Coding
+[00:48:18 - 00:48:20] 和Github的研究
+[00:48:20 - 00:48:23] 現在我們在Cloud Sonnet 4
+[00:48:23 - 00:48:25] 我們看到了所有的改變
+[00:48:25 - 00:48:27] 不只是Agrate Benchmarks
+[00:48:27 - 00:48:28] 像Suite Benchmarks
+[00:48:28 - 00:48:29] 但更重要的是
+[00:48:29 - 00:48:30] 我們在現實世界的
+[00:48:30 - 00:48:33] moved through a valuation suite as well.
+[00:48:33 - 00:48:37] Now, our collaboration goes deeper than this, right?
+[00:48:37 - 00:48:39] It's not just about integrating models directly.
+[00:48:39 - 00:48:42] We've been working closely with Anthrop Так
+[00:48:42 - 00:48:45] to officially adopt and scale MCP.
+[00:48:45 - 00:48:46] We're combining intelligence.
+[00:48:46 - 00:48:47] If you think about this,
+[00:48:47 - 00:48:49] like this models are incredibly intelligent.
+[00:48:49 - 00:48:53] You start like three phd sundam with knowledge.
+[00:48:53 - 00:48:56] So how do you get knowledge into that intelligent model?
+[00:48:56 - 00:48:59] Well, the answer to us is MCP and tools.
+[00:49:00 - 00:49:04] 那 really unlocks the next acceleration of developer tools
+[00:49:04 - 00:49:08] Recently Kevin Scott, that's Microsoft CTO
+[00:49:08 - 00:49:12] made the analogy that MCP is like the H&D protocol of the web
+[00:49:12 - 00:49:15] and I completely agree with him
+[00:49:15 - 00:49:19] so if you have not adopted MCP, do it today
+[00:49:19 - 00:49:22] right after this keynote, go and play with it
+[00:49:22 - 00:49:26] it's that important, it's the way you get knowledge into these intelligent models
+[00:49:26 - 00:49:30] ن الآ as we step into this new era of software development
+[00:49:30 - 00:49:33] We transform in GitHub platform
+[00:49:33 - 00:49:38] from an AI infused into AI native
+[00:49:38 - 00:49:41] from creation to deployment
+[00:49:41 - 00:49:45] we envision this STLC powered by an agentic layer
+[00:49:45 - 00:49:46] at the top of it
+[00:49:46 - 00:49:48] that spans that inner
+[00:49:48 - 00:49:50] where you are coding and that outer loop
+[00:49:50 - 00:49:53] those are synchronous experiences
+[00:49:53 - 00:49:56] and you are going to be an active collaborator
+[00:49:56 - 00:49:58] 每一步都要進行
+[00:49:58 - 00:49:59] 我們說的原因是
+[00:49:59 - 00:50:03] 人在這個中心
+[00:50:03 - 00:50:06] 然後有些人在幫助你
+[00:50:06 - 00:50:09] 這就是我們提出的新項目
+[00:50:09 - 00:50:11] 是為了解釋
+[00:50:11 - 00:50:12] 我們可以展示
+[00:50:12 - 00:50:14] Cloud Code 和
+[00:50:14 - 00:50:16] 使用 Cloud Code 直接
+[00:50:16 - 00:50:19] 進行 GitHub 簡介
+[00:50:19 - 00:50:21] 這有新的機會
+[00:50:21 - 00:50:23] 使用 Cloud Code 和
+[00:50:23 - 00:50:25] 在新的領域上
+[00:50:25 - 00:50:27] 將會更新地進行
+[00:50:27 - 00:50:29] 技術和工作
+[00:50:29 - 00:50:31] 再次在技術的平台上
+[00:50:33 - 00:50:35] 我們已經做了很多
+[00:50:35 - 00:50:37] 但《Earning with Anthropics》
+[00:50:37 - 00:50:39] 仍然是最初的
+[00:50:39 - 00:50:41] 我們想起的是
+[00:50:41 - 00:50:43] 在技術的深入理解
+[00:50:43 - 00:50:45] 和技術的
+[00:50:45 - 00:50:47] AI的能量
+[00:50:47 - 00:50:50] 通過 Cloud 和平台的 API
+[00:50:50 - 00:50:52] 我們會
+[00:50:52 - 00:50:56] 更有趣 更有能量 更有能量
+[00:50:56 - 00:50:59] 更是更有能量 更有人
+[00:50:59 - 00:51:01] 人的力量是重要的
+[00:51:01 - 00:51:03] 所以我非常期待
+[00:51:03 - 00:51:05] 我們繼續一起建立
+[00:51:05 - 00:51:08] 並且我們都有各種建設
+[00:51:08 - 00:51:09] 謝謝各位
+[00:51:09 - 00:51:12] 和您歡迎到現場
+[00:51:12 - 00:51:13] 邰克里格
+[00:51:13 - 00:51:20] 謝謝
+[00:51:20 - 00:51:23] 歡迎大家
+[00:51:23 - 00:51:25] 謝謝Mario、Michael、Kat
+[00:51:25 - 00:51:27] 我愛《GitHub》的建議
+[00:51:27 - 00:51:28] 我最後的項目
+[00:51:28 - 00:51:28] 其實我還想說
+[00:51:28 - 00:51:30] 我可以直接安裝
+[00:51:30 - 00:51:30] 《Claud Code》
+[00:51:30 - 00:51:31] 進入《GitHub》的構築
+[00:51:31 - 00:51:33] 然後我突然有《Claud Code》
+[00:51:33 - 00:51:34] 對於我已經建的
+[00:51:34 - 00:51:35] 的報告
+[00:51:35 - 00:51:37] 非常棒聽到他們的聲音
+[00:51:37 - 00:51:37] 聽到所有的
+[00:51:37 - 00:51:38] 很有趣的工作
+[00:51:38 - 00:51:40] 跟Claud做的
+[00:51:40 - 00:51:41] 所以在節目中
+[00:51:41 - 00:51:42] 我會帶大家
+[00:51:42 - 00:51:43] 進入Claud 4的
+[00:51:43 - 00:51:45] 我們的學習方式
+[00:51:45 - 00:51:46] 和其他發展者
+[00:51:46 - 00:51:47] 可以期待的
+[00:51:47 - 00:51:49] 所以請幫我
+[00:51:49 - 00:51:50] 歡迎回到現場
+[00:51:50 - 00:51:52] Dario 和我們一對一的
+[00:51:52 - 00:51:52] 談判
+[00:51:52 - 00:51:53] 歡迎回Dario
+[00:51:53 - 00:51:59] Hello again.
+[00:51:59 - 00:52:01] This is great. This is like our one-on-one in front of the whole audience.
+[00:52:01 - 00:52:03] This is great.
+[00:52:03 - 00:52:06] So, Cloud4 is out.
+[00:52:06 - 00:52:09] Cloud Sonnet 4 and Cloudopus 4 are available.
+[00:52:09 - 00:52:11] What excites you the most about the Cloud4 models
+[00:52:11 - 00:52:15] and how does it change your thinking about what's possible in the next 12 months?
+[00:52:15 - 00:52:19] Yeah, so I think abstractly the thing I'm most excited about is,
+[00:52:19 - 00:52:21] you know, every time you have a new class of models,
+[00:52:21 - 00:52:24] there's like more you can do with it, right?
+[00:52:24 - 00:52:29] 所以我們會在新的新的模式推出
+[00:52:29 - 00:52:32] 之後的Claude 4 會有Claude 4.1
+[00:52:32 - 00:52:33] 像我們剛剛做的
+[00:52:33 - 00:52:35] Sonic 3.5
+[00:52:35 - 00:52:37] 我們就在最初的
+[00:52:37 - 00:52:39] 我們可以做的
+[00:52:39 - 00:52:41] 新的新的模式
+[00:52:41 - 00:52:43] 在於策略
+[00:52:43 - 00:52:45] 我覺得澳洲的
+[00:52:45 - 00:52:47] 會更加快
+[00:52:47 - 00:52:49] 就是能夠
+[00:52:49 - 00:52:51] 設定模式自由
+[00:52:51 - 00:52:54] 給它們的能量做一些事
+[00:52:54 - 00:52:56] 在長時間內
+[00:52:56 - 00:53:00] 我們仍然很在最初的
+[00:53:00 - 00:53:03] 我其實更加期待
+[00:53:03 - 00:53:06] 修補了修補修補的修補
+[00:53:06 - 00:53:07] 修補修補的修補
+[00:53:07 - 00:53:12] 是修補修補修的修補
+[00:53:12 - 00:53:14] 但修補修補修補的修補
+[00:53:14 - 00:53:15] 所以我們可能會
+[00:53:15 - 00:53:17] 終於被它們的壓力
+[00:53:17 - 00:53:19] 然後我當了修補修補的修補
+[00:53:19 - 00:53:22] 我一直都很期待用用模特兒
+[00:53:22 - 00:53:25] 用了科學的研究
+[00:53:25 - 00:53:28] 和研究的細節
+[00:53:28 - 00:53:29] 我覺得Opus
+[00:53:29 - 00:53:32] 會是特別強的
+[00:53:32 - 00:53:33] 我覺得Opus
+[00:53:33 - 00:53:36] 會是特別強的
+[00:53:36 - 00:53:38] 這跟上次的《愛情的愛》
+[00:53:38 - 00:53:39] 如何把《愛情的愛》
+[00:53:39 - 00:53:41] 合作成為那一種
+[00:53:41 - 00:53:41] 我喜歡說
+[00:53:41 - 00:53:43] 《愛情的愛》
+[00:53:43 - 00:53:44] 是一種考驗
+[00:53:44 - 00:53:44] 我認為它是
+[00:53:44 - 00:53:45] 《愛情的愛》
+[00:53:45 - 00:53:46] 在下一幾年
+[00:53:46 - 00:53:47] 我擔心
+[00:53:47 - 00:53:48] 如何把《愛情的愛》
+[00:53:48 - 00:53:49] 合作成為那一種
+[00:53:49 - 00:53:51] 對 我是一個產品的網路
+[00:53:51 - 00:53:53] 我寫了 不知道如何解釋
+[00:53:53 - 00:53:57] 然後說 大家 這是你的工作
+[00:53:57 - 00:53:58] 這是你的工作
+[00:53:58 - 00:54:03] 對 我認為我們在
+[00:54:03 - 00:54:06] 在於自然的東西
+[00:54:06 - 00:54:08] 而是在於軟體的部分
+[00:54:08 - 00:54:11] 因為自然的資料
+[00:54:11 - 00:54:14] 甚至10年前的資料
+[00:54:14 - 00:54:16] 我當了自然的
+[00:54:16 - 00:54:19] 我認為更多的問題是
+[00:54:19 - 00:54:21] 我們有這些模式
+[00:54:21 - 00:54:22] 知道很多關於文化
+[00:54:22 - 00:54:23] 和它們的方式
+[00:54:23 - 00:54:24] 可以幫助寄信息
+[00:54:24 - 00:54:25] 如果你是一個
+[00:54:25 - 00:54:26] 異性的研究人
+[00:54:26 - 00:54:27] 我認為這些模式
+[00:54:27 - 00:54:28] 會很快地
+[00:54:28 - 00:54:29] 將你做到的
+[00:54:29 - 00:54:30] 我們有幾位
+[00:54:30 - 00:54:31] 客人們
+[00:54:31 - 00:54:32] 正在嘗試
+[00:54:32 - 00:54:33] 這些模式
+[00:54:33 - 00:54:34] 為這些工作的方式
+[00:54:34 - 00:54:36] 我們會進入那一步
+[00:54:36 - 00:54:37] 我認為
+[00:54:37 - 00:54:38] 我們第一次
+[00:54:38 - 00:54:39] 做的一項
+[00:54:39 - 00:54:40] 就是我們發出的MCP
+[00:54:40 - 00:54:41] 有人把MCP
+[00:54:41 - 00:54:42] 放在一張
+[00:54:42 - 00:54:43] 紙紙上
+[00:54:43 - 00:54:44] 所以我們可以把
+[00:54:44 - 00:54:45] 它們放在紙紙上
+[00:54:45 - 00:54:47] 看 what cloud draws for itself
+[00:54:47 - 00:54:48] But it was like the first moment
+[00:54:48 - 00:54:50] MCPs don't just have to be connecting
+[00:54:50 - 00:54:51] to digital systems
+[00:54:51 - 00:54:52] They could also be connecting
+[00:54:52 - 00:54:53] to the real world
+[00:54:53 - 00:54:55] So like when you'll be able to drive
+[00:54:55 - 00:54:56] lab equipment via mcp
+[00:54:56 - 00:54:57] I think is an interesting question
+[00:54:57 - 00:54:59] soon we'll be able to test
+[00:54:59 - 00:55:00] clawed by connecting it
+[00:55:00 - 00:55:01] to a polygraph
+[00:55:03 - 00:55:04] Are you lying?
+[00:55:07 - 00:55:08] Who needs interpretability
+[00:55:08 - 00:55:09] when we have the polygraph?
+[00:55:12 - 00:55:14] You mentioned that moment where
+[00:55:14 - 00:55:16] 你也有确认到
+[00:55:16 - 00:55:18] Claud的文件是人文的
+[00:55:18 - 00:55:20] 有任何其他 breakthrough 時刻
+[00:55:20 - 00:55:22] 在看我們所有的
+[00:55:22 - 00:55:24] Dogfood,Claud4
+[00:55:24 - 00:55:25] 甚至你也有試過
+[00:55:25 - 00:55:26] 讓你發現這個模式
+[00:55:26 - 00:55:27] 感覺不一樣
+[00:55:27 - 00:55:29] 我沒有理解
+[00:55:29 - 00:55:31] 我沒有理解細節
+[00:55:31 - 00:55:33] 但有幾個人在我們的網站
+[00:55:33 - 00:55:34] 有一個時候
+[00:55:34 - 00:55:35] 前幾個星期
+[00:55:35 - 00:55:36] 模式發生了
+[00:55:36 - 00:55:37] 有人說
+[00:55:37 - 00:55:38] 我的天啊
+[00:55:38 - 00:55:39] 這個模式
+[00:55:39 - 00:55:40] 像一張照片
+[00:55:40 - 00:55:41] 這個很難表現
+[00:55:41 - 00:55:42] 在行業上
+[00:55:42 - 00:55:45] 沒有模特兒做過什麼樣的事情
+[00:55:45 - 00:55:47] 我會說
+[00:55:47 - 00:55:50] 這很像超級的一種
+[00:55:50 - 00:55:52] 模特兒的進步
+[00:55:52 - 00:55:55] 一切都在最後一刻
+[00:55:55 - 00:55:58] 連在訓練的程度都在想
+[00:55:58 - 00:56:00] 像一些模特兒的能量
+[00:56:00 - 00:56:02] 可能是他們的進步
+[00:56:02 - 00:56:04] 或者是他們的進步
+[00:56:04 - 00:56:06] 可能是他們的進步
+[00:56:06 - 00:56:08] 可能是他們的使用
+[00:56:08 - 00:56:10] 或者是他們的優勢
+[00:56:10 - 00:56:12] 但你總是會發現
+[00:56:12 - 00:56:14] 新的版本的新版本
+[00:56:14 - 00:56:16] 大家會想想
+[00:56:16 - 00:56:17] 如何使用他們
+[00:56:17 - 00:56:19] 然後你終於有機會
+[00:56:19 - 00:56:21] 成為一個很好的人
+[00:56:21 - 00:56:22] 還有一個很大的
+[00:56:22 - 00:56:23] 悲劇
+[00:56:23 - 00:56:24] 這時候總是
+[00:56:24 - 00:56:25] 最後一刻
+[00:56:25 - 00:56:26] 如果你讀
+[00:56:26 - 00:56:27] 《創作者》的《Ink by Ed Catmull》
+[00:56:27 - 00:56:28] 他在劇情中
+[00:56:28 - 00:56:29] 同樣的過程中
+[00:56:29 - 00:56:30] 跟其他《Pixar》的電影
+[00:56:30 - 00:56:31] 他們很悲劇
+[00:56:31 - 00:56:32] 兩天前
+[00:56:32 - 00:56:33] 他們應該要走
+[00:56:33 - 00:56:34] 我感覺他們
+[00:56:34 - 00:56:35] 同樣的一種悲劇
+[00:56:35 - 00:56:36] 他們都很悲劇
+[00:56:36 - 00:56:37] 但他們不太在
+[00:56:37 - 00:56:38] 然後他們突然
+[00:56:38 - 00:56:40] 我們覺得我不會等到這給大家
+[00:56:40 - 00:56:42] 這沒什麼意思
+[00:56:42 - 00:56:44] 因為訓練的程度是一般的
+[00:56:44 - 00:56:48] 你會想它不會這樣做
+[00:56:48 - 00:56:50] 是一種各式的程度
+[00:56:50 - 00:56:51] 但它是完全不一樣的
+[00:56:51 - 00:56:52] 沒有任何問題
+[00:56:52 - 00:56:56] 他們都會在最後一分鐘
+[00:56:56 - 00:56:56] 我不知道為什麼
+[00:56:56 - 00:56:57] 這是一種真正的一刻
+[00:56:58 - 00:56:59] 很多人在獄中的觀眾
+[00:56:59 - 00:56:59] 是由於我們發展的
+[00:56:59 - 00:57:00] 我問的問題
+[00:57:00 - 00:57:01] 我會知道
+[00:57:01 - 00:57:03] 當大家想想
+[00:57:03 - 00:57:05] 如何發展的程度
+[00:57:05 - 00:57:06] 是哪些部分
+[00:57:06 - 00:57:09] 的 software engineering job will AI takeover
+[00:57:09 - 00:57:12] and what becomes more important in a world where we have autonomous agents
+[00:57:12 - 00:57:13] being able to do a lot of software engineering.
+[00:57:14 - 00:57:17] Yeah. So probably like many people here,
+[00:57:17 - 00:57:21] I read with great interest Steve Yegge's blog post a couple months ago,
+[00:57:21 - 00:57:23] Revenge of the junior developer.
+[00:57:23 - 00:57:28] He had some similar blog posts around that.
+[00:57:28 - 00:57:30] He actually came in to visit us even
+[00:57:30 - 00:57:34] 那天我猜到
+[00:57:34 - 00:57:36] 我猜到的目標是
+[00:57:36 - 00:57:38] 可能更好看的
+[00:57:38 - 00:57:40] 我們會更加
+[00:57:40 - 00:57:41] 進行更多的
+[00:57:41 - 00:57:43] 自然的模式
+[00:57:43 - 00:57:44] 我們有這個 phase
+[00:57:44 - 00:57:45] 你會做自然的模式
+[00:57:45 - 00:57:47] 現在有這個東西
+[00:57:47 - 00:57:48] 我猜是叫做
+[00:57:48 - 00:57:49] Vive coding
+[00:57:49 - 00:57:53] 然後我們會更加
+[00:57:53 - 00:57:55] 可以把事件
+[00:57:55 - 00:57:56] 和行動都拔掉
+[00:57:56 - 00:57:58] 我猜我們會
+[00:57:58 - 00:58:00] 進行更多的
+[00:58:00 - 00:58:01] 你能够复杂的线索
+[00:58:01 - 00:58:03] 我相信会有其他品牌的
+[00:58:03 - 00:58:05] 能复杂的线索
+[00:58:05 - 00:58:07] 我认为我们是走到世界
+[00:58:07 - 00:58:09] 在哪里有一个人的发展
+[00:58:09 - 00:58:11] 能够复杂的线索
+[00:58:11 - 00:58:13] 你去做这些 去做这些
+[00:58:13 - 00:58:14] 你去做这些
+[00:58:14 - 00:58:16] 但是我认为
+[00:58:16 - 00:58:19] 人生的发展会很重要
+[00:58:19 - 00:58:20] 为了保持高级的控制
+[00:58:20 - 00:58:21] 保持他们做得正确的事情
+[00:58:21 - 00:58:23] 去复杂的线索
+[00:58:23 - 00:58:24] 所以
+[00:58:24 - 00:58:26] 在与品牌和品牌的线索
+[00:58:26 - 00:58:27] 合作的合作
+[00:58:27 - 00:58:28] 复杂的线索
+[00:58:28 - 00:58:29] 会很重要
+[00:58:29 - 00:58:30] 我覺得這也很重要
+[00:58:30 - 00:58:34] 因為你的工作的效果越來越難做
+[00:58:34 - 00:58:36] 因為它會把你離開這個流動的建築
+[00:58:36 - 00:58:38] 所以至少讓我發現
+[00:58:38 - 00:58:41] 我們花太多時間在超級的平均
+[00:58:41 - 00:58:45] 然後我們就要再做更多的建築
+[00:58:45 - 00:58:46] 所以我…
+[00:58:46 - 00:58:47] 變得更難做
+[00:58:47 - 00:58:48] 因為我從事研究的工作
+[00:58:48 - 00:58:50] 也被拒絕了
+[00:58:51 - 00:58:52] 所以有一個結尾的議題
+[00:58:52 - 00:58:54] 在工業上
+[00:58:55 - 00:58:57] 大型模型或小型建築
+[00:58:57 - 00:58:59] 你會在過去的一段時間發展
+[00:58:59 - 00:59:00] 你最著名的是
+[00:59:00 - 00:59:03] 平衡管理單位
+[00:59:03 - 00:59:05] 你現在的 take on
+[00:59:05 - 00:59:06] 你現在的 extreme being
+[00:59:06 - 00:59:07] 是在前關的死亡
+[00:59:07 - 00:59:09] 是在後關的所有的事情
+[00:59:09 - 00:59:11] 還有 它的一種修改
+[00:59:11 - 00:59:13] 我 mean 沒想到 非常具有特別的
+[00:59:13 - 00:59:14] 我會說
+[00:59:14 - 00:59:16] 我的 4 修改
+[00:59:16 - 00:59:18] body advances in both pre training
+[00:59:18 - 00:59:20] and post training.
+[00:59:20 - 00:59:21] So we're continuing to see the
+[00:59:21 - 00:59:23] pre training scaling laws work
+[00:59:23 - 00:59:25] the way that they've worked before
+[00:59:25 - 00:59:27] and we're also continuing to see
+[00:59:27 - 00:59:30] continued advances in post training
+[00:59:30 - 00:59:31] and they kind of
+[00:59:31 - 00:59:33] they kind of complement each other
+[00:59:33 - 00:59:34] and I think we're gonna
+[00:59:34 - 00:59:37] continue seeing advances in both of those.
+[00:59:37 - 00:59:38] I think we're also gonna
+[00:59:38 - 00:59:39] continue to scale up
+[00:59:39 - 00:59:41] so we have these multiple trends
+[00:59:41 - 00:59:42] these multiple sources
+[00:59:42 - 00:59:44] of exponential growth
+[00:59:44 - 00:59:45] and they're all gonna
+[00:59:45 - 00:59:46] compound with each other.
+[00:59:46 - 00:59:49] 那's why I think all of this is gonna go very fast.
+[00:59:49 - 01:00:00] One of the reasons I like the blog posts is that it was someone who was not me repeating the mantra of like, it's only going to be a year or two until these things are like, you know, are are basically peers to us.
+[01:00:00 - 01:00:06] It's insane that 37 was just in February right? It feels like a year ago but it was just three months ago.
+[01:00:06 - 01:00:13] I know it feels like it's like this is, this feels like an obsolete model or something and you know, it was less like two and a half months or something.
+[01:00:13 - 01:00:17] 像是時間量的壓力
+[01:00:17 - 01:00:18] 我經常說
+[01:00:18 - 01:00:20] 在智力的智力中
+[01:00:20 - 01:00:21] 我會在很短的題目中
+[01:00:21 - 01:00:23] 智力的智力中
+[01:00:23 - 01:00:24] 感覺像是
+[01:00:24 - 01:00:26] 你在空間中
+[01:00:26 - 01:00:27] 在智力中的空間中
+[01:00:27 - 01:00:29] 有相關的速度
+[01:00:29 - 01:00:31] 一天你醒來
+[01:00:31 - 01:00:32] 就像是
+[01:00:32 - 01:00:34] 一天在你的空間中
+[01:00:34 - 01:00:35] 兩天在空間中
+[01:00:35 - 01:00:37] 你需要在兩天內的新聞中
+[01:00:37 - 01:00:38] 它會在空間中
+[01:00:38 - 01:00:39] 一天在你的空間中
+[01:00:39 - 01:00:40] 三天在空間中
+[01:00:40 - 01:00:43] 那是那種感覺的
+[01:00:43 - 01:00:45] 那是在我之前的內容
+[01:00:45 - 01:00:47] 但是它絕對的
+[01:00:47 - 01:00:48] 可能在上輩子上
+[01:00:48 - 01:00:49] 我真的感到很興奮
+[01:00:49 - 01:00:51] 在Claude 4的看法中
+[01:00:51 - 01:00:53] 是這種概念
+[01:00:53 - 01:00:54] 讓模式能夠擁有它們的記憶
+[01:00:54 - 01:00:56] 我們可能會說一句
+[01:00:56 - 01:00:56] 為什麼那是重要的
+[01:00:56 - 01:00:58] 還有什麼能夠擁有的
+[01:00:58 - 01:01:00] 對不起 再次回答
+[01:01:00 - 01:01:02] 讓模式能夠擁有它們的記憶
+[01:01:02 - 01:01:04] 和擁有它們的長期的項目
+[01:01:04 - 01:01:05] 對
+[01:01:05 - 01:01:08] 我們也找到很方便的地方
+[01:01:08 - 01:01:10] 我認為在一場很方便的地方
+[01:01:10 - 01:01:11] 是Pokemon
+[01:01:12 - 01:01:13] 在模特兒的形式中
+[01:01:13 - 01:01:14] 我認為它是可以記住的
+[01:01:14 - 01:01:15] 但總之
+[01:01:15 - 01:01:16] 它是很方便的
+[01:01:16 - 01:01:17] 其他東西
+[01:01:17 - 01:01:18] 其他東西
+[01:01:18 - 01:01:19] 就是Pokemon
+[01:01:20 - 01:01:21] 但
+[01:01:21 - 01:01:22] 我覺得
+[01:01:22 - 01:01:23] 我覺得很棒
+[01:01:23 - 01:01:24] 這個模特兒
+[01:01:24 - 01:01:25] 像是一個人
+[01:01:25 - 01:01:27] 我會想
+[01:01:27 - 01:01:29] 我會寫一些詞
+[01:01:29 - 01:01:30] 然後我會
+[01:01:30 - 01:01:31] 寫一些詞
+[01:01:31 - 01:01:32] 在後期
+[01:01:32 - 01:01:33] 或者
+[01:01:33 - 01:01:34] 我會做
+[01:01:34 - 01:01:36] 很多的交流
+[01:01:36 - 01:01:48] 那,那,那,你 know, and models do that to some extent when they, when they reason when they have, you know, like our reasoning traces, but you know, not, not everything I do can be incorporated in one scratch pad, right?
+[01:01:48 - 01:01:50] 有像是在表演中的
+[01:01:50 - 01:01:52] 有自己的文章
+[01:01:52 - 01:01:54] 我寫的文章
+[01:01:54 - 01:01:56] 模型是一樣的
+[01:01:56 - 01:01:58] 他們的想法是
+[01:01:58 - 01:02:00] 能夠建立信息
+[01:02:00 - 01:02:02] 做事的信息
+[01:02:02 - 01:02:04] 去增加資料
+[01:02:04 - 01:02:06] 去把這些東西交流
+[01:02:06 - 01:02:08] 我們有的新的特點
+[01:02:08 - 01:02:10] 是這個交流
+[01:02:10 - 01:02:12] 交流的理由
+[01:02:12 - 01:02:14] 一些交流
+[01:02:14 - 01:02:16] 可以去把資料
+[01:02:16 - 01:02:19] 通过联系研发的重要话题
+[01:02:19 - 01:02:21] 因为通过联系研发的重要话题
+[01:02:21 - 01:02:23] 进化到我们的权力
+[01:02:23 - 01:02:26] 企业上的强化
+[01:02:26 - 01:02:28] 我们在进攻这个时期
+[01:02:28 - 01:02:30] 我们在疫情中
+[01:02:30 - 01:02:32] 我们在描写这个时刻
+[01:02:32 - 01:02:34] 我们写了我们在卡通地
+[01:02:34 - 01:02:35] 那样在接信中
+[01:02:35 - 01:02:36] 我们是来自中国的
+[01:02:36 - 01:02:38] 中国国内的
+[01:02:38 - 01:02:39] 中国国外的
+[01:02:39 - 01:02:40] 中国国外的
+[01:02:40 - 01:02:40] 中国外的
+[01:02:40 - 01:02:41] 中国国外的
+[01:02:41 - 01:02:42] 中国重 center
+[01:02:42 - 01:02:43] 中国外的
+[01:02:43 - 01:02:43] 这个大家都认为
+[01:02:43 - 01:02:44] 中国国外的
+[01:02:44 - 01:02:45] 中国外籍
+[01:02:45 - 01:02:45] 中国外籍
+[01:02:45 - 01:02:46] 中国外籍
+[01:02:46 - 01:02:48] 我看到了MAC Stories的明星
+[01:02:48 - 01:02:50] 上一天我看到了MAC Stories的
+[01:02:50 - 01:02:52] 設計和設計
+[01:02:52 - 01:02:54] MCP和MCP的限制
+[01:02:54 - 01:02:56] 因為MCP的限制
+[01:02:56 - 01:02:57] 我心想
+[01:02:57 - 01:02:58] 我應該會選擇限制
+[01:02:58 - 01:03:00] 讓我試試這個另一個
+[01:03:00 - 01:03:01] 做這個
+[01:03:01 - 01:03:02] 所以這個能力
+[01:03:02 - 01:03:04] 能為MCP和設計
+[01:03:04 - 01:03:06] 作為儲存的限制
+[01:03:06 - 01:03:08] 我會愛向上
+[01:03:08 - 01:03:09] 所以
+[01:03:09 - 01:03:10] 安全和能力
+[01:03:10 - 01:03:11] 他們經常
+[01:03:11 - 01:03:13] 想像我們在一起
+[01:03:13 - 01:03:14] 和我們在一起
+[01:03:14 - 01:03:15] 就是正確的反應
+[01:03:15 - 01:03:17] 這兩種東西可以動作
+[01:03:17 - 01:03:18] 我發現這很大意義
+[01:03:18 - 01:03:18] 我跟其他原因
+[01:03:18 - 01:03:19] 我跟這兩種東西
+[01:03:19 - 01:03:20] 可以碰到
+[01:03:20 - 01:03:21] 你認為的那一種
+[01:03:21 - 01:03:26] 對 它對於
+[01:03:26 - 01:03:29] 非常之深的
+[01:03:29 - 01:03:30] 簡單 商業
+[01:03:30 - 01:03:32] 對於大部分的
+[01:03:32 - 01:03:33] 地位
+[01:03:33 - 01:03:35] 那些
+[01:03:35 - 01:03:37] a i is going in the future
+[01:03:37 - 01:03:38] So you know what
+[01:03:38 - 01:03:40] I think I think when we when we talk to customers
+[01:03:40 - 01:03:42] 我們有幾名人
+[01:03:42 - 01:03:45] You know care a lot about making sure that behavior
+[01:03:45 - 01:03:47] of their ms is predictable
+[01:03:47 - 01:03:48] that it's trustworthy
+[01:03:48 - 01:03:51] And I think that's a line with what some of
+[01:03:51 - 01:03:54] what we're trying to do in the long term
+[01:03:54 - 01:03:58] for making sure that models in a more grand sense
+[01:03:58 - 01:04:00] stay in line with human intent
+[01:04:00 - 01:04:03] so there's this nice synergy here
+[01:04:03 - 01:04:05] 但是我覺得 whenever we're able to do so
+[01:04:05 - 01:04:08] whenever we think it's reasonable and responsible to do so
+[01:04:08 - 01:04:10] we do want to provide tools for the community
+[01:04:10 - 01:04:13] MCP is an example of that
+[01:04:13 - 01:04:20] I myself was actually surprised at the pace at which everyone seems to have standardized around MCP
+[01:04:20 - 01:04:24] It was very strange we released it in November
+[01:04:24 - 01:04:26] I wouldn't say there was a huge reaction immediately
+[01:04:26 - 01:04:29] but then within three or four months
+[01:04:29 - 01:04:32] it kind of become the standard again
+[01:04:32 - 01:04:35] 從這個程度上 再次感覺到
+[01:04:35 - 01:04:38] 在空間上的空間上 增加了
+[01:04:38 - 01:04:42] 和在大量的時間和時間的
+[01:04:42 - 01:04:44] 時間和時間的時間
+[01:04:44 - 01:04:46] 我們想想像像
+[01:04:46 - 01:04:48] 美國和其他程度
+[01:04:48 - 01:04:50] 想像像像在90年代的程度
+[01:04:50 - 01:04:52] 這會花多年
+[01:04:52 - 01:04:53] 讓人們想像一下
+[01:04:53 - 01:04:55] 對 而且在商業或智力的
+[01:04:55 - 01:04:57] 談論的其他人
+[01:04:57 - 01:04:59] 我們不想把智力
+[01:04:59 - 01:05:01] 我們想要一些幫助在鋪上
+[01:05:01 - 01:05:02] 但是這個就是
+[01:05:02 - 01:05:03] 你把光線掛在一杯
+[01:05:03 - 01:05:04] 讓我們確保它變成新的
+[01:05:04 - 01:05:05] 新的通知
+[01:05:05 - 01:05:06] 和我們經常進行的
+[01:05:06 - 01:05:07] 新的通知
+[01:05:07 - 01:05:09] 也許我們也會
+[01:05:09 - 01:05:10] 一起參加
+[01:05:10 - 01:05:11] 這次的賽道
+[01:05:11 - 01:05:12] 我愛你的
+[01:05:12 - 01:05:13] 《無限性的充電器》
+[01:05:13 - 01:05:14] 你也有一個
+[01:05:14 - 01:05:15] 《無限性的充電器》
+[01:05:15 - 01:05:16] 可以說一下
+[01:05:16 - 01:05:17] 你能看到
+[01:05:17 - 01:05:19] 《無限性的充電器》
+[01:05:19 - 01:05:21] 和《無限性的充電器》
+[01:05:21 - 01:05:22] 對
+[01:05:22 - 01:05:23] 所以
+[01:05:23 - 01:05:25] 我想10年前
+[01:05:25 - 01:05:27] 很多人想
+[01:05:27 - 01:05:30] 牛油技術會告訴我們 how to do AI
+[01:05:30 - 01:05:35] 而,亦有多個學生和牛油技術在這裏
+[01:05:35 - 01:05:37] 我並沒有當作是另一個
+[01:05:37 - 01:05:38] 有其他 lab leaders
+[01:05:38 - 01:05:41] 還有其他的背後
+[01:05:41 - 01:05:45] 我發現在很高層的障礙
+[01:05:45 - 01:05:46] 但我不會說
+[01:05:46 - 01:05:48] Oh this is how the
+[01:05:48 - 01:05:50] 我們知道的東西
+[01:05:50 - 01:05:52] 我們可以用的來
+[01:05:52 - 01:05:54] 製作這些模式
+[01:05:54 - 01:05:56] pretty much from scratch
+[01:05:56 - 01:05:59] but interestingly things have gone the other way more
+[01:05:59 - 01:06:02] which is that using interpretability
+[01:06:02 - 01:06:04] we are able to see inside models
+[01:06:04 - 01:06:08] and although of course they are not made exactly the same way
+[01:06:08 - 01:06:12] that human brain is at a kind of superficial level
+[01:06:12 - 01:06:14] there are a lot of differences
+[01:06:14 - 01:06:19] a lot of the conceptual patterns we have found inside models
+[01:06:19 - 01:06:23] sometimes they then get replicated in neuroscience research
+[01:06:23 - 01:06:26] 有些高低的隐蔽物體
+[01:06:26 - 01:06:28] 在視野中
+[01:06:28 - 01:06:30] 那些被發現的
+[01:06:30 - 01:06:32] 是用人物的體力
+[01:06:32 - 01:06:34] 是用人物的體力
+[01:06:34 - 01:06:36] 然後幾年後
+[01:06:36 - 01:06:38] 有些 neuroscientists
+[01:06:38 - 01:06:40] 其實在動物的肺腔中
+[01:06:40 - 01:06:41] 解釋了
+[01:06:41 - 01:06:44] 那些視野模式
+[01:06:44 - 01:06:45] 分別出
+[01:06:45 - 01:06:47] 他們有一個方法
+[01:06:47 - 01:06:50] 那些是合同的顏色
+[01:06:50 - 01:06:53] 另外一條路是
+[01:06:53 - 01:06:56] 明顯的道路
+[01:06:56 - 01:06:58] 或是關於物體的道路
+[01:06:58 - 01:06:59] 這些物體的分別是
+[01:06:59 - 01:07:02] 自然的分別在世界上
+[01:07:02 - 01:07:04] 在那裡發生的
+[01:07:04 - 01:07:05] 任何時間
+[01:07:05 - 01:07:05] 你會有任何的
+[01:07:06 - 01:07:07] 學習系統
+[01:07:07 - 01:07:10] 不管是藝術或是藝術
+[01:07:10 - 01:07:11] 你會發現那些東西
+[01:07:11 - 01:07:12] 所以很有趣
+[01:07:12 - 01:07:13] 我非常期待
+[01:07:13 - 01:07:14] 這個圖書的效果
+[01:07:14 - 01:07:16] 也會影響紐約學院的資料
+[01:07:16 - 01:07:19] 我們進入5-10年時間的時刻
+[01:07:19 - 01:07:23] 至於可能是AIA的可能性
+[01:07:23 - 01:07:25] 可能是一年一時間
+[01:07:25 - 01:07:28] 你認為會是第一百億元的公司
+[01:07:28 - 01:07:30] 一人一家
+[01:07:30 - 01:07:32] 2026
+[01:07:32 - 01:07:34] 我完全明白
+[01:07:37 - 01:07:39] 你有什麼建議
+[01:07:39 - 01:07:40] 在那邊建造
+[01:07:40 - 01:07:41] Claud的建議
+[01:07:41 - 01:07:42] 還有想想
+[01:07:42 - 01:07:43] 建造在那邊
+[01:07:43 - 01:07:44] 對
+[01:07:44 - 01:07:48] 我覺得有很多很特別的
+[01:07:48 - 01:07:51] 你可能會說到如何使用模式
+[01:07:51 - 01:07:53] 但是我感覺因為這個
+[01:07:53 - 01:07:56] 整個時期的時間
+[01:07:56 - 01:07:58] 這個速度的時間
+[01:07:58 - 01:08:00] 就像一句話
+[01:08:00 - 01:08:03] 是被一句話
+[01:08:03 - 01:08:04] 或是兩句話
+[01:08:04 - 01:08:06] 就是要變得更加有趣
+[01:08:06 - 01:08:08] 像建立了一個更大的
+[01:08:08 - 01:08:10] 你認為是有可能的
+[01:08:10 - 01:08:12] 甚至還沒有很久的工作
+[01:08:12 - 01:08:13] 另一個模式會出現
+[01:08:13 - 01:08:14] 下一代的
+[01:08:14 - 01:08:16] 現在是三個月
+[01:08:16 - 01:08:18] 可能会两个月后
+[01:08:18 - 01:08:19] 然后一个月后
+[01:08:19 - 01:08:22] 如果我想来这一年
+[01:08:22 - 01:08:23] 可能我会给你一些建议
+[01:08:23 - 01:08:25] 说你今天不要建议任何事
+[01:08:25 - 01:08:27] 今天我们在今天发布一些事
+[01:08:27 - 01:08:28] 但今天晚上会是
+[01:08:28 - 01:08:32] 你不会想建议这件事
+[01:08:32 - 01:08:33] 我跟一位发生的许多公司
+[01:08:33 - 01:08:35] 两年前在
+[01:08:35 - 01:08:37] AiCodingAgent Space
+[01:08:37 - 01:08:39] 他基本上都试试每个模型
+[01:08:39 - 01:08:41] 他的许多公司不在工作
+[01:08:41 - 01:08:42] 然后有三七
+[01:08:42 - 01:08:43] 他说我的许多公司现在在工作
+[01:08:43 - 01:08:44] 然后是一件同样的事
+[01:08:44 - 01:08:46] 我 deny
+[01:08:46 - 01:08:47] all of a sudden is now
+[01:08:48 - 01:08:50] possible but hitting your head against the wall
+[01:08:50 - 01:08:51] actually sometimes can be useful
+[01:08:51 - 01:08:53] because you put all the other
+[01:08:53 - 01:08:56] pieces in place and and everything
+[01:08:56 - 01:08:57] works except the model
+[01:08:57 - 01:08:59] and then when the model works
+[01:08:59 - 01:09:00] it's almost like you built something
+[01:09:00 - 01:09:01] that's like more robust than it needs
+[01:09:01 - 01:09:03] to be and that can be like a positive
+[01:09:03 - 01:09:05] property yes so so
+[01:09:05 - 01:09:06] you know as much as I joke about
+[01:09:06 - 01:09:07] like oh you should you know
+[01:09:07 - 01:09:09] you can just wait for the next model
+[01:09:09 - 01:09:11] actually hitting your head against the wall
+[01:09:11 - 01:09:11] as long as it's something
+[01:09:11 - 01:09:13] that's like almost possible
+[01:09:13 - 01:09:14] if it's not likeyou know
+[01:09:14 - 01:09:16] 三年後從什麼程度出現
+[01:09:16 - 01:09:18] 我覺得它可以做得更好
+[01:09:18 - 01:09:19] 我們看到了
+[01:09:19 - 01:09:20] 我們在科技學中
+[01:09:20 - 01:09:22] 我們在科技學中
+[01:09:22 - 01:09:22] 我們跟Clout Skillsteam
+[01:09:22 - 01:09:24] 有建立了一種模式
+[01:09:24 - 01:09:25] 這個模式好像失敗了
+[01:09:25 - 01:09:27] 它沒有用到技術
+[01:09:27 - 01:09:28] 然後在3.7特別
+[01:09:28 - 01:09:29] 在Clout 4
+[01:09:29 - 01:09:30] 我們會發現
+[01:09:30 - 01:09:32] 它有很好的進行學
+[01:09:32 - 01:09:33] 因為我們在進行
+[01:09:33 - 01:09:34] 和在這方面的進行
+[01:09:34 - 01:09:36] 對 它是如果你想
+[01:09:36 - 01:09:38] 讓你的開始
+[01:09:38 - 01:09:39] 像是
+[01:09:39 - 01:09:39] 像是
+[01:09:39 - 01:09:39] 像是
+[01:09:39 - 01:09:39] 像是
+[01:09:39 - 01:09:39] 像是
+[01:09:39 - 01:09:40] 像是
+[01:09:40 - 01:09:40] 像是
+[01:09:40 - 01:09:41] 像是
+[01:09:41 - 01:09:41] 像是
+[01:09:41 - 01:09:42] 像是
+[01:09:42 - 01:09:42] 像是
+[01:09:42 - 01:09:43] 像是
+[01:09:43 - 01:09:44] 我愛這句話
+[01:09:44 - 01:09:45] 對,我覺得這句話是對的
+[01:09:45 - 01:09:47] 好,最後一題要說
+[01:09:47 - 01:09:49] 很多人今天我們
+[01:09:49 - 01:09:50] 不像Dario
+[01:09:50 - 01:09:51] 我們沒想過
+[01:09:51 - 01:09:52] 我們今天做的進步
+[01:09:52 - 01:09:53] 和進步的變化
+[01:09:53 - 01:09:54] 你最興奮的是
+[01:09:54 - 01:09:56] 將來的五年
+[01:09:56 - 01:09:59] 對,所以
+[01:09:59 - 01:10:01] 將來的年來
+[01:10:01 - 01:10:03] 我們會看到
+[01:10:03 - 01:10:05] 很厲害的東西
+[01:10:05 - 01:10:06] 在寄信息
+[01:10:06 - 01:10:07] 我會再次重複
+[01:10:07 - 01:10:09] 在我們
+[01:10:09 - 01:10:13] 我們在Codco 和Coding Models 和去到那裡
+[01:10:13 - 01:10:15] 去到Agentfleets
+[01:10:15 - 01:10:18] 我想這會有一個很有趣的事
+[01:10:18 - 01:10:21] 我不會知道我們要小心
+[01:10:21 - 01:10:23] 從經濟或是生產的觀點
+[01:10:23 - 01:10:24] 發生什麼事
+[01:10:24 - 01:10:27] 當資料資料資料的價值下降
+[01:10:27 - 01:10:29] 這是一個預算
+[01:10:29 - 01:10:30] 一個信息
+[01:10:30 - 01:10:31] 你只會用資料
+[01:10:31 - 01:10:34] 如果是值得做的
+[01:10:34 - 01:10:35] 如果是百分之一
+[01:10:35 - 01:10:37] 或者百分之一
+[01:10:37 - 01:10:38] 或者百分之十
+[01:10:38 - 01:10:44] 你不會把整個軟件的軟件做成這個活動
+[01:10:44 - 01:10:46] 你會把東西放在一起
+[01:10:46 - 01:10:48] 但當它變得很便宜
+[01:10:48 - 01:10:50] 當它花你20塊錢
+[01:10:50 - 01:10:53] 就說 讓我們把東西放在一起
+[01:10:53 - 01:10:58] 讓我的視覺變成這個活動
+[01:10:58 - 01:10:59] 或是這樣的
+[01:10:59 - 01:11:02] 我覺得世界會變得很不同
+[01:11:02 - 01:11:03] 這些東西可以做成
+[01:11:03 - 01:11:06] 在一段跌跌的跌跌
+[01:11:06 - 01:11:10] 在一段跌跌的跌跌
+[01:11:10 - 01:11:12] 那是哪一種目的
+[01:11:12 - 01:11:13] 那是哪一種目的
+[01:11:13 - 01:11:15] 那是哪一種目的
+[01:11:15 - 01:11:18] 那是哪一種目的
+[01:11:18 - 01:11:20] 那是哪一種目的
+[01:11:20 - 01:11:21] 我想我們不知道
+[01:11:21 - 01:11:22] 哪一種目的
+[01:11:22 - 01:11:23] 所以這很有趣
+[01:11:23 - 01:11:26] 在五年級
+[01:11:26 - 01:11:27] 我會再次回到
+[01:11:27 - 01:11:29] 我認為
+[01:11:29 - 01:11:32] 藥物不會在下一個年
+[01:11:32 - 01:11:35] 因为它是慢慢地发生的
+[01:11:35 - 01:11:38] 但我希望五年后
+[01:11:38 - 01:11:41] 我们会有多些病毒的变化
+[01:11:41 - 01:11:43] 现在的情况
+[01:11:43 - 01:11:44] 我会把这说明
+[01:11:44 - 01:11:45] 不过我们要回到
+[01:11:45 - 01:11:47] 我感觉我们可以谈到40分钟
+[01:11:47 - 01:11:48] 首先我要感谢达瑞尔
+[01:11:48 - 01:11:49] 为我们的时间
+[01:11:49 - 01:11:55] 谢谢达瑞尔
+[01:11:55 - 01:11:57] 我也想感谢所有的
+[01:11:57 - 01:11:58] 大家在人身上
+[01:11:58 - 01:12:00] 以及大家在直播的视频中
+[01:12:00 - 01:12:01] 但之前我们关闭
+[01:12:01 - 01:12:03] 我几乎忘记了一件事
+[01:12:03 - 01:12:05] 为大家感谢大家
+[01:12:05 - 01:12:07] 今天大家和Claude跟Claude一起
+[01:12:07 - 01:12:08] 和人一起
+[01:12:08 - 01:12:09] 我非常期待
+[01:12:09 - 01:12:10] 每个人都会获得
+[01:12:10 - 01:12:11] Max20X的自由典型
+[01:12:11 - 01:12:13] 我們最高的鐵路計劃是3個月
+[01:12:13 - 01:12:14] 所以我們要看這個
+[01:12:21 - 01:12:23] 我特別喜歡用Max with Claude Code
+[01:12:23 - 01:12:24] 所以我們可以做到這個
+[01:12:24 - 01:12:26] 所以我們不能待會兒看到你建造的
+[01:12:26 - 01:12:27] 今天很棒的天氣
+[01:12:27 - 01:12:29] 有不同的課程
+[01:12:29 - 01:12:30] 歡迎大家再次來加上Code with Claude
+[01:12:30 - 01:12:31] 謝謝你們
+[01:12:31 - 01:12:33] 謝謝你們
