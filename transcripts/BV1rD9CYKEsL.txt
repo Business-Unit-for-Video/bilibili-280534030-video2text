@@ -1,0 +1,18 @@
+BV号：BV1rD9CYKEsL
+标题：BV1rD9CYKEsL
+链接：https://www.bilibili.com/video/BV1rD9CYKEsL
+识别语言：zh
+语言置信度：1
+分段数：10
+生成时间：2026-08-30 11:45:15
+
+[00:00:00 - 00:00:01] 可以幫助
+[00:00:03 - 00:00:04] Algebra and Topology
+[00:00:04 - 00:00:08] those have always been my weakest areas
+[00:00:08 - 00:00:10] I've only been able to get a handle on these areas
+[00:00:10 - 00:00:13] genuinely by translating them into other types of mathematics
+[00:00:13 - 00:00:16] geometry or analysis
+[00:00:16 - 00:00:18] I have a better handle on
+[00:00:18 - 00:00:21] I certainly don't claim any mastery of all of mathematics
+[00:00:21 - 00:00:22] I think nobody can do that
+[00:00:22 - 00:00:23] Not since he...
