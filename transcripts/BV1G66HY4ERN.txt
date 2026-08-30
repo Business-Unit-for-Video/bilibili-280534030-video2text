@@ -1,0 +1,36 @@
+BV号：BV1G66HY4ERN
+标题：BV1G66HY4ERN
+链接：https://www.bilibili.com/video/BV1G66HY4ERN
+识别语言：zh
+语言置信度：1
+分段数：28
+生成时间：2026-08-30 21:23:58
+
+[00:00:00 - 00:00:02] LLMS work for discrete worlds
+[00:00:02 - 00:00:04] they don't work for continuous
+[00:00:04 - 00:00:05] idimensional worlds
+[00:00:05 - 00:00:07] which is the case for video
+[00:00:07 - 00:00:08] and this is why
+[00:00:08 - 00:00:10] LLMS do not understand the physical world
+[00:00:11 - 00:00:13] and cannot be used in that cornd form
+[00:00:13 - 00:00:16] to really understand the physical world
+[00:00:16 - 00:00:18] and so we have
+[00:00:18 - 00:00:19] I mean, LLMS are amazing in their ability
+[00:00:19 - 00:00:21] to manipulate language
+[00:00:21 - 00:00:25] but they can make very, very stupid mistakes
+[00:00:25 - 00:00:27] that reveal they really don't understand
+[00:00:27 - 00:00:28] how the world works, right
+[00:00:28 - 00:00:29] the underlying world
+[00:00:29 - 00:00:36] 這是我們為何有系統可以通過游泳或寫寫寫文章
+[00:00:36 - 00:00:39] 我們沒有動物,我們沒有動物車
+[00:00:39 - 00:00:42] 或完全無法動物的5級動物車
+[00:00:42 - 00:00:46] 我們沒有系統可以理解很基本的事
+[00:00:46 - 00:00:47] 你的貓可以理解
+[00:00:47 - 00:00:50] 所以我已經說過
+[00:00:50 - 00:00:52] 你懂,你懂,你懂,你懂,你懂
+[00:00:52 - 00:00:53] 對
+[00:00:53 - 00:00:54] 是真的
+[00:00:54 - 00:00:57] 所以我們的 challenge for the next few years
+[00:00:57 - 00:01:03] 是要建立AI systems that lift the limitations of LLM
+[00:01:03 - 00:01:06] So, systems that understand a physical world
+[00:01:06 - 00:01:10] 要有永續的記憶, which LLMs don't have at the moment
