@@ -1,0 +1,154 @@
+BV号：BV1WSq9YfEDD
+标题：BV1WSq9YfEDD
+链接：https://www.bilibili.com/video/BV1WSq9YfEDD
+识别语言：zh
+语言置信度：1
+分段数：146
+生成时间：2026-08-31 02:13:51
+
+[00:00:03 - 00:00:04] Google 推出最新的
+[00:00:04 - 00:00:05] Gemini 家庭
+[00:00:05 - 00:00:07] Multimodal 和大語言模式
+[00:00:07 - 00:00:10] Gemini 2.0 Flash 學習
+[00:00:10 - 00:00:12] Multimodal 模式像 Gemini 1.5
+[00:00:12 - 00:00:16] 用文字、文字和影片的設計
+[00:00:16 - 00:00:18] Gemini 2.0 Flash 也有能力
+[00:00:18 - 00:00:19] 去發展貢獻的方式
+[00:00:19 - 00:00:21] 包括文字和文字
+[00:00:22 - 00:00:23] 這技能
+[00:00:23 - 00:00:25] 能夠增加技術和技術
+[00:00:25 - 00:00:28] 如 Google Search 和 Code Execution
+[00:00:28 - 00:00:29] 產生者可以 now 建立
+[00:00:29 - 00:00:31] 更多的項目
+[00:00:31 - 00:00:34] 例如,在進行多次研究,
+[00:00:34 - 00:00:35] 然後視察結果的結果,
+[00:00:35 - 00:00:37] 用了發展的程式
+[00:00:37 - 00:00:38] 這次的興趣
+[00:00:38 - 00:00:40] 是在Gemini 2.0
+[00:00:40 - 00:00:43] 使用了Multi-Modal Live API
+[00:00:43 - 00:00:45] Multi-Modal Live API
+[00:00:45 - 00:00:47] 是一個自行的屏幕
+[00:00:47 - 00:00:48] 使用了我們有
+[00:00:48 - 00:00:50] 有時 real-time voice interactions
+[00:00:50 - 00:00:52] 和自然的討論
+[00:00:52 - 00:00:53] 你可以現在進行
+[00:00:53 - 00:00:54] 使用了Modal live audio
+[00:00:54 - 00:00:55] 和影片
+[00:00:55 - 00:00:58] 從麥克風、 webcam 或屏幕
+[00:00:58 - 00:00:59] Modal 可以使用
+[00:00:59 - 00:01:01] 跟广告和调节的交通
+[00:01:01 - 00:01:03] 令我们更有免费的体系
+[00:01:03 - 00:01:05] 这可能是很有趣的想象的
+[00:01:05 - 00:01:07] 我们来看一些例子
+[00:01:07 - 00:01:09] 这张模式
+[00:01:09 - 00:01:11] 呈现了与Gemini 2.0 flash
+[00:01:11 - 00:01:13] 使用了MultiModel Live API
+[00:01:13 - 00:01:15] 在Google AI Studio
+[00:01:15 - 00:01:17] 能看到我的画面吗
+[00:01:17 - 00:01:22] 是的 我看到你的画面
+[00:01:22 - 00:01:24] 它在视频里
+[00:01:24 - 00:01:26] 也有一个画面
+[00:01:26 - 00:01:28] 也有一个纸缺点
+[00:01:28 - 00:01:30] 在视频里有一个人
+[00:01:30 - 00:01:32] Anything in particular you would like to talk about on the screen?
+[00:01:34 - 00:01:39] Yeah, can you start the demo by just reading the text I highlighted?
+[00:01:42 - 00:01:43] Sure, I can do that.
+[00:01:43 - 00:01:44] The text you highlighted reads,
+[00:01:44 - 00:01:47] the Multimodal Live API lets you build real-time
+[00:01:47 - 00:01:51] multimodal applications powered by Gemini 2.0 Flash.
+[00:01:51 - 00:01:54] It features tool use like Google search and code execution,
+[00:01:54 - 00:01:56] function calling and more.
+[00:01:58 - 00:02:02] This demo shows a user having a conversation with Gemini 2.0 Flash.
+[00:02:02 - 00:02:06] The app itself has been built to work with Multin with a live API.
+[00:02:07 - 00:02:11] Make a bar graph that compares the run time of the Godfather and Oppenheimer.
+[00:02:14 - 00:02:16] Add the other two Godfathers to the graph.
+[00:02:19 - 00:02:22] Pick three random superhero movies and add them to the graph.
+[00:02:27 - 00:02:31] That's a quick demonstration of how you can have a live conversation with Gemini 2.0 Flash.
+[00:02:32 - 00:02:37] Notice that you can have natural conversations enabled by the low latency of responses.
+[00:02:37 - 00:02:41] The bi-directional streaming interface allows you to interrupt the model,
+[00:02:41 - 00:02:44] 讓你免得改變規定和發展在談論中
+[00:02:45 - 00:02:48] 所以,你開始在《Gemini 2.0 Flash》開始發展嗎?
+[00:02:48 - 00:02:50] 在這些例子,你可以看到需要的程式
+[00:02:50 - 00:02:52] 去進行調整
+[00:02:53 - 00:02:56] 這個例子是在 Python 用 WebSockets 寫的
+[00:02:58 - 00:03:01] 嗨,你能夠把我們 Solar System 輸入嗎?
+[00:03:03 - 00:03:04] 當然,我能做到的
+[00:03:04 - 00:03:05] 我們 Solar System 輸入的
+[00:03:05 - 00:03:10] 在天空中,我們 Mercury、Venus、 Earth、 Mars、Jupiter、Saturn
+[00:03:10 - 00:03:17] No problem. The gas planets in our solar system are Jupiter, Saturn, Uranus and Neptune.
+[00:03:17 - 00:03:19] Thanks.
+[00:03:19 - 00:03:24] Next up, let's talk about one of the new output modalities.
+[00:03:24 - 00:03:32] Gemini 2.0 Flash now generates images and supports conversational multi-tone editing,
+[00:03:32 - 00:03:34] so you can build on previous outputs and refine them.
+[00:03:34 - 00:03:37] It can output interleave text and images,
+[00:03:37 - 00:03:39] 使用以 brain storming design ideas
+[00:03:39 - 00:03:43] 或 display visuals alongside step by step instructions
+[00:03:43 - 00:03:46] img output is available to early testers
+[00:03:46 - 00:03:49] with a wider rollout expected next year
+[00:03:49 - 00:03:53] geminai 2.0 flash features new, text-to-speech style audio capabilities
+[00:03:53 - 00:03:57] making multi-lingual native audio output available for developers
+[00:03:57 - 00:04:00] What's different is that native audio has fine-grained control
+[00:04:00 - 00:04:03] over not just what the model says, but how it says it
+[00:04:03 - 00:04:07] 8高音量和1個語言和音量
+[00:04:07 - 00:04:10] 我們來聽Multi-lingual native audio output
+[00:04:10 - 00:04:11] 在動作
+[00:04:11 - 00:04:14] What exactly is Native Audio?
+[00:04:14 - 00:04:19] You're actually...
+[00:04:19 - 00:04:22] Everything you hear in this video was generated with prompts
+[00:04:22 - 00:04:24] Like, you know, this actual prompt on your screen
+[00:04:24 - 00:04:26] Like, right now
+[00:04:26 - 00:04:31] It was all generated by prompting the new experimental Gemini 2.0 flash model
+[00:04:31 - 00:04:35] Like you see in this AI Studio screen cap
+[00:04:35 - 00:04:37] You can prompt it to just be like
+[00:04:37 - 00:04:40] dude you know just totally chill
+[00:04:40 - 00:04:43] or prompt it to speak with
+[00:04:43 - 00:04:48] oh so very many dramatic pauses
+[00:04:48 - 00:04:50] So you can see that when Gemini responds
+[00:04:50 - 00:04:52] it generates not only the words
+[00:04:52 - 00:04:54] but the style including emphasis,
+[00:04:54 - 00:04:55] tone and natural pauses.
+[00:04:56 - 00:04:59] It can also switch between languages in the same response.
+[00:04:59 - 00:05:01] So I'm starting out speaking english
+[00:05:02 - 00:05:04] but then
+[00:05:04 - 00:05:07] 但现在,我说的是英文
+[00:05:07 - 00:05:11] 而且现在我说的是韩国
+[00:05:34 - 00:05:37] 模特也有改善了空間理解,
+[00:05:37 - 00:05:40] 使用更明顯的盤面插槽
+[00:05:40 - 00:05:41] 在小物體上的畫面上
+[00:05:41 - 00:05:44] 和更好的物體發展和採訪
+[00:05:44 - 00:05:48] Gemini 2.0 也有用上技術
+[00:05:48 - 00:05:49] 根據進展的設計,
+[00:05:49 - 00:05:51] Gemini 2.0 能夠使用
+[00:05:51 - 00:05:54] 鏡頭、手機、
+[00:05:54 - 00:05:55] 和製作的結果
+[00:05:55 - 00:05:57] 使用更多的技術
+[00:05:57 - 00:05:58] 它能夠使用
+[00:05:58 - 00:05:59] 搜尋搜尋的技術
+[00:05:59 - 00:06:00] 能在同一步行
+[00:06:00 - 00:06:02] 找出更多重要的技術
+[00:06:02 - 00:06:03] 從各種資料
+[00:06:03 - 00:06:06] 它可以用程式使用或是功能的呼應
+[00:06:06 - 00:06:07] 來調整結果的導致
+[00:06:07 - 00:06:10] 更加明確的訊息
+[00:06:10 - 00:06:12] 如果您有興趣在試用
+[00:06:12 - 00:06:13] 這些技術的技術
+[00:06:13 - 00:06:15] 為建立新的應用程式
+[00:06:15 - 00:06:16] 建立更新的技術
+[00:06:16 - 00:06:17] 您可以試試探查
+[00:06:17 - 00:06:19] Gemini 2.0 Flash
+[00:06:19 - 00:06:20] via Gemini API
+[00:06:20 - 00:06:22] Google AI Studio
+[00:06:22 - 00:06:23] 和Virtex AI
+[00:06:23 - 00:06:25] 在它們的經驗 phase
+[00:06:25 - 00:06:26] 將會有更新的技術
+[00:06:26 - 00:06:27] 將會有更新的技術
+[00:06:28 - 00:06:29] 如果您想試試
+[00:06:29 - 00:06:30] 其他程式的技術
+[00:06:30 - 00:06:31] 在這段影片
+[00:06:31 - 00:06:34] 跟着链接到Docs和Google CoLab Notebooks
+[00:06:34 - 00:06:37] 是一部分的Gemini Cookbook
+[00:06:37 - 00:06:40] 有更多的用家用家的Gemini and Google AI
+[00:06:40 - 00:06:43] 跟着新的G Google AI 和新的社交媒体
+[00:06:43 - 00:06:46] 更多的课程在下周的公布中
+[00:06:46 - 00:06:48] 所以订阅和订阅
+[00:06:48 - 00:06:52] 我们一直看着你建议的Gemini
