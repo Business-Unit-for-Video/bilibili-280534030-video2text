@@ -1,0 +1,504 @@
+BV号：BV1jdk2YgEWq
+标题：BV1jdk2YgEWq
+链接：https://www.bilibili.com/video/BV1jdk2YgEWq
+识别语言：zh
+语言置信度：1
+分段数：496
+生成时间：2026-08-31 00:36:37
+
+[00:00:00 - 00:00:08] Hey everybody, welcome to day 11.
+[00:00:08 - 00:00:11] I'm Kevin Weal, I lead product at OpenAI
+[00:00:11 - 00:00:15] and I'm definitely outclassed by the two gentlemen on my right
+[00:00:15 - 00:00:21] who I'm told did not just get these suits 48 hours ago on Amazon.
+[00:00:21 - 00:00:24] Definitely on this already.
+[00:00:24 - 00:00:29] Alright, so you might have noticed we've been putting a lot of effort into our desktop apps.
+[00:00:29 - 00:00:32] So we launched our Mac desktop app about six months ago.
+[00:00:32 - 00:00:35] We launched our Windows desktop app just a couple months ago.
+[00:00:35 - 00:00:38] 而我們模式變得更加強烈
+[00:00:38 - 00:00:42] chatgpt會更加變成Agentic
+[00:00:42 - 00:00:44] 這也就是說我們會更加
+[00:00:44 - 00:00:46] 問和回答
+[00:00:46 - 00:00:49] chatgpt會開始做事
+[00:00:49 - 00:00:51] 我們已經看到了
+[00:00:51 - 00:00:52] 產品像CANVUS
+[00:00:52 - 00:00:56] 你會在chatgpt
+[00:00:56 - 00:00:59] 幫助你改善你的寫法
+[00:00:59 - 00:01:00] 那一切會繼續
+[00:01:00 - 00:01:04] chatgpt會更加多在你的 behalf
+[00:01:04 - 00:01:06] 而在網站的頁面是一個大部分
+[00:01:06 - 00:01:08] 因為在網站的頁面
+[00:01:08 - 00:01:10] 可以做更多的事
+[00:01:10 - 00:01:12] 就像在網站的頁面
+[00:01:12 - 00:01:13] 這包括
+[00:01:13 - 00:01:14] 你的自信
+[00:01:14 - 00:01:16] 可以看到你的顯示
+[00:01:16 - 00:01:18] 可以把你做的工作
+[00:01:18 - 00:01:20] 在網站上的頁面
+[00:01:20 - 00:01:22] 我們會有更多的說話
+[00:01:22 - 00:01:24] 在2025年
+[00:01:24 - 00:01:26] 我們也有
+[00:01:26 - 00:01:28] 一些很興奮的東西
+[00:01:28 - 00:01:30] 我們來介紹一下
+[00:01:30 - 00:01:32] 我是John Nastos
+[00:01:32 - 00:01:34] chatgpt desktop team
+[00:01:34 - 00:01:35] 我叫Justin Rushing
+[00:01:35 - 00:01:38] 我也是在chatgpt desktop team
+[00:01:38 - 00:01:40] 今天有很多的表演
+[00:01:40 - 00:01:42] 所以我先去看看
+[00:01:42 - 00:01:44] 首先
+[00:01:44 - 00:01:46] 这边是
+[00:01:46 - 00:01:48] fully native chatgpt desktop app
+[00:01:48 - 00:01:50] for Mac
+[00:01:50 - 00:01:52] 它是所有的东西
+[00:01:52 - 00:01:54] 我们来的
+[00:01:54 - 00:01:56] 我喜欢的是
+[00:01:56 - 00:01:58] 在 being native 它很软弱
+[00:01:58 - 00:02:00] 用不着很多的权利
+[00:02:00 - 00:02:02] Windows 和
+[00:02:02 - 00:02:07] I'm able to use it without having to context switch away from what I'm already doing.
+[00:02:07 - 00:02:10] So we've got this keyboard shortcut, Option Space,
+[00:02:10 - 00:02:12] that makes it really fast to show and hide chat GPT.
+[00:02:12 - 00:02:14] So it's always there when you need it.
+[00:02:14 - 00:02:19] This button right here is our entry point for working with apps on your computer.
+[00:02:19 - 00:02:25] And the way that I like to think about this feature is that we all copy and paste things into chat GPT.
+[00:02:25 - 00:02:27] All the time.
+[00:02:27 - 00:02:29] This feature makes that way smoother
+[00:02:29 - 00:02:32] by when we are working with an app on your computer
+[00:02:32 - 00:02:35] will automatically pull that context in for you
+[00:02:35 - 00:02:37] so you just focus on asking your question
+[00:02:37 - 00:02:39] and will handle the rest
+[00:02:39 - 00:02:41] so you might notice that I've also got this warp
+[00:02:41 - 00:02:43] console window open as well
+[00:02:43 - 00:02:46] it's currently navigated to a repository
+[00:02:46 - 00:02:48] that I'm getting up to speed on
+[00:02:48 - 00:02:51] and it might seem kind of silly
+[00:02:51 - 00:02:53] but I want to figure out how many commits per day
+[00:02:53 - 00:02:54] are happening in this repo
+[00:02:54 - 00:02:56] you know we talk about velocity a lot here
+[00:02:56 - 00:02:58] so I want to see that for myself
+[00:02:58 - 00:03:00] 我没有想到如何做到
+[00:03:00 - 00:03:01] 所以我用chatgpt
+[00:03:02 - 00:03:04] 所以当我打开这个按键
+[00:03:04 - 00:03:05] 我会看到所有的 apps
+[00:03:05 - 00:03:06] 在我的 computer 上的
+[00:03:06 - 00:03:08] 都可以在chatgpt 上的
+[00:03:08 - 00:03:08] 工作
+[00:03:09 - 00:03:10] 重要的证明
+[00:03:10 - 00:03:12] 到你选择了这一项
+[00:03:12 - 00:03:13] 我们不会再看
+[00:03:13 - 00:03:15] 其中一个app
+[00:03:15 - 00:03:16] 所以你永远都在
+[00:03:16 - 00:03:17] 控制到
+[00:03:17 - 00:03:17] 你在分享的
+[00:03:17 - 00:03:18] chatgpt
+[00:03:19 - 00:03:20] 所以开始
+[00:03:20 - 00:03:21] 我会打开warp
+[00:03:21 - 00:03:22] 这次
+[00:03:22 - 00:03:24] 很感谢Warp
+[00:03:24 - 00:03:25] 他们的帮助
+[00:03:25 - 00:03:26] 和这个进行
+[00:03:26 - 00:03:27] 当我们第一次
+[00:03:27 - 00:03:29] 我們還不支持WARP
+[00:03:29 - 00:03:33] 是我們第一次,在WARP是使用的
+[00:03:34 - 00:03:37] 非常棒,他們很努力
+[00:03:37 - 00:03:39] 幫我們準備好,謝謝
+[00:03:39 - 00:03:43] 我要開始,寫下
+[00:03:43 - 00:03:48] 每天的公開數字
+[00:03:48 - 00:03:50] 在這兩個月
+[00:03:50 - 00:03:53] 現在我必須告訴信息
+[00:03:53 - 00:03:55] 因為我會告訴WARP
+[00:03:55 - 00:03:56] 我會做的
+[00:03:56 - 00:03:58] 它會給我需要的領導
+[00:03:58 - 00:03:59] 我會把這個按鈕推開
+[00:03:59 - 00:04:01] 然後把這個按鈕填補
+[00:04:01 - 00:04:04] 我認為這個看起來對
+[00:04:04 - 00:04:06] 對,看起來對的
+[00:04:06 - 00:04:07] 但也很難告訴我們
+[00:04:07 - 00:04:08] 我們在看,對嗎?
+[00:04:08 - 00:04:10] 對,我是一位視頻學生
+[00:04:10 - 00:04:12] 我會做的是
+[00:04:12 - 00:04:13] 我會想辦法把這個
+[00:04:13 - 00:04:14] 進入一個座位
+[00:04:14 - 00:04:15] 把座位寫在那裡
+[00:04:15 - 00:04:16] 然後再找一個座位
+[00:04:16 - 00:04:17] 再三年
+[00:04:17 - 00:04:21] 但我會再問一個
+[00:04:21 - 00:04:25] So make a bar graph with all of the results.
+[00:04:25 - 00:04:28] Why not? Make it holiday themed.
+[00:04:28 - 00:04:30] Great idea.
+[00:04:30 - 00:04:31] And awesome.
+[00:04:31 - 00:04:34] So this is going to show off what I think is the coolest part
+[00:04:34 - 00:04:35] about working with apps
+[00:04:35 - 00:04:36] which is that it works with all of the other
+[00:04:36 - 00:04:39] features and all of the other models in chatGPT.
+[00:04:39 - 00:04:41] So in this case,
+[00:04:41 - 00:04:44] FORO decided to use Advanced Data Analysis
+[00:04:44 - 00:04:46] to crunch some numbers and give me back a bar graph.
+[00:04:46 - 00:04:48] And what that means if you really think about it
+[00:04:48 - 00:04:50] is thatwhen we build features like
+[00:04:50 - 00:04:51] Advanced Data Analysis
+[00:04:51 - 00:04:53] and bring them to ChatGPT
+[00:04:53 - 00:04:55] it's kind of like we're bringing them to every app
+[00:04:55 - 00:04:57] that ChatGPT works with.
+[00:04:57 - 00:05:00] Yeah, it's great, so while it thinks about this,
+[00:05:00 - 00:05:01] do you want to talk a little bit
+[00:05:01 - 00:05:02] about what the model is actually seeing,
+[00:05:02 - 00:05:04] is it just what we see on the screen
+[00:05:04 - 00:05:05] or is it something more?
+[00:05:05 - 00:05:06] Great question, so an easy way to do this
+[00:05:06 - 00:05:08] would be to just grab a screenshot
+[00:05:08 - 00:05:10] and let Vision do the rest,
+[00:05:10 - 00:05:13] but we actually can reach into the application
+[00:05:13 - 00:05:15] to grab AFScreen content as well,
+[00:05:15 - 00:05:18] and so these results will contain everything here,
+[00:05:18 - 00:05:19] 就是你剛才看到的
+[00:05:19 - 00:05:20] 對
+[00:05:20 - 00:05:21] 我在想這個
+[00:05:21 - 00:05:23] 可能是 holiday theme 部分
+[00:05:23 - 00:05:24] 我知道
+[00:05:24 - 00:05:26] OK 完美
+[00:05:26 - 00:05:28] 好 這樣看起來
+[00:05:28 - 00:05:29] 我自己的 holiday theme
+[00:05:29 - 00:05:30] 你覺得是怎樣
+[00:05:30 - 00:05:31] 我自己的 holiday theme
+[00:05:31 - 00:05:32] 我不知道是否是
+[00:05:32 - 00:05:33] 我們自己的 holiday theme
+[00:05:33 - 00:05:34] 但是這件衣服
+[00:05:34 - 00:05:35] 但不太好
+[00:05:35 - 00:05:36] 沒有任何
+[00:05:36 - 00:05:38] 是 holiday theme 部分
+[00:05:38 - 00:05:39] 對
+[00:05:39 - 00:05:40] 完美 完美
+[00:05:40 - 00:05:41] 但我對這個好
+[00:05:41 - 00:05:42] 所以我會下載這個
+[00:05:42 - 00:05:43] 現在我可以分享
+[00:05:43 - 00:05:44] 跟隊友一起
+[00:05:44 - 00:05:45] 但我會再回到
+[00:05:45 - 00:05:48] John to talk a bit more about programming.
+[00:05:48 - 00:05:49] Great.
+[00:05:49 - 00:05:51] So I think that the use case that Justin showed
+[00:05:51 - 00:05:54] is really important and useful to be able to interact
+[00:05:54 - 00:05:55] with a terminal.
+[00:05:55 - 00:05:58] But I want to show what it's like to interact with code
+[00:05:58 - 00:05:59] in an IDE.
+[00:05:59 - 00:06:02] So I have Xcode open here,
+[00:06:02 - 00:06:03] which is my IDE of choice.
+[00:06:03 - 00:06:06] And it's running a sample app that is actually a little bit
+[00:06:06 - 00:06:09] of a peek behind the scenes into how this work
+[00:06:09 - 00:06:10] with apps feature works.
+[00:06:10 - 00:06:14] The sample app uses the macOS accessibility APIs
+[00:06:14 - 00:06:18] to look at Xcode and tell us some things about what's on the screen.
+[00:06:18 - 00:06:22] So it's telling us that there is a text field with these dimensions.
+[00:06:22 - 00:06:26] It tells us that it has 37 lines and we can go down and check that.
+[00:06:26 - 00:06:30] 37 lines, yep, and it shows us the content of the text field.
+[00:06:30 - 00:06:32] And we actually use this to make the feature, right?
+[00:06:32 - 00:06:35] That's right. Yeah, this is a useful sample app for us, for sure.
+[00:06:35 - 00:06:38] So this is nice, but it doesn't do any live updating.
+[00:06:38 - 00:06:42] So I'm going to use ChatGPT to help add that feature.
+[00:06:42 - 00:06:44] I'm going to bring up the chat bar
+[00:06:44 - 00:06:45] with a very similar shortcut
+[00:06:45 - 00:06:47] to what Justin showed earlier
+[00:06:47 - 00:06:48] but with a slight change.
+[00:06:48 - 00:06:50] I'm going to use option shift 1
+[00:06:50 - 00:06:53] and what that does is it brings up the chat bar
+[00:06:53 - 00:06:56] with Xcode automatically paired to it
+[00:06:56 - 00:06:58] Xcode being the topmost app
+[00:06:58 - 00:07:00] that is open that we support with this feature.
+[00:07:00 - 00:07:02] It makes it super quick to start working with an app.
+[00:07:02 - 00:07:03] Yeah, it's great.
+[00:07:03 - 00:07:05] And you get this immediate feedback
+[00:07:05 - 00:07:07] that it sees Xcode here.
+[00:07:07 - 00:07:10] So these accessibility APIs
+[00:07:10 - 00:07:12] are a little bit inscrutable.
+[00:07:12 - 00:07:14] 是非常難記住的
+[00:07:14 - 00:07:15] 其實很複雜
+[00:07:16 - 00:07:18] 所以我會用這個模式選擇
+[00:07:18 - 00:07:20] 然後我會把這個轉到O1
+[00:07:21 - 00:07:24] O1是我們新的模式
+[00:07:24 - 00:07:25] 在OpenAI
+[00:07:25 - 00:07:26] 做了很棒的工作
+[00:07:26 - 00:07:28] 在想這些很難用的構造問題
+[00:07:30 - 00:07:31] 我應該說
+[00:07:32 - 00:07:34] 這個功能也會有O1 Pro
+[00:07:34 - 00:07:36] 如果你想把
+[00:07:36 - 00:07:37] 深處理構造問題
+[00:07:37 - 00:07:38] 放在模式上
+[00:07:38 - 00:07:39] 對
+[00:07:39 - 00:07:41] 好,我們來給它一個提示
+[00:07:41 - 00:07:44] 我會說,ad an observer
+[00:07:46 - 00:07:49] 所以如果選擇改善
+[00:07:50 - 00:07:54] load text areas is called
+[00:07:55 - 00:07:57] 我們會把這個項目推到模式上
+[00:07:58 - 00:08:00] O1是我們想要的一條
+[00:08:00 - 00:08:03] 你可以看到它在想這個問題
+[00:08:03 - 00:08:04] 它會告訴我們一些步驟
+[00:08:04 - 00:08:06] 它會進行進行的
+[00:08:06 - 00:08:09] 哇!那是一個很快的回應
+[00:08:09 - 00:08:10] 我猜不太想要這樣
+[00:08:10 - 00:08:11] 我猜不出來
+[00:08:11 - 00:08:12] 你得給它一個更難的問題
+[00:08:12 - 00:08:13] 對 哇
+[00:08:14 - 00:08:16] 好 所以有些註冊
+[00:08:16 - 00:08:19] 我還有一個很大的信念
+[00:08:19 - 00:08:21] 在O1的註冊中
+[00:08:21 - 00:08:23] 所以等於結束了註冊
+[00:08:23 - 00:08:24] 我會把這個註冊
+[00:08:24 - 00:08:25] 進入X註冊
+[00:08:25 - 00:08:28] 我們會去試試看
+[00:08:28 - 00:08:30] 我看不見什麼會出錯
+[00:08:30 - 00:08:32] 沒有 註冊
+[00:08:32 - 00:08:34] 對 註冊活動100%的時間
+[00:08:34 - 00:08:37] 是一種規定的
+[00:08:38 - 00:08:39] 好 所以我把註冊
+[00:08:39 - 00:08:42] 我直接把它拼在Xcode
+[00:08:42 - 00:08:44] 我會用一個快點的按鈕
+[00:08:44 - 00:08:46] 看看有什麼問題
+[00:08:46 - 00:08:48] 現在看起來很明顯
+[00:08:48 - 00:08:49] 好
+[00:08:49 - 00:08:50] 所以我們來試試看
+[00:08:50 - 00:08:52] 看看有什麼事
+[00:08:52 - 00:08:54] 它會很酷
+[00:08:54 - 00:08:55] 如果沒有要用 copy 拼
+[00:08:55 - 00:08:57] 再拼到 Xcode 的話
+[00:08:57 - 00:08:58] 那會很酷
+[00:08:58 - 00:09:00] 大家已經提出過了
+[00:09:00 - 00:09:00] 我可以建立嗎
+[00:09:00 - 00:09:02] 你肯定可以建立
+[00:09:02 - 00:09:03] 好,PM 成功
+[00:09:03 - 00:09:05] 好,好
+[00:09:05 - 00:09:07] 所以我們再次開始
+[00:09:07 - 00:09:11] 我們來看看如果我選擇了資料
+[00:09:11 - 00:09:12] 不,沒有
+[00:09:12 - 00:09:13] 沒有
+[00:09:13 - 00:09:14] 沒有做到,就像我們想的
+[00:09:14 - 00:09:16] 我們可以給它一個更好的照片嗎?
+[00:09:16 - 00:09:17] 對,我們可以給它一個更好的照片嗎?
+[00:09:17 - 00:09:18] 對,好
+[00:09:18 - 00:09:20] 所以我覺得我其實
+[00:09:20 - 00:09:22] 就要回到我們之前的情況
+[00:09:22 - 00:09:25] 因為我沒有一個特別的錯誤
+[00:09:25 - 00:09:29] 我們來試試去把改變
+[00:09:29 - 00:09:32] 好
+[00:09:32 - 00:09:33] 我們給它一個更好的照片
+[00:09:33 - 00:09:34] 對,一個更好的照片
+[00:09:34 - 00:09:38] 我們可以再說一些更多的特點
+[00:09:38 - 00:09:41] OK,Add an observer
+[00:09:41 - 00:09:45] So if selection changes
+[00:09:46 - 00:09:49] Load text areas is called
+[00:09:50 - 00:09:50] Again
+[00:09:51 - 00:09:54] Alright,maybe it didn't think hard enough on that
+[00:09:54 - 00:09:55] We'll try it again
+[00:09:55 - 00:09:56] It got overconfident
+[00:09:56 - 00:09:59] Well,it thinks about this.I should mention that I'm using Xcode
+[00:09:59 - 00:10:03] Like I said,this is my IDE of choice when working with Swift
+[00:10:03 - 00:10:06] But we do support a whole bunch of other IDEs
+[00:10:06 - 00:10:08] That means VS code
+[00:10:08 - 00:10:11] The JetBrains ecosystem, which includes Android Studio
+[00:10:11 - 00:10:14] and PyCharm RubyMine, things like that.
+[00:10:14 - 00:10:19] Some really standby Mac apps like TextMate and BBEdit.
+[00:10:19 - 00:10:21] So we've got a whole lot of different support here.
+[00:10:21 - 00:10:25] Yeah, I'm actually unreasonably excited for Matlab support.
+[00:10:25 - 00:10:27] I would have totally used that in college.
+[00:10:27 - 00:10:29] Yeah, Matlab is another exciting one.
+[00:10:29 - 00:10:32] I think some students are really going to find that useful.
+[00:10:32 - 00:10:35] Okay, it is still generating some code.
+[00:10:35 - 00:10:37] There it goes. It's done.
+[00:10:37 - 00:10:39] 我們可以用這個按鈕按鈕
+[00:10:39 - 00:10:40] 然後再按一次
+[00:10:40 - 00:10:41] 用一切信任
+[00:10:41 - 00:10:43] 所有東西都在工作
+[00:10:43 - 00:10:44] 我現在會給它們的按鈕
+[00:10:44 - 00:10:45] 現在我們知道
+[00:10:45 - 00:10:46] 它們是否可以走錯
+[00:10:46 - 00:10:47] 對 當然
+[00:10:47 - 00:10:49] 好 所以
+[00:10:49 - 00:10:50] 我們再按一次
+[00:10:50 - 00:10:52] 看看我們能否有
+[00:10:52 - 00:10:54] 比較好的幸運
+[00:10:54 - 00:10:57] 好 它在走
+[00:10:57 - 00:10:59] 嗨 如果我選了
+[00:10:59 - 00:11:01] 它們會改變
+[00:11:01 - 00:11:03] 這是一種 holiday miracle
+[00:11:03 - 00:11:04] 你得到的銀行
+[00:11:04 - 00:11:06] 對 沒錯 沒錯
+[00:11:06 - 00:11:08] 我們今天談到很多的註意
+[00:11:08 - 00:11:11] 但是另外一個我喜歡用chatGBT
+[00:11:11 - 00:11:13] 是幫助你寫的
+[00:11:13 - 00:11:15] 我知道我沒有在這裡
+[00:11:15 - 00:11:17] 今天我們會提供支援
+[00:11:17 - 00:11:19] 三個新的應用
+[00:11:19 - 00:11:21] Apple Notes, Notion, and Quip
+[00:11:21 - 00:11:23] 我們認為這會開發
+[00:11:23 - 00:11:25] 新的設定和應用
+[00:11:25 - 00:11:26] 所以我們不期待
+[00:11:26 - 00:11:27] 你們一起做什麼
+[00:11:27 - 00:11:29] 那裡
+[00:11:29 - 00:11:31] John, Kevin,你已經知道了
+[00:11:31 - 00:11:33] 但是以後我們會
+[00:11:33 - 00:11:34] 但是 rest of you
+[00:11:34 - 00:11:36] 我給歷史旅遊
+[00:11:36 - 00:11:38] 在工作外
+[00:11:38 - 00:11:41] 歷史旅遊
+[00:11:41 - 00:11:42] San Francisco 已經有一個很棒的故事
+[00:11:42 - 00:11:44] 我正在工作
+[00:11:44 - 00:11:45] 一個新的歷史旅遊
+[00:11:45 - 00:11:47] 為什麼不試試這個特點
+[00:11:47 - 00:11:48] 幫我做這個
+[00:11:48 - 00:11:48] 來吧
+[00:11:48 - 00:11:49] 好
+[00:11:49 - 00:11:53] 這裡有一個標誌
+[00:11:53 - 00:11:54] 在我的 computer 開放
+[00:11:54 - 00:11:55] 我經常寫我的旅遊和標誌
+[00:11:55 - 00:11:56] 這其實是一個
+[00:11:56 - 00:11:57] 實際歷史旅遊
+[00:11:57 - 00:11:58] 我正在工作
+[00:11:58 - 00:12:00] 所以我希望大家會找到
+[00:12:00 - 00:12:01] 很有趣的
+[00:12:01 - 00:12:04] 但是我還在做一個新的停止
+[00:12:04 - 00:12:05] 我的最愛的個人是
+[00:12:05 - 00:12:07] San Francisco的歷史
+[00:12:07 - 00:12:08] emperor Norton
+[00:12:08 - 00:12:10] 我聽到一些很高級的說話
+[00:12:10 - 00:12:13] 他是美國的英國王國王國王國的 self-proclaimed emperor
+[00:12:13 - 00:12:14] 和美國的保護者
+[00:12:14 - 00:12:17] 他住在San Francisco
+[00:12:17 - 00:12:18] 在1800年
+[00:12:18 - 00:12:20] 他甚至讓他的自己的資料
+[00:12:20 - 00:12:22] 都在這市場裡很值得
+[00:12:22 - 00:12:23] 那是一個可以做的事嗎
+[00:12:23 - 00:12:24] 對 當然是
+[00:12:24 - 00:12:25] 當然是 可以做的
+[00:12:25 - 00:12:27] 我覺得他會做出很好的停止
+[00:12:27 - 00:12:29] 但是我一點都有點不小心
+[00:12:29 - 00:12:32] CphbT用chat to help me out
+[00:12:32 - 00:12:35] One option would be to copy and paste these bullets over
+[00:12:35 - 00:12:38] And I think chat would do a pretty good job at going with that
+[00:12:38 - 00:12:41] But it would be helpful if it had concept of the entire document
+[00:12:41 - 00:12:44] So instead, I'm going to have chatgbt work directly with Notion
+[00:12:45 - 00:12:49] So I'm going to hit Option Space to bring up chatgbt
+[00:12:49 - 00:12:52] Have it work with Notion
+[00:12:52 - 00:12:55] And I'm actually going to go ahead and highlight this stop here
+[00:12:55 - 00:12:57] So the model knows what to pay attention to
+[00:12:57 - 00:12:59] And so now we can see we're working with Notion
+[00:12:59 - 00:13:01] and in the walking tour document
+[00:13:01 - 00:13:02] focused on selected lines.
+[00:13:02 - 00:13:04] And I'm just going to go ahead and say
+[00:13:04 - 00:13:08] fill out these talking points.
+[00:13:08 - 00:13:08] Right?
+[00:13:08 - 00:13:11] Don't need to be any more specific than that.
+[00:13:11 - 00:13:12] But one thing that is really important
+[00:13:12 - 00:13:14] is that this is a walking tour,
+[00:13:14 - 00:13:14] right?
+[00:13:14 - 00:13:16] This is a history tour.
+[00:13:16 - 00:13:18] Things need to be factually correct.
+[00:13:18 - 00:13:19] And so to help with that,
+[00:13:19 - 00:13:22] I'm going to push this button to turn on search.
+[00:13:22 - 00:13:24] And now to answer my question,
+[00:13:24 - 00:13:26] ChatGPT is going to search the web
+[00:13:26 - 00:13:27] and everything it tells me
+[00:13:27 - 00:13:29] is going to be grounded in citations.
+[00:13:29 - 00:13:34] And so anything I want to find out more about I can go ahead and click the links.
+[00:13:34 - 00:13:45] And you really start to see this awesome interaction loop pop up where chatGPTis helping me with my research in the context of the document I'm writing so awesome.
+[00:13:45 - 00:13:52] This looks like all of the stuff that I'm hoping to cover and so it doesn't really sound like me though this sounds like you know official results.
+[00:13:52 - 00:13:57] And so I'm going to turn off search and just say make it match the style.
+[00:13:57 - 00:14:05] 我會把其他的停止, 剪輯兩句
+[00:14:05 - 00:14:08] 現在chatGPT 會去看其他的我的文章
+[00:14:08 - 00:14:12] 學習我怎麼說, 還有我寫的其他
+[00:14:12 - 00:14:14] 做得好, 要學習這句
+[00:14:14 - 00:14:17] 這句很棒, 讓我介紹你
+[00:14:17 - 00:14:20] 最愛的角色是 沙發
+[00:14:20 - 00:14:22] 你會去旅行找其他角色
+[00:14:22 - 00:14:23] 好像你
+[00:14:23 - 00:14:28] So I'm just going to go ahead and highlight this to copy and paste it back into Notion.
+[00:14:28 - 00:14:31] And of course, you know, I want to iterate from here.
+[00:14:31 - 00:14:35] I'd want to refine this,but that's just a quick example of using chatGPT to work with Notion.
+[00:14:35 - 00:14:37] That's awesome.
+[00:14:37 - 00:14:40] I think that it's really compelling to work with your documents like this,
+[00:14:40 - 00:14:44] not just code like I showed before,but your written prose.
+[00:14:44 - 00:14:49] This is excellent,but it's just one way to work with the model,
+[00:14:49 - 00:14:52] this sort of text in,text out method.
+[00:14:52 - 00:14:55] 我今天想介紹的就是
+[00:14:55 - 00:14:58] 支持用前聲音模式
+[00:14:58 - 00:14:59] 用這個功能
+[00:14:59 - 00:15:00] 我們很興奮
+[00:15:00 - 00:15:02] 我們認為這個 paradigm
+[00:15:02 - 00:15:03] 是一個很有趣的方式
+[00:15:03 - 00:15:05] 去討論 chat.gpt
+[00:15:05 - 00:15:06] 和解釋你的信息
+[00:15:06 - 00:15:07] 進入你的文件
+[00:15:07 - 00:15:08] 或你的信息
+[00:15:08 - 00:15:09] 這件事
+[00:15:09 - 00:15:10] 我們會展示一個
+[00:15:10 - 00:15:11] 我還有一個
+[00:15:11 - 00:15:13] 我沒有在開放AI
+[00:15:13 - 00:15:14] 我花了很多時間
+[00:15:14 - 00:15:15] 作為一個
+[00:15:15 - 00:15:16] 專業的玩家
+[00:15:16 - 00:15:17] 我還有這個
+[00:15:17 - 00:15:19] holiday party set list
+[00:15:19 - 00:15:20] 我會用一些設計
+[00:15:20 - 00:15:23] 我覺得CHA
+[00:15:23 - 00:15:25] I think chatGPT would be great about this.
+[00:15:25 - 00:15:28] But again, I want to use the voice to do this.
+[00:15:28 - 00:15:31] Is this why your holiday parties are good by the way?
+[00:15:31 - 00:15:32] No, that's the different.
+[00:15:32 - 00:15:33] The suits?
+[00:15:33 - 00:15:34] Yeah, the suits.
+[00:15:34 - 00:15:35] Yeah, the suits help.
+[00:15:35 - 00:15:36] Yeah, the suits help.
+[00:15:36 - 00:15:38] I want someone special to help out with this.
+[00:15:38 - 00:15:44] Let's bring up chatGPT again with the shortcut I mentioned earlier.
+[00:15:44 - 00:15:46] Option shift 1.
+[00:15:46 - 00:15:48] 那 bring up our chat bar
+[00:15:48 - 00:15:50] it's automatically paired with notes
+[00:15:50 - 00:15:52] but this time instead of typing to the model
+[00:15:52 - 00:15:55] I'm going to use this new advanced voice mode support
+[00:15:55 - 00:15:57] so I'll use this icon in the bottom right
+[00:15:57 - 00:16:00] to bring in our special guest
+[00:16:00 - 00:16:07] hey Santa are you there
+[00:16:07 - 00:16:09] hohohoho
+[00:16:09 - 00:16:11] yes I'm here
+[00:16:11 - 00:16:13] how can I help you today
+[00:16:13 - 00:16:16] Santa it is so great to talk to you
+[00:16:16 - 00:16:18] listen I've got this holiday set list
+[00:16:18 - 00:16:19] that I'm working on
+[00:16:49 - 00:16:50] 我會繼續
+[00:17:19 - 00:17:21] and sure to get everyone dancing
+[00:17:21 - 00:17:23] hohoho
+[00:17:23 - 00:17:25] Santa, I think that's a great idea
+[00:17:25 - 00:17:28] I think that song is really gonna slay
+[00:17:30 - 00:17:33] I think interacting with the voice model like this
+[00:17:33 - 00:17:35] is such a great way to talk to your documents
+[00:17:35 - 00:17:38] and get live feedback on what you're doing
+[00:17:38 - 00:17:40] Totally, and good news
+[00:17:40 - 00:17:43] Right before we stepped on this live stream
+[00:17:43 - 00:17:45] actually we pushed the button to ship all of the features
+[00:17:45 - 00:17:46] we just showed off so
+[00:17:46 - 00:17:50] it should be available for you on your computer
+[00:17:50 - 00:17:50] just make sure that you are upday
+[00:17:50 - 00:17:53] the latest chat GBT app for macOS
+[00:17:53 - 00:17:54] awesome
+[00:17:54 - 00:17:55] so that's day 11
+[00:17:55 - 00:17:57] it's about using the desktop apps
+[00:17:57 - 00:18:00] to see,understand and automate the work
+[00:18:00 - 00:18:02] that you're doing with chat GBT
+[00:18:03 - 00:18:05] this is coming this is available today
+[00:18:05 - 00:18:07] as of what,twenty minutes ago
+[00:18:07 - 00:18:08] on our mac desktop apps
+[00:18:08 - 00:18:09] coming soon to windows
+[00:18:10 - 00:18:11] I love the desktop apps
+[00:18:12 - 00:18:14] they're in the background when you're doing work
+[00:18:14 - 00:18:16] and then it's a keyboard shortcut
+[00:18:16 - 00:18:18] 他們在那裡可以幫你做任何工作
+[00:18:18 - 00:18:20] 所以這是第11天
+[00:18:20 - 00:18:22] 我們有一天要離開
+[00:18:22 - 00:18:24] 明天明天12天
+[00:18:24 - 00:18:26] 我們有什麼非常有趣的東西
+[00:18:26 - 00:18:28] 所以別忘記了
+[00:18:28 - 00:18:30] 對,我們不能等待這些技巧到你
+[00:18:30 - 00:18:31] 我們很期待
+[00:18:31 - 00:18:32] 但是在 meantime
+[00:18:32 - 00:18:33] 我必須開始練習
+[00:18:33 - 00:18:34] 你必須要把這個東西放在那裡
+[00:18:34 - 00:18:36] 對,我必須要把這個東西放在那裡
+[00:18:36 - 00:18:38] 好,我們來看
