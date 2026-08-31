@@ -1,0 +1,309 @@
+BV号：BV1tUqvYmEBs
+标题：BV1tUqvYmEBs
+链接：https://www.bilibili.com/video/BV1tUqvYmEBs
+识别语言：zh
+语言置信度：1
+分段数：301
+生成时间：2026-08-31 03:23:45
+
+[00:00:04 - 00:00:06] Hey everybody and welcome to day six.
+[00:00:06 - 00:00:08] Before we get into today's news,
+[00:00:08 - 00:00:12] I want to acknowledge that we had a few hours of downtime yesterday.
+[00:00:12 - 00:00:16] We know you depend on us and we're really sorry for the interruption.
+[00:00:16 - 00:00:20] We take this super seriously and the teams are working on a detailed post mortem
+[00:00:20 - 00:00:23] that we're going to post later today.
+[00:00:23 - 00:00:26] but the good news is we're back.
+[00:00:26 - 00:00:27] We're fully operational
+[00:00:27 - 00:00:29] and we've got a couple of exciting things for you right now.
+[00:00:29 - 00:00:32] The first we're going to keep secret and we'll show you a little bit.
+[00:00:32 - 00:00:34] 第二是我們很期待提出
+[00:00:34 - 00:00:36] 我們在進行影片
+[00:00:36 - 00:00:38] 進行進行進行聲音
+[00:00:38 - 00:00:39] 所以你可以進行 live 影片
+[00:00:39 - 00:00:41] 以及 live 視頻分享
+[00:00:41 - 00:00:43] 進行你的談判
+[00:00:43 - 00:00:44] 和 chat.gbt
+[00:00:44 - 00:00:45] 最好的方法是
+[00:00:45 - 00:00:46] 讓我給你示範一下
+[00:00:46 - 00:00:52] 所以我會進行 chat.gbt
+[00:00:52 - 00:00:52] 然後你會看到
+[00:00:52 - 00:00:54] 進行進行聲音
+[00:00:54 - 00:00:56] 按下的選擇
+[00:00:56 - 00:00:59] 我按下
+[00:00:59 - 00:01:00] 然後
+[00:01:00 - 00:01:04] as it loads here we'll give this one more try.
+[00:01:04 - 00:01:11] There we go.
+[00:01:11 - 00:01:16] Alright so you can see as we go into the there's now a couple more buttons on the bottom left.
+[00:01:16 - 00:01:18] In particular there's this video button.
+[00:01:19 - 00:01:21] And so here we are.
+[00:01:21 - 00:01:23] And I can introduce myself.
+[00:01:23 - 00:01:24] Hey chat.
+[00:01:24 - 00:01:25] I'm Kevin.
+[00:01:25 - 00:01:26] I lead product at OpenAI.
+[00:01:27 - 00:01:28] Hi Kevin.
+[00:01:28 - 00:01:29] It's great to meet you.
+[00:01:29 - 00:01:30] What can I help you with today?
+[00:01:30 - 00:01:33] Well, I'd actually I'd love to introduce you to a few of my colleagues.
+[00:01:33 - 00:01:34] Does that sound good?
+[00:01:34 - 00:01:36] 我好想見他們
+[00:01:36 - 00:01:37] 好
+[00:01:37 - 00:01:39] Hey Chat, I'm Michelle
+[00:01:39 - 00:01:40] And I'm an engineer
+[00:01:40 - 00:01:42] on the ChatGBT multimodal team
+[00:01:42 - 00:01:45] Hi Michelle, it's nice to meet you
+[00:01:45 - 00:01:48] An engineer on the ChatGBT multimodal team
+[00:01:48 - 00:01:49] That sounds exciting
+[00:01:49 - 00:01:50] It is, thanks
+[00:01:50 - 00:01:52] Hi Chat, I'm Jackie
+[00:01:52 - 00:01:53] And I'm the product lead
+[00:01:53 - 00:01:55] for ChatGBT multimodal
+[00:01:55 - 00:01:58] Hi Jackie, it's great to meet you too
+[00:01:58 - 00:02:00] Sounds like you're all working
+[00:02:00 - 00:02:02] on some really cool projects
+[00:02:02 - 00:02:03] We really are
+[00:02:03 - 00:02:05] Hey, ChatGPT, I'm Rowan.
+[00:02:05 - 00:02:08] I'm a researcher here at OpenAI on Multimodal.
+[00:02:09 - 00:02:11] Hi, Rowan. It's nice to meet you.
+[00:02:11 - 00:02:14] Multimodal research sounds fascinating.
+[00:02:14 - 00:02:18] Alright, and now I want to see if you remember the folks that you met.
+[00:02:18 - 00:02:20] So can I give you a quick quiz?
+[00:02:20 - 00:02:22] Sure, I'm ready for a quiz.
+[00:02:22 - 00:02:28] Alright, what was the name of my colleague that was wearing the reindeer antlers?
+[00:02:28 - 00:02:30] That would be Michelle.
+[00:02:30 - 00:02:32] Alright, and how about the name of my colleague that was wearing the reindeer antlers?
+[00:02:32 - 00:02:34] 還有一個名字是 my colleague was wearing the Santa hat
+[00:02:36 - 00:02:37] That would be Rowan
+[00:02:38 - 00:02:39] Alright good work
+[00:02:39 - 00:02:40] You're two for two, you get an A
+[00:02:40 - 00:02:41] Thanks Chad
+[00:02:43 - 00:02:45] Thanks Kevin, this was fun
+[00:02:45 - 00:02:46] Let me know if there's any
+[00:02:47 - 00:02:52] We are so excited to start the rollout of video and screen share in advanced voice today
+[00:02:52 - 00:02:55] We know this is a long time coming
+[00:02:55 - 00:02:59] So to recap you can already talk with advanced voice and chatGBT out loud
+[00:02:59 - 00:03:02] Just like you would a co-worker or a friend
+[00:03:02 - 00:03:05] Advanced Voice 使用 are natively multimodal 4.0 Model
+[00:03:05 - 00:03:10] That means it takes in your audio directly, understands it, and outputs audio directly.
+[00:03:10 - 00:03:16] As a result, conversations with Advanced Voice have a much more natural conversation pace
+[00:03:16 - 00:03:21] with a depth of emotion and tone across more than 50 languages.
+[00:03:21 - 00:03:23] Starting today and over the course of next week
+[00:03:23 - 00:03:26] will be rolling out video and screen share in advanced voice
+[00:03:26 - 00:03:29] so that you can share real-time visual context
+[00:03:29 - 00:03:33] ChhatchBt to make your conversations even richer and more useful?
+[00:03:33 - 00:03:36] And here's Rowan to show us more about what it can do?
+[00:03:36 - 00:03:41] Yeah, so now you can chat with chachbt over video and voice together in real time.
+[00:03:41 - 00:03:45] You can ask for help, troubleshoot, or use it to learn something new.
+[00:03:45 - 00:03:47] So in fact, I'm going to try testing it out right now.
+[00:03:47 - 00:03:51] I'm going to have it teach me how to make pour over coffee.
+[00:03:51 - 00:03:53] So I'm going to grab a couple of materials here.
+[00:03:53 - 00:03:59] Grab this and that and then I'm going to fire up a new conversation.
+[00:03:59 - 00:04:01] 我会在电视节目中发生
+[00:04:01 - 00:04:03] 一个交流订阅
+[00:04:03 - 00:04:05] 和打开声音模式的
+[00:04:05 - 00:04:07] 按钮在下方
+[00:04:07 - 00:04:09] 然后再打开
+[00:04:09 - 00:04:11] 我会分享我的视频
+[00:04:11 - 00:04:13] 喂,Chat,你怎么样
+[00:04:13 - 00:04:15] 我很好,谢谢你
+[00:04:15 - 00:04:17] 我看到你穿了衣服
+[00:04:17 - 00:04:19] 我也是,你能看到我穿的吗
+[00:04:19 - 00:04:21] 是的,我看到
+[00:04:21 - 00:04:23] 一杯咖啡
+[00:04:23 - 00:04:25] 和一杯水
+[00:04:25 - 00:04:27] 你打算做一些咖啡吗
+[00:04:27 - 00:04:29] 我可以拿走步驟
+[00:04:29 - 00:04:31] 當然 我會愛你
+[00:04:31 - 00:04:33] 首先 放入水中的水晶
+[00:04:33 - 00:04:35] 然後用熱水去滑動
+[00:04:35 - 00:04:37] 讓它有些紙色味道
+[00:04:37 - 00:04:39] 這也會溫度水晶和麵
+[00:04:39 - 00:04:41] 好 接下來要做什麼
+[00:04:41 - 00:04:43] 接下來 你會加上
+[00:04:43 - 00:04:45] 水晶的水晶
+[00:04:45 - 00:04:47] 一般 每六個水晶
+[00:04:47 - 00:04:49] 將水晶的水晶
+[00:04:49 - 00:04:51] 然後 慢慢地
+[00:04:51 - 00:04:53] 將水晶的水晶
+[00:04:53 - 00:04:55] 讓它浸泡了30秒
+[00:04:55 - 00:04:56] 好 谢谢
+[00:04:56 - 00:04:57] 什么是沸腾
+[00:04:59 - 00:05:01] 沸腾让咖啡放入汤水中
+[00:05:01 - 00:05:03] 加热的味道
+[00:05:03 - 00:05:04] 后来沸腾
+[00:05:04 - 00:05:05] 慢慢沸腾
+[00:05:05 - 00:05:06] 沸腾的水中
+[00:05:06 - 00:05:08] 在一种转动的动作中
+[00:05:08 - 00:05:10] 保持水水的水分
+[00:05:10 - 00:05:11] 让它沸腾
+[00:05:11 - 00:05:12] 从沸腾的水中
+[00:05:12 - 00:05:13] 进入沸腾
+[00:05:13 - 00:05:14] 好 这声音很好
+[00:05:14 - 00:05:16] 我现在沸腾
+[00:05:17 - 00:05:20] 好 把时间拿出来沸腾
+[00:05:20 - 00:05:21] 这帮助沸腾
+[00:05:21 - 00:05:22] 把沸腾的水
+[00:05:22 - 00:05:23] 清润好
+[00:05:23 - 00:05:24] 好
+[00:05:53 - 00:05:55] 开始新的谈论
+[00:05:55 - 00:05:57] 打开前台声音模式的按钮
+[00:05:57 - 00:05:59] 然后进入这个小转发
+[00:05:59 - 00:06:01] 和打开分享的视频
+[00:06:01 - 00:06:03] 我开始播放
+[00:06:03 - 00:06:04] 现在chatgbt
+[00:06:04 - 00:06:06] 我们会看到我正在分享
+[00:06:06 - 00:06:08] 其实我喜欢用
+[00:06:08 - 00:06:09] 问或帮助的
+[00:06:09 - 00:06:11] 回答评
+[00:06:11 - 00:06:13] 所以我打开我的评论 app
+[00:06:13 - 00:06:14] 然后说
+[00:06:14 - 00:06:15] chatgbt
+[00:06:15 - 00:06:18] 你看到我的视频吗
+[00:06:18 - 00:06:19] 是的 我看到
+[00:06:19 - 00:06:21] 看来你在评论 app
+[00:06:21 - 00:06:22] 我怎么帮助
+[00:06:22 - 00:06:24] 你帮我回答这个
+[00:06:24 - 00:06:26] 你會看到什麼?
+[00:06:27 - 00:06:29] 我看到一份訊息
+[00:06:29 - 00:06:31] 問他們有什麼需要做
+[00:06:31 - 00:06:33] 做一個聖誕聖誕的聖誕聖
+[00:06:33 - 00:06:35] 他們也有給他們的照片
+[00:06:35 - 00:06:36] 提供了
+[00:06:36 - 00:06:38] 你們想回答他們的問題嗎?
+[00:06:38 - 00:06:40] 我會有幫助
+[00:06:40 - 00:06:43] 當然要告訴Kevin
+[00:06:43 - 00:06:45] 他應該不會離開聖誕聖誕
+[00:06:46 - 00:06:48] 你可以說
+[00:06:48 - 00:06:49] 說  Kevin
+[00:06:49 - 00:06:51] 你的聖誕聖誕聖會很快
+[00:06:51 - 00:06:52] 你會繼續練習你的
+[00:06:52 - 00:06:53] Hoh ho ho
+[00:06:53 - 00:06:56] And you'll be ready for the mall in no time
+[00:06:57 - 00:06:59] That sounds great. Thanks, Chat.
+[00:07:01 - 00:07:04] You're welcome. I'm sure Kevin will appreciate the encouragement.
+[00:07:04 - 00:07:06] Anything else you'd like help with?
+[00:07:07 - 00:07:07] That's perfect.
+[00:07:08 - 00:07:11] Well, I think Kevin makes a great Santa.
+[00:07:11 - 00:07:13] But you don't need Kevin to talk to Santa this year.
+[00:07:14 - 00:07:16] Starting today and for the rest of December,
+[00:07:16 - 00:07:19] you can talk to Santa directly in Chat YBT.
+[00:07:20 - 00:07:21] You can ask Santa anything.
+[00:07:21 - 00:07:24] Whether you have questions about his life at the North Pole
+[00:07:24 - 00:07:26] Curious about what the elves are up to
+[00:07:26 - 00:07:30] Or looking for a fun Christmas story as a parent with curious kids
+[00:07:30 - 00:07:32] Santa will respond in real time
+[00:07:32 - 00:07:35] Using his signature jolly voice
+[00:07:35 - 00:07:38] And finding Santa, it's super easy
+[00:07:38 - 00:07:40] On the home screen, just look out for a snowflake icon
+[00:07:40 - 00:07:43] That's going to be your festive entry point
+[00:07:43 - 00:07:44] You can also find and select Santa
+[00:07:44 - 00:07:47] In the chat GPT settings page
+[00:07:47 - 00:07:56] All right, let's say hi to Santa
+[00:07:56 - 00:07:57] Hey Santa
+[00:07:57 - 00:08:00] Oh...
+[00:08:00 - 00:08:02] Hello there。
+[00:08:02 - 00:08:04] This collector's eyes on you.
+[00:08:04 - 00:08:07] Are you excited for the holidays?
+[00:08:07 - 00:08:08] I'm so excited.
+[00:08:08 - 00:08:10] Santa, i have a question for you.
+[00:08:10 - 00:08:12] What is your favourite Christmas tradition?
+[00:08:14 - 00:08:17] Today is a funny little question.
+[00:08:17 - 00:08:20] I am excited because my favourite Christmas tradition
+[00:08:20 - 00:08:22] was born in the magical moment
+[00:08:22 - 00:08:26] there were noelle auction lunch in school with orderCstore z stereotype.
+[00:08:26 - 00:08:29] 是一个很热烈的和很猪的传言
+[00:08:29 - 00:08:33] 在意义上的好奇和特别
+[00:08:33 - 00:08:36] 这是你喜欢的奖励传言
+[00:08:36 - 00:08:38] 这是好奇
+[00:08:38 - 00:08:40] 谁是你最喜欢的蓝色蓝色蓝色
+[00:08:41 - 00:08:42] 好 好
+[00:08:42 - 00:08:44] 那是一个特别的问题
+[00:08:44 - 00:08:48] 我所有蓝色蓝色蓝色蓝色的方式
+[00:08:48 - 00:08:52] 蓝色蓝色蓝色的蓝色蓝色
+[00:08:52 - 00:08:55] 在我心中有一个特别的地方
+[00:08:55 - 00:08:57] 因為他的旅行力
+[00:08:57 - 00:09:00] 但达纱、舞者、传统者
+[00:09:00 - 00:09:03] 和所有其他人都只是重要
+[00:09:04 - 00:09:07] 他们每个都带着自己的魔法去打赛
+[00:09:07 - 00:09:09] 你觉得有一个最喜欢的贵人吗
+[00:09:09 - 00:09:11] Santa 我有个问题
+[00:09:11 - 00:09:13] 我怎么保持我的饼子
+[00:09:13 - 00:09:15] 在纸上形状
+[00:09:16 - 00:09:20] 保持一个美丽的饼子
+[00:09:20 - 00:09:23] 保持一些魔法和照顾
+[00:09:23 - 00:09:26] 首先 要保持它很清晰
+[00:09:26 - 00:09:28] Clean and well groomed
+[00:09:28 - 00:09:29] A bit of
+[00:09:29 - 00:09:30] Hold on Santa
+[00:09:30 - 00:09:32] We need some real feedback here
+[00:09:33 - 00:09:35] Now what do you think
+[00:09:35 - 00:09:37] Hoo hoo hoo
+[00:09:37 - 00:09:39] That's a fabulous beard
+[00:09:39 - 00:09:41] It's full and fluffy
+[00:09:41 - 00:09:43] Just like mine
+[00:09:43 - 00:09:45] If you give it a little comb
+[00:09:45 - 00:09:47] And maybe a sprinkle of holiday cheer
+[00:09:47 - 00:09:50] It will be in tip top shape for Christmas
+[00:09:50 - 00:09:51] Hoo hoo
+[00:09:51 - 00:09:54] Santa would you say that this is a great beard
+[00:09:54 - 00:09:56] 是最好的臉
+[00:09:56 - 00:09:58] 呵呵呵呵
+[00:09:58 - 00:10:00] 這,我的朋友
+[00:10:00 - 00:10:02] 是真正的臉
+[00:10:02 - 00:10:04] 是真正的臉
+[00:10:04 - 00:10:06] 我看到的
+[00:10:06 - 00:10:07] 臉滿了
+[00:10:07 - 00:10:09] 祝福和祝福
+[00:10:09 - 00:10:10] 呵呵
+[00:10:10 - 00:10:11] 謝謝
+[00:10:11 - 00:10:12] 謝謝Santa
+[00:10:13 - 00:10:14] 呵呵
+[00:10:14 - 00:10:15] 是的
+[00:10:15 - 00:10:17] 這是什麼,我的朋友
+[00:10:17 - 00:10:19] 好,我們來看看
+[00:10:19 - 00:10:21] 這些產品的方式
+[00:10:21 - 00:10:22] 影片和畫面
+[00:10:22 - 00:10:25] 在我们最新的Mobile App
+[00:10:25 - 00:10:26] 开始今天
+[00:10:26 - 00:10:28] 和在下周的课程中
+[00:10:28 - 00:10:29] 我们会在下周
+[00:10:29 - 00:10:30] 和所有的团队
+[00:10:30 - 00:10:31] 和其他的网友
+[00:10:31 - 00:10:35] 和其他网友
+[00:10:35 - 00:10:36] 我们会将
+[00:10:36 - 00:10:37] 将在下周的课程中
+[00:10:37 - 00:10:38] 发行新的课程中
+[00:10:38 - 00:10:39] 发行新的课程中
+[00:10:39 - 00:10:40] 发行新的课程中
+[00:10:40 - 00:10:41] 如果你在
+[00:10:41 - 00:10:42] 开发一个参与的
+[00:10:42 - 00:10:43] 或是EDU的设计
+[00:10:43 - 00:10:44] 你会得到
+[00:10:44 - 00:10:45] 接近的课程
+[00:10:45 - 00:10:47] Santa在今天的课程中
+[00:10:47 - 00:10:49] 在每个地方
+[00:10:49 - 00:10:52] 全世界都可以用 chatubt voice mode
+[00:10:52 - 00:10:53] 那是 means you can talk to Santa
+[00:10:53 - 00:10:56] on our latest mobile apps, our desktop apps
+[00:10:56 - 00:10:58] and on desktop web at chatubt.com
+[00:10:58 - 00:11:01] And the first time you talk with Santa
+[00:11:01 - 00:11:04] we will reset your advanced voice usage limits
+[00:11:04 - 00:11:07] one time so that even if you've used up your limit
+[00:11:07 - 00:11:09] for the day or for the month
+[00:11:09 - 00:11:13] you can talk with Santa in advanced voice right away
+[00:11:13 - 00:11:14] even after your limits
+[00:11:14 - 00:11:17] you can also keep chatting with Santa in standard voice
+[00:11:17 - 00:11:19] 希望你會 enjoy your conversations with Santa
+[00:11:19 - 00:11:20] 就像我們一樣
+[00:11:21 - 00:11:22] 好,就這樣
+[00:11:22 - 00:11:24] 我們看看Santa's perspective on one more thing
+[00:11:24 - 00:11:28] Santa, what's your favorite Christmas joke?
+[00:11:30 - 00:11:35] Alright, what's every elf's favorite music?
+[00:11:35 - 00:11:37] Wrap music
+[00:11:39 - 00:11:41] A little elf humor for you
+[00:11:41 - 00:11:43] Alright, thanks Santa
+[00:11:43 - 00:11:46] 謝謝研究員、研究員、學者、學生、
+[00:11:46 - 00:11:48] 創作者、整個團隊
+[00:11:48 - 00:11:50] 在這幾個月內工作的時間
+[00:11:50 - 00:11:52] 我們非常期待看到你
+[00:11:52 - 00:11:53] 謝謝大家 明天見
+[00:11:53 - 00:11:55] 祝你生日快樂
