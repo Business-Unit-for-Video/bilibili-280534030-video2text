@@ -1,5 +1,5 @@
 BV号：BV11CDcBzEn9
-标题：BV11CDcBzEn9
+标题：NotebookLM+Gemini+Obsidian：Karpathy理论落地实操
 链接：https://www.bilibili.com/video/BV11CDcBzEn9
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1vp7p6qEiE
-标题：BV1vp7p6qEiE
+标题：AI时代前端工程师的困境 | 不懂浏览器底层，你永远只是代码搬运工
 链接：https://www.bilibili.com/video/BV1vp7p6qEiE
 识别语言：zh
 语言置信度：1

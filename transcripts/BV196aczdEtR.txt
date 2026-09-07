@@ -1,5 +1,5 @@
 BV号：BV196aczdEtR
-标题：BV196aczdEtR
+标题：项目已开源！从0到1，手把手教你构建一个能训练模型的TPU处理器。
 链接：https://www.bilibili.com/video/BV196aczdEtR
 识别语言：zh
 语言置信度：1

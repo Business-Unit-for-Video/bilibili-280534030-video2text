@@ -1,5 +1,5 @@
 BV号：BV1xKcmeMEY8
-标题：BV1xKcmeMEY8
+标题：【人工智能】为什么RLHF不能带给大模型真的强化学习 | 经典RL | 人类偏好奖励 | 模型自主目标 | CoT | PRM | 多智能体工作流 | 为什么R
 链接：https://www.bilibili.com/video/BV1xKcmeMEY8
 识别语言：zh
 语言置信度：1

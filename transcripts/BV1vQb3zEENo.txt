@@ -1,5 +1,5 @@
 BV号：BV1vQb3zEENo
-标题：BV1vQb3zEENo
+标题：3Blue1Brown：一文看懂大语言模型（LLM）的工作原理！
 链接：https://www.bilibili.com/video/BV1vQb3zEENo
 识别语言：zh
 语言置信度：1

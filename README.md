@@ -30,6 +30,10 @@
 
 ## 主题分类
 
+标题取自 Bilibili 视频详情接口，缓存在 `state/video-titles.json`。
+运行 `python scripts/refresh_titles.py` 可补齐标题并同步队列、转录标题行及分类 CSV/JSON；正文和分类保持不变。
+查询失败项记录于 `classification/title-refresh-report.json`，分类标题留空，不再用 BVID 冒充视频名称。
+
 运行 `scripts/classify_transcripts.py` 可根据转录正文生成主题分类：
 
 - `classification/video-classification.csv`：逐视频分类清单，适合 Excel 查看和人工修订。

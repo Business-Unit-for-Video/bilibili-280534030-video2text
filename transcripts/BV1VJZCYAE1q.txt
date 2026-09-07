@@ -1,5 +1,5 @@
 BV号：BV1VJZCYAE1q
-标题：BV1VJZCYAE1q
+标题：【人工智能】AlexNet原始代码开源 | 计算机历史博物馆 | 神经网络发展历史 | 杰弗里·辛顿 | 反向传播 | ImageNet | 李飞飞 | Ily
 链接：https://www.bilibili.com/video/BV1VJZCYAE1q
 识别语言：zh
 语言置信度：1

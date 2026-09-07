@@ -1,5 +1,5 @@
 BV号：BV1fxrjYsE92
-标题：BV1fxrjYsE92
+标题：【人工智能】如何在26年前的Windows98上跑Llama模型 | EXO Labs | 奔腾II PC | 代码编译 | llama2.c | 39toke
 链接：https://www.bilibili.com/video/BV1fxrjYsE92
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1dq356YEyr
-标题：BV1dq356YEyr
+标题：删掉80%提示词后，Claude 5反而变强了？Anthropic官方的做减法哲学
 链接：https://www.bilibili.com/video/BV1dq356YEyr
 识别语言：zh
 语言置信度：1

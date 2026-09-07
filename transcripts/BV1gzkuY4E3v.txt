@@ -1,5 +1,5 @@
 BV号：BV1gzkuY4E3v
-标题：BV1gzkuY4E3v
+标题：【人工智能】Ilya预言预训练时代将终结 | NeurIPS 2024演讲 | 深度学习假设 | LSTM | Scaling Laws | 联结主义 | 预训
 链接：https://www.bilibili.com/video/BV1gzkuY4E3v
 识别语言：zh
 语言置信度：1

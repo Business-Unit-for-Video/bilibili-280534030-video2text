@@ -1,5 +1,5 @@
 BV号：BV1AmSSBMErT
-标题：BV1AmSSBMErT
+标题：放弃RAG吧 ！LLM知识库新范式 | Karpathy的新思路
 链接：https://www.bilibili.com/video/BV1AmSSBMErT
 识别语言：zh
 语言置信度：1

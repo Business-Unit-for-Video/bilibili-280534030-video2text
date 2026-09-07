@@ -1,5 +1,5 @@
 BV号：BV1XxdgYwEWu
-标题：BV1XxdgYwEWu
+标题：【人工智能】通用奖励模型的推理时Scaling | DeepSeek联合清华发布论文 | R2隐现 | GRM | SPCT | 生成评价原则 | RFT |
 链接：https://www.bilibili.com/video/BV1XxdgYwEWu
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1EPEszaEtg
-标题：BV1EPEszaEtg
+标题：OpenAI 构建代理的实用指南
 链接：https://www.bilibili.com/video/BV1EPEszaEtg
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1zHgm6fEK5
-标题：BV1zHgm6fEK5
+标题：OpenAI测试模型首次攻破大厂防线 Hugging Face七月安全事件全景复盘
 链接：https://www.bilibili.com/video/BV1zHgm6fEK5
 识别语言：zh
 语言置信度：1

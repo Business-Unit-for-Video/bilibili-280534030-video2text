@@ -1,5 +1,5 @@
 BV号：BV1fgZyBiESb
-标题：BV1fgZyBiESb
+标题：Qwen3.5 vs Seed 2.0：AI春节档终局，架构与实战的路线之争
 链接：https://www.bilibili.com/video/BV1fgZyBiESb
 识别语言：zh
 语言置信度：1

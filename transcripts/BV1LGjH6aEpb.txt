@@ -1,5 +1,5 @@
 BV号：BV1LGjH6aEpb
-标题：BV1LGjH6aEpb
+标题：代码量暴砍 54%，测试全过！| 一个让大模型变成“慵懒扫地僧”的神级开源项目
 链接：https://www.bilibili.com/video/BV1LGjH6aEpb
 识别语言：zh
 语言置信度：1

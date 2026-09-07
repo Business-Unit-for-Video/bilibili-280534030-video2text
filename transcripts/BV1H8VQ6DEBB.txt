@@ -1,5 +1,5 @@
 BV号：BV1H8VQ6DEBB
-标题：BV1H8VQ6DEBB
+标题：AI Agent 记忆系统大拆解 ：Mem0 的极简路线 | EverOS 的生命周期路线
 链接：https://www.bilibili.com/video/BV1H8VQ6DEBB
 识别语言：zh
 语言置信度：1

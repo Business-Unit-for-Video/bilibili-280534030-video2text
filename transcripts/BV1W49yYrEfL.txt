@@ -1,5 +1,5 @@
 BV号：BV1W49yYrEfL
-标题：BV1W49yYrEfL
+标题：【人工智能】HuggingFace发布LLM超大规模实战手册 | 200页报告解读 | 4000个Scaling实验 | 激活值重计算 | 梯度累积 | 数据并
 链接：https://www.bilibili.com/video/BV1W49yYrEfL
 识别语言：zh
 语言置信度：1

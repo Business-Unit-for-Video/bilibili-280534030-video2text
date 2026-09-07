@@ -1,5 +1,5 @@
 BV号：BV12PcmezESU
-标题：BV12PcmezESU
+标题：英伟达CEO黄仁勋发布世界基础模型Cosmos
 链接：https://www.bilibili.com/video/BV12PcmezESU
 识别语言：zh
 语言置信度：1

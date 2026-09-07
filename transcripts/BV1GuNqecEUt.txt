@@ -1,5 +1,5 @@
 BV号：BV1GuNqecEUt
-标题：BV1GuNqecEUt
+标题：深入探讨类似ChatGPT的大语言模型 | Andrej Karpathy 大神 | 中文字幕
 链接：https://www.bilibili.com/video/BV1GuNqecEUt
 识别语言：zh
 语言置信度：1

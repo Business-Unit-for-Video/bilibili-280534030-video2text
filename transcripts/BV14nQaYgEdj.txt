@@ -1,5 +1,5 @@
 BV号：BV14nQaYgEdj
-标题：BV14nQaYgEdj
+标题：【人工智能】谷歌最新开源模型Gemma 3发布 | 四种参数规模 | 多模态能力 | SigLIP | 128K长上下文 | 支持140多种语言 | 1338E
 链接：https://www.bilibili.com/video/BV14nQaYgEdj
 识别语言：zh
 语言置信度：1

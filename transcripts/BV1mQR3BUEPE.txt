@@ -1,5 +1,5 @@
 BV号：BV1mQR3BUEPE
-标题：BV1mQR3BUEPE
+标题：Karpathy聊AI代理时代：程序员的未来何去何从？
 链接：https://www.bilibili.com/video/BV1mQR3BUEPE
 识别语言：zh
 语言置信度：1

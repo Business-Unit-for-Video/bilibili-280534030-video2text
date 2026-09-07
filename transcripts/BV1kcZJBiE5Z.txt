@@ -1,5 +1,5 @@
 BV号：BV1kcZJBiE5Z
-标题：BV1kcZJBiE5Z
+标题：OpenAI x Cerebras 王炸发布！GPT-5.3 Codex Spark 硬核解读：1000+ Token/秒，重定义实时编程
 链接：https://www.bilibili.com/video/BV1kcZJBiE5Z
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1EjZsYHEAP
-标题：BV1EjZsYHEAP
+标题：【人工智能】大语言模型内部是如何运行的 | Anthropic两篇论文揭示部分原理 | 破解黑箱 | 电路追踪 | 跨层转码器 | 多语言能力 | 诗歌创作 |
 链接：https://www.bilibili.com/video/BV1EjZsYHEAP
 识别语言：zh
 语言置信度：1

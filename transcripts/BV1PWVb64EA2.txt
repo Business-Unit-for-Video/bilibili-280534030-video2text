@@ -1,5 +1,5 @@
 BV号：BV1PWVb64EA2
-标题：BV1PWVb64EA2
+标题：75万行代码11天重写！Claude Opus 4.8的动态工作流为什么是软件工程的分水岭
 链接：https://www.bilibili.com/video/BV1PWVb64EA2
 识别语言：zh
 语言置信度：1

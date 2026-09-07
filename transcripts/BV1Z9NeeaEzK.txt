@@ -1,5 +1,5 @@
 BV号：BV1Z9NeeaEzK
-标题：BV1Z9NeeaEzK
+标题：【人工智能】深入浅出ChatGPT大语言模型 | Andrej Karpathy | 三小时视频预习版 | 预训练 | 后训练 | 分词 | Transform
 链接：https://www.bilibili.com/video/BV1Z9NeeaEzK
 识别语言：zh
 语言置信度：1

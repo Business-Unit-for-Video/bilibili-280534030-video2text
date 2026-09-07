@@ -1,5 +1,5 @@
 BV号：BV1UCX8Y6E9H
-标题：BV1UCX8Y6E9H
+标题：【人工智能】谷歌研究团队发现DiLoCo具有更优Scaling Laws | 分布式低通信优化 | 稳定扩展超参数 | 损失下降更快 | 带宽减少99% | 最
 链接：https://www.bilibili.com/video/BV1UCX8Y6E9H
 识别语言：zh
 语言置信度：1

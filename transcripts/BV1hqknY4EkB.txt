@@ -1,5 +1,5 @@
 BV号：BV1hqknY4EkB
-标题：BV1hqknY4EkB
+标题：【人工智能】o1 pro架构揭秘 | Semianalysis长文剖析推理训练架构 | Claude 3.5 Opus失败了么 | Scaling Laws或会
 链接：https://www.bilibili.com/video/BV1hqknY4EkB
 识别语言：zh
 语言置信度：1

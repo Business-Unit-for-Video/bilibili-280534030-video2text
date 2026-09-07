@@ -1,5 +1,5 @@
 BV号：BV11sQaYqEUe
-标题：BV11sQaYqEUe
+标题：【人工智能】DyT干掉Transformer归一化层 | 动态Tanh | 9行代码 | 性能不降反升 | 何恺明杨立昆携手 | 多项任务验证 | 计算效率提升
 链接：https://www.bilibili.com/video/BV11sQaYqEUe
 识别语言：zh
 语言置信度：1

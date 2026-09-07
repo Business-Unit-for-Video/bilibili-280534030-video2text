@@ -1,5 +1,5 @@
 BV号：BV1g2Ex6kErC
-标题：BV1g2Ex6kErC
+标题：Transformer 架构挑战者出现？ 两篇顶级论文拆解
 链接：https://www.bilibili.com/video/BV1g2Ex6kErC
 识别语言：zh
 语言置信度：1

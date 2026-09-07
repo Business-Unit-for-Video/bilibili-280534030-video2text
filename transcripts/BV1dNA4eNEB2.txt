@@ -1,5 +1,5 @@
 BV号：BV1dNA4eNEB2
-标题：BV1dNA4eNEB2
+标题：【人工智能】全球机器学习硬件报告 | Epoch AI | 140款AI加速器 | 计算性能每年增长43% | 低精度计算 | 能效每两年翻一番 | 英伟达全球
 链接：https://www.bilibili.com/video/BV1dNA4eNEB2
 识别语言：zh
 语言置信度：1

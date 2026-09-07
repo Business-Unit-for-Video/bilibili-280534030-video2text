@@ -1,5 +1,5 @@
 BV号：BV1SJ5t6PE3u
-标题：BV1SJ5t6PE3u
+标题：放弃梯度更新？OpenAI工程师揭秘持续学习的新范式
 链接：https://www.bilibili.com/video/BV1SJ5t6PE3u
 识别语言：zh
 语言置信度：1

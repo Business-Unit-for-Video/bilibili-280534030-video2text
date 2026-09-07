@@ -1,5 +1,5 @@
 BV号：BV12qrhYVEi5
-标题：BV12qrhYVEi5
+标题：模型上下文协议（MCP）快速入门
 链接：https://www.bilibili.com/video/BV12qrhYVEi5
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1ufKM64EWd
-标题：BV1ufKM64EWd
+标题：为什么 AI 设计都长一样？ pols.dev 的反 Slop 设计法则拆解
 链接：https://www.bilibili.com/video/BV1ufKM64EWd
 识别语言：zh
 语言置信度：1

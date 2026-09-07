@@ -1,5 +1,5 @@
 BV号：BV1Wr3s6rEVa
-标题：BV1Wr3s6rEVa
+标题：2000行提示词 = 一个安全团队 | 解读OpenAI开源的安全CLI
 链接：https://www.bilibili.com/video/BV1Wr3s6rEVa
 识别语言：zh
 语言置信度：1

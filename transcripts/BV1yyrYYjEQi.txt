@@ -1,5 +1,5 @@
 BV号：BV1yyrYYjEQi
-标题：BV1yyrYYjEQi
+标题：【人工智能】去中心神经网络 | Rich Sutton DAI 2024最新演讲 | 深度学习的局限性 | 持续反向传播 | 骨干和边缘神经元 | 网络可塑性
 链接：https://www.bilibili.com/video/BV1yyrYYjEQi
 识别语言：zh
 语言置信度：1

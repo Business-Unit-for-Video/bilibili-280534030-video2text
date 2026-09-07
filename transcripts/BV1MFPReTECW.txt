@@ -1,5 +1,5 @@
 BV号：BV1MFPReTECW
-标题：BV1MFPReTECW
+标题：【人工智能】模型压缩四大方法概述 | 量化、剪枝、蒸馏和二值化 | 模型瘦身 |  降低精度 | 速度提升 | 知识蒸馏 | 温度参数 | XNOR | 优缺点
 链接：https://www.bilibili.com/video/BV1MFPReTECW
 识别语言：zh
 语言置信度：1

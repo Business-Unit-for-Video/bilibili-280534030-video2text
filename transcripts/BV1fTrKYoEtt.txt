@@ -1,5 +1,5 @@
 BV号：BV1fTrKYoEtt
-标题：BV1fTrKYoEtt
+标题：【人工智能】大语言模型的Scaling范式 | 思维链CoT作者Jason Wei | 发展历史 | 什么是Scaling | 为什么要Scaling | Sc
 链接：https://www.bilibili.com/video/BV1fTrKYoEtt
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1GsfbYxEt5
-标题：BV1GsfbYxEt5
+标题：【人工智能】DeepSeek开源推理模型R1 | R1-Zero | 蒸馏小模型 | 绕过监督微调直接强化学习 | 媲美o1 | 顿悟时刻 |  GRPO |
 链接：https://www.bilibili.com/video/BV1GsfbYxEt5
 识别语言：zh
 语言置信度：1

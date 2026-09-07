@@ -1,5 +1,5 @@
 BV号：BV14C56zjEiG
-标题：BV14C56zjEiG
+标题：OpenAI Codex CLI 编程助手介绍
 链接：https://www.bilibili.com/video/BV14C56zjEiG
 识别语言：zh
 语言置信度：1

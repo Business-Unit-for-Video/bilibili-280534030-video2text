@@ -1,5 +1,5 @@
 BV号：BV1Hrq1YAEYe
-标题：BV1Hrq1YAEYe
+标题：【人工智能】什么是强化学习中的奖励黑客 | Reward Hacking | OpenAI前安全主管翁荔最新长文 | 奖励函数 | RLHF | 古德哈特定律
 链接：https://www.bilibili.com/video/BV1Hrq1YAEYe
 识别语言：zh
 语言置信度：1

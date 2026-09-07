@@ -1,5 +1,5 @@
 BV号：BV1ZzVdzgED2
-标题：BV1ZzVdzgED2
+标题：NVIDIA人形机器人：2小时模拟相当于10年训练，零样本转移改变未来
 链接：https://www.bilibili.com/video/BV1ZzVdzgED2
 识别语言：zh
 语言置信度：1

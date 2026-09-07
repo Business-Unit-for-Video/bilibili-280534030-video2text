@@ -1,5 +1,5 @@
 BV号：BV1oXQABNEoB
-标题：BV1oXQABNEoB
+标题：千万别让 Claude 接管核心业务！深度拆解 Managed Agents 的黑盒架构
 链接：https://www.bilibili.com/video/BV1oXQABNEoB
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1Fjw6eGEFH
-标题：BV1Fjw6eGEFH
+标题：【人工智能】谷歌提出新架构Titans | Transformer会被终结么 | 神经长期记忆模块 | 长序列处理 | 惊讶度 | 衰减机制 | 架构的三种变体
 链接：https://www.bilibili.com/video/BV1Fjw6eGEFH
 识别语言：zh
 语言置信度：1

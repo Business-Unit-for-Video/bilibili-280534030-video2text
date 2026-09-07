@@ -1,5 +1,5 @@
 BV号：BV1HBfVYhE8X
-标题：BV1HBfVYhE8X
+标题：【人工智能】Minimax推出最新基础模型01系列 | Text-01 | VL-01 | 首次大规模线性注意力 | 400万token上下文窗口 | 闪电注意
 链接：https://www.bilibili.com/video/BV1HBfVYhE8X
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1G66HY4ERN
-标题：BV1G66HY4ERN
+标题：图灵奖得主杨立昆：大语言模型适合离散世界，不适合连续的高维世界
 链接：https://www.bilibili.com/video/BV1G66HY4ERN
 识别语言：zh
 语言置信度：1

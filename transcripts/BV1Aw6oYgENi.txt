@@ -1,5 +1,5 @@
 BV号：BV1Aw6oYgENi
-标题：BV1Aw6oYgENi
+标题：【人工智能】World Labs发布最新3D世界生成模型 | 李飞飞 | 一张图片可生成交互式3D场景 | 相机控制 | 理解3D几何结构 | 可控性 | 一致
 链接：https://www.bilibili.com/video/BV1Aw6oYgENi
 识别语言：zh
 语言置信度：1

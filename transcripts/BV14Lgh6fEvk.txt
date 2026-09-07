@@ -1,5 +1,5 @@
 BV号：BV14Lgh6fEvk
-标题：BV14Lgh6fEvk
+标题：让 AI 从零写 SQLite：Cursor 蜂群实验测出了什么
 链接：https://www.bilibili.com/video/BV14Lgh6fEvk
 识别语言：zh
 语言置信度：1

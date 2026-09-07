@@ -1,5 +1,5 @@
 BV号：BV1GxdgYwEBt
-标题：BV1GxdgYwEBt
+标题：【人工智能】机器人如何获得训练数据 | Pieter Abbeel GTC最新演讲 | 远程操作 | 仿真 | 数据金字塔 | 模块化架构 | 手部动作跟踪 |
 链接：https://www.bilibili.com/video/BV1GxdgYwEBt
 识别语言：zh
 语言置信度：1

@@ -1,5 +1,5 @@
 BV号：BV1R3MV6DESP
-标题：BV1R3MV6DESP
+标题：你的AI编程总是翻车？因为你少做了一步：设计隔离 | 拆解 Grill-me，Superpowers，Openspec 的第一步
 链接：https://www.bilibili.com/video/BV1R3MV6DESP
 识别语言：zh
 语言置信度：1

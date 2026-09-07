@@ -1,5 +1,5 @@
 BV号：BV1CUdZYDEbw
-标题：BV1CUdZYDEbw
+标题：【人工智能】OpenAI发布GPT-4.1 API | 三款模型 | 取代4.5 Preview | 100万Token上下文 | 编码能力提升 | 指令遵循
 链接：https://www.bilibili.com/video/BV1CUdZYDEbw
 识别语言：zh
 语言置信度：1

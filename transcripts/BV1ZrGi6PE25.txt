@@ -1,5 +1,5 @@
 BV号：BV1ZrGi6PE25
-标题：BV1ZrGi6PE25
+标题：Karpathy发现的AI编程三大陷阱 | 14万Star的密码：一个文件如何降低AI返工率
 链接：https://www.bilibili.com/video/BV1ZrGi6PE25
 识别语言：zh
 语言置信度：1

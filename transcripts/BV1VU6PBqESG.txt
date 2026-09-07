@@ -1,5 +1,5 @@
 BV号：BV1VU6PBqESG
-标题：BV1VU6PBqESG
+标题：【硬核干货】AI编程工程化的演进：一次讲透Rules和Skills 系统性梳理AI编程上下文工程
 链接：https://www.bilibili.com/video/BV1VU6PBqESG
 识别语言：zh
 语言置信度：1

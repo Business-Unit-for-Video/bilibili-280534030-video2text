@@ -17,7 +17,12 @@ CATEGORIES = {
 def read_transcript(path):
     text = path.read_text(encoding="utf-8", errors="replace")
     match = re.search(r"^标题：(.+)$", text, re.MULTILINE)
-    title = match.group(1).strip() if match else path.stem
+    title = match.group(1).strip() if match else ''
+    cache_path = path.parent.parent / 'state' / 'video-titles.json'
+    if cache_path.exists():
+        title = json.loads(cache_path.read_text(encoding='utf-8')).get(path.stem, title)
+    if title == path.stem:
+        title = ''
     body = text[text.find("\n\n") + 2:] if "\n\n" in text else text
     return title, body
 

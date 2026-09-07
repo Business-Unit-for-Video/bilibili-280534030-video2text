@@ -1,5 +1,5 @@
 BV号：BV1udK66UEkt
-标题：BV1udK66UEkt
+标题：模型再强也没用：GPT-5.6翻车背后的系统设计致命缺陷
 链接：https://www.bilibili.com/video/BV1udK66UEkt
 识别语言：zh
 语言置信度：1

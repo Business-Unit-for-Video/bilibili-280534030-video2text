@@ -1,5 +1,5 @@
 BV号：BV1nCRYBeEw6
-标题：BV1nCRYBeEw6
+标题：AI自己写代码53小时？深度拆解Codex /goal的底层逻辑
 链接：https://www.bilibili.com/video/BV1nCRYBeEw6
 识别语言：zh
 语言置信度：1

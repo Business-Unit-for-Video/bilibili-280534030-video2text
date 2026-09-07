@@ -1,5 +1,5 @@
 BV号：BV11dd8YGE8U
-标题：BV11dd8YGE8U
+标题：GTP-4.5 预训练的幕后故事
 链接：https://www.bilibili.com/video/BV11dd8YGE8U
 识别语言：zh
 语言置信度：1

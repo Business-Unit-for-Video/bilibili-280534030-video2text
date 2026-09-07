@@ -1,5 +1,5 @@
 BV号：BV14BXUYdE9B
-标题：BV14BXUYdE9B
+标题：【人工智能】FigureAI推出Helix模型 | 通用视觉语言动作VLA | 双机器人协作 | 语音指令 | 全上半身灵活操控 | 强大物体泛化 | S2+S
 链接：https://www.bilibili.com/video/BV14BXUYdE9B
 识别语言：zh
 语言置信度：1

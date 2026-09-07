@@ -1,5 +1,5 @@
 BV号：BV1H2qSYLEUm
-标题：BV1H2qSYLEUm
+标题：【OpenAI】强化微调ReFT | OpenAI圣诞活动Day 2 | 用强化学习技术进行微调 | o1-mini超过o1 | 评分器 | 预热和强化学习 |
 链接：https://www.bilibili.com/video/BV1H2qSYLEUm
 识别语言：zh
 语言置信度：1

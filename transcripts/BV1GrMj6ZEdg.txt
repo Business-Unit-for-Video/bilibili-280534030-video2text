@@ -1,5 +1,5 @@
 BV号：BV1GrMj6ZEdg
-标题：BV1GrMj6ZEdg
+标题：骗过Claude视觉系统！他把代码转成图片，省了70% API费用
 链接：https://www.bilibili.com/video/BV1GrMj6ZEdg
 识别语言：zh
 语言置信度：1

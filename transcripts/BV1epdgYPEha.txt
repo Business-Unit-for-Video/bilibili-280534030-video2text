@@ -1,5 +1,5 @@
 BV号：BV1epdgYPEha
-标题：BV1epdgYPEha
+标题：【云服务】如何选择GPU云 | SemiAnalysis长文 | 推出ClusterMAX评级体系 | 五个等级 | CoreWeave | Crusoe |
 链接：https://www.bilibili.com/video/BV1epdgYPEha
 识别语言：zh
 语言置信度：1

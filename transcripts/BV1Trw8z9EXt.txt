@@ -1,5 +1,5 @@
 BV号：BV1Trw8z9EXt
-标题：BV1Trw8z9EXt
+标题：图灵奖得主发论文：我们正在用错误的芯片跑AI | GPU涨80倍 内存只涨17倍
 链接：https://www.bilibili.com/video/BV1Trw8z9EXt
 识别语言：zh
 语言置信度：1
