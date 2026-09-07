@@ -27,3 +27,13 @@
 - `scripts/transcription_integrity.py`：音频完整性和转写覆盖率校验。
 - `transcripts/`：每个 BVID 一个纯文本转写文件。
 - `state/`：队列、完成/失败列表、进度和错误记录。
+
+## 主题分类
+
+运行 `scripts/classify_transcripts.py` 可根据转录正文生成主题分类：
+
+- `classification/video-classification.csv`：逐视频分类清单，适合 Excel 查看和人工修订。
+- `classification/video-classification.json`：包含分类、命中关键词和置信度。
+- `classification/video-classification.md`：分类数量汇总。
+
+分类是多标签的：每个视频有一个主分类，同时保留相关主题；分类依据是转录正文，不沿用 B 站原合集分集。
