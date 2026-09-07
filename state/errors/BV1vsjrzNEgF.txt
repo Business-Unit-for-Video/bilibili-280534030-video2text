@@ -1,5 +1,5 @@
 bvid: BV1vsjrzNEgF
 title: BV1vsjrzNEgF
 url: https://www.bilibili.com/video/BV1vsjrzNEgF
-time: 2026-08-30 03:26:05
+time: 2026-09-07 00:46:55
 error: RuntimeError('transcription produced no text')
