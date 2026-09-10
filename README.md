@@ -34,10 +34,10 @@
 运行 `python scripts/refresh_titles.py` 可补齐标题并同步队列、转录标题行及分类 CSV/JSON；正文和分类保持不变。
 查询失败项记录于 `classification/title-refresh-report.json`，分类标题留空，不再用 BVID 冒充视频名称。
 
-运行 `scripts/classify_transcripts.py` 可根据转录正文生成主题分类：
+运行 `scripts/classify_transcripts.py` 可根据标题和转录正文生成主题分类，并读取已有 CSV 中的人工 `remark`：
 
 - `classification/video-classification.csv`：逐视频分类清单，适合 Excel 查看和人工修订。
-- `classification/video-classification.json`：包含分类、命中关键词和置信度。
-- `classification/video-classification.md`：分类数量汇总。
+- `classification/video-classification.json`：包含主题分类、内容类型、命中关键词、置信度和人工 remark。
+- `classification/video-classification.md`：主题分类和内容类型数量汇总。
 
-分类是多标签的：每个视频有一个主分类，同时保留相关主题；分类依据是转录正文，不沿用 B 站原合集分集。
+分类是多标签的：每个视频有一个主题主分类，同时保留相关主题；`content_type` 优先采用人工 `remark`（如技术、访谈、理论、课程/实操、无意义），未标注视频才做保守推断。标题命中权重高于正文，泛化词权重较低，不沿用 B 站原合集分集。重新生成时会保留已有 `remark`，不会修改原始转录文本。
