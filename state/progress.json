@@ -1,9 +1,12 @@
 {
-  "status": "finished",
-  "note": "all items completed",
+  "status": "done_one",
+  "note": "one video processed, more pending",
   "space_url": "https://space.bilibili.com/280534030/video",
-  "queue_total": 478,
-  "queue_index": 475,
-  "updated_at": 1792125268,
-  "updated_at_readable": "2026-10-16 04:34:28"
+  "queue_total": 529,
+  "queue_index": 479,
+  "updated_at": 1792147699,
+  "updated_at_readable": "2026-10-16 10:48:19",
+  "current_bvid": "BV1xe4k6NEua",
+  "current_title": "BV1xe4k6NEua",
+  "current_url": "https://www.bilibili.com/video/BV1xe4k6NEua"
 }
