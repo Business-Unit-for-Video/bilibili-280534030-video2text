@@ -3,10 +3,10 @@
   "note": "one video processed, more pending",
   "space_url": "https://space.bilibili.com/280534030/video",
   "queue_total": 529,
-  "queue_index": 511,
-  "updated_at": 1792154014,
-  "updated_at_readable": "2026-10-16 12:33:34",
-  "current_bvid": "BV1zLYJ6zETX",
-  "current_title": "你写的提示词正在让 GPT-6 Astra 变笨",
-  "current_url": "https://www.bilibili.com/video/BV1zLYJ6zETX"
+  "queue_index": 512,
+  "updated_at": 1792154224,
+  "updated_at_readable": "2026-10-16 12:37:04",
+  "current_bvid": "BV1wLYG64ELz",
+  "current_title": "Karpathy 都在用语音喂 AI：我用 Typeless 重做了 Coding Agent 工作流",
+  "current_url": "https://www.bilibili.com/video/BV1wLYG64ELz"
 }
