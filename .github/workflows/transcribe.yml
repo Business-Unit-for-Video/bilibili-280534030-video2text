@@ -2,6 +2,12 @@ name: 转写 Bilibili 280534030 空间
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_queue:
+        description: "运行前重新扫描空间并追加新视频"
+        required: false
+        default: true
+        type: boolean
   schedule:
     - cron: "20 */6 * * *"
 
@@ -31,6 +37,7 @@ jobs:
       AUDIO_QUALITY: "7"
       BEAM_SIZE: "1"
       VAD_FILTER: "1"
+      REFRESH_QUEUE: ${{ inputs.refresh_queue }}
 
     steps:
       - name: Checkout
@@ -98,7 +105,7 @@ jobs:
 
       - name: Run one video
         run: |
-          echo "===== discovery and processing stage ====="
+          echo "===== discovery and processing stage (refresh_queue=${REFRESH_QUEUE:-true}) ====="
           python scripts/transcribe_bili.py
 
       - name: Show final repo state
@@ -135,7 +142,7 @@ jobs:
           if [ -f state/continue.flag ]; then
             echo "continue.flag exists, trigger next run"
             sleep 15
-            gh workflow run .github/workflows/transcribe.yml --ref "${GITHUB_REF_NAME}"
+            gh workflow run .github/workflows/transcribe.yml --ref "${GITHUB_REF_NAME}" -f refresh_queue=false
           else
             echo "continue.flag not found, stop here"
           fi

@@ -48,6 +48,8 @@ MAX_TRAILING_GAP_RATIO = float(os.getenv("MAX_TRAILING_GAP_RATIO", "0.10"))
 GIT_BRANCH = os.getenv("GITHUB_REF_NAME", "").strip()
 YTDLP_RETRIES = max(1, int(os.getenv("YTDLP_RETRIES", "3")))
 YTDLP_RETRY_DELAY = max(0.0, float(os.getenv("YTDLP_RETRY_DELAY", "5")))
+_refresh_queue_value = os.getenv("REFRESH_QUEUE", "").strip().lower()
+REFRESH_QUEUE = _refresh_queue_value not in {"0", "false", "no", "off"}
 
 
 def log(msg: str):
@@ -288,12 +290,55 @@ def extract_queue_from_space() -> List[Dict]:
     return queue
 
 
+def merge_queues(existing: List[Dict], discovered: List[Dict]) -> tuple[List[Dict], int]:
+    """Append newly discovered BVIDs while preserving the historical queue order."""
+    merged: List[Dict] = []
+    seen = set()
+
+    for item in existing:
+        if not isinstance(item, dict):
+            continue
+        bvid = extract_bvid(item.get("id")) or extract_bvid(item.get("url"))
+        if not bvid or bvid in seen:
+            continue
+        merged.append(item)
+        seen.add(bvid)
+
+    added = 0
+    for item in discovered:
+        if not isinstance(item, dict):
+            continue
+        bvid = extract_bvid(item.get("id")) or extract_bvid(item.get("url"))
+        if not bvid or bvid in seen:
+            continue
+        merged.append(item)
+        seen.add(bvid)
+        added += 1
+
+    return merged, added
+
+
 def load_or_build_queue() -> List[Dict]:
-    if QUEUE_FILE.exists():
-        queue = load_json(QUEUE_FILE, [])
-        if queue:
-            log(f"[info] loaded queue from state: {len(queue)} items")
-            return queue
+    existing = load_json(QUEUE_FILE, []) if QUEUE_FILE.exists() else []
+    if existing:
+        if not REFRESH_QUEUE:
+            log(f"[info] loaded queue from state: {len(existing)} items")
+            return existing
+
+        log("[discover] refreshing Bilibili space queue")
+        try:
+            discovered = extract_queue_from_space()
+        except Exception as exc:
+            log(f"[warn] queue refresh failed; keeping existing queue: {exc}")
+            return existing
+
+        merged, added = merge_queues(existing, discovered)
+        if added:
+            save_json(QUEUE_FILE, merged)
+            log(f"[info] queue refreshed: {len(existing)} existing, {added} new, {len(merged)} total")
+        else:
+            log(f"[info] queue refresh found no new videos: {len(existing)} items")
+        return merged
 
     log("[info] building queue from bilibili space")
     queue = extract_queue_from_space()
