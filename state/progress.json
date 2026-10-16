@@ -1,12 +1,12 @@
 {
-  "status": "error",
-  "note": "CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1RoWc6xEij.%(ext)s', 'https://www.bilibili.com/video/BV1RoWc6xEij'])",
+  "status": "done_one",
+  "note": "one video processed, more pending",
   "space_url": "https://space.bilibili.com/280534030/video",
   "queue_total": 529,
-  "queue_index": 499,
-  "updated_at": 1792151704,
-  "updated_at_readable": "2026-10-16 11:55:04",
-  "current_bvid": "BV1RoWc6xEij",
-  "current_title": "BV1RoWc6xEij",
-  "current_url": "https://www.bilibili.com/video/BV1RoWc6xEij"
+  "queue_index": 500,
+  "updated_at": 1792151946,
+  "updated_at_readable": "2026-10-16 11:59:06",
+  "current_bvid": "BV1fWpU68EBR",
+  "current_title": "一行字造出机械表，AI画图过时了",
+  "current_url": "https://www.bilibili.com/video/BV1fWpU68EBR"
 }
