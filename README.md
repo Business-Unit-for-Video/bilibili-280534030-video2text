@@ -8,6 +8,7 @@
 - 合集和空间直出视频按 BVID 去重，队列保存在 `state/queue.json`。
 - 每次 GitHub Actions Run 只处理一个视频：下载音频、校验时长、使用 faster-whisper 转写，然后提交文本和状态。
 - 手动运行或定时运行前会重新扫描空间，把新发现的视频追加到 `state/queue.json`；相同 BVID 不重复加入，刷新失败时保留旧队列。
+- 空间接口只返回 BVID 时，会再调用 Bilibili 视频详情接口补齐真实标题；接口暂时不可用时保留 BVID 并在后续运行重试。
 - 成功后写入 `state/continue.flag`，工作流再触发下一次 Run；失败项写入 `state/failed.txt` 和 `state/errors/`，不会无限重试。
 - 只提交转写文本和状态，不提交音频或 Cookie。
 

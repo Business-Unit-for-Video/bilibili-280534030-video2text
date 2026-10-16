@@ -8,6 +8,7 @@ import sys
 import time
 from pathlib import Path
 from typing import TYPE_CHECKING, Dict, List, Optional
+from urllib.request import Request, urlopen
 
 if TYPE_CHECKING:
     from faster_whisper import WhisperModel
@@ -290,6 +291,37 @@ def extract_queue_from_space() -> List[Dict]:
     return queue
 
 
+def enrich_placeholder_titles(queue: List[Dict]) -> int:
+    """Fill BVID placeholder titles from Bilibili's public view metadata API."""
+    changed = 0
+    for item in queue:
+        if not isinstance(item, dict):
+            continue
+        bvid = extract_bvid(item.get("id")) or extract_bvid(item.get("url"))
+        title = str(item.get("title") or "").strip()
+        if not bvid or (title and title != bvid):
+            continue
+        try:
+            request = Request(
+                f"https://api.bilibili.com/x/web-interface/view?bvid={bvid}",
+                headers={
+                    "User-Agent": "Mozilla/5.0",
+                    "Referer": "https://www.bilibili.com/",
+                },
+            )
+            with urlopen(request, timeout=20) as response:
+                payload = json.load(response)
+            data = payload.get("data") if isinstance(payload, dict) else None
+            resolved = str(data.get("title") or "").strip() if isinstance(data, dict) else ""
+            if isinstance(payload, dict) and payload.get("code") == 0 and resolved:
+                item["title"] = resolved
+                changed += 1
+        except Exception as exc:
+            log(f"[warn] title lookup skipped for {bvid}: {exc}")
+        time.sleep(0.2)
+    return changed
+
+
 def merge_queues(existing: List[Dict], discovered: List[Dict]) -> tuple[List[Dict], int]:
     """Append newly discovered BVIDs while preserving the historical queue order."""
     merged: List[Dict] = []
@@ -322,6 +354,10 @@ def load_or_build_queue() -> List[Dict]:
     existing = load_json(QUEUE_FILE, []) if QUEUE_FILE.exists() else []
     if existing:
         if not REFRESH_QUEUE:
+            changed = enrich_placeholder_titles(existing)
+            if changed:
+                save_json(QUEUE_FILE, existing)
+                log(f"[info] resolved {changed} placeholder video titles")
             log(f"[info] loaded queue from state: {len(existing)} items")
             return existing
 
@@ -333,17 +369,22 @@ def load_or_build_queue() -> List[Dict]:
             return existing
 
         merged, added = merge_queues(existing, discovered)
-        if added:
+        changed = enrich_placeholder_titles(merged)
+        if added or changed:
             save_json(QUEUE_FILE, merged)
-            log(f"[info] queue refreshed: {len(existing)} existing, {added} new, {len(merged)} total")
+            log(
+                f"[info] queue refreshed: {len(existing)} existing, {added} new, "
+                f"{changed} titles resolved, {len(merged)} total"
+            )
         else:
             log(f"[info] queue refresh found no new videos: {len(existing)} items")
         return merged
 
     log("[info] building queue from bilibili space")
     queue = extract_queue_from_space()
+    changed = enrich_placeholder_titles(queue)
     save_json(QUEUE_FILE, queue)
-    log(f"[info] queue saved: {len(queue)} items")
+    log(f"[info] queue saved: {len(queue)} items, {changed} titles resolved")
     return queue
 
 
