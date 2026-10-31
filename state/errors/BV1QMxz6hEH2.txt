@@ -1,0 +1,5 @@
+bvid: BV1QMxz6hEH2
+title: AI订阅怎么选？别再乱买
+url: https://www.bilibili.com/video/BV1QMxz6hEH2
+time: 2026-10-31 12:34:28
+error: CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1QMxz6hEH2.%(ext)s', 'https://www.bilibili.com/video/BV1QMxz6hEH2'])

@@ -1,9 +1,12 @@
 {
-  "status": "finished",
-  "note": "all items completed",
+  "status": "finished_with_errors",
+  "note": "CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1QMxz6hEH2.%(ext)s', 'https://www.bilibili.com/video/BV1QMxz6hEH2'])",
   "space_url": "https://space.bilibili.com/280534030/video",
-  "queue_total": 544,
-  "queue_index": 536,
-  "updated_at": 1793425513,
-  "updated_at_readable": "2026-10-31 05:45:13"
+  "queue_total": 545,
+  "queue_index": 545,
+  "updated_at": 1793450068,
+  "updated_at_readable": "2026-10-31 12:34:28",
+  "current_bvid": "BV1QMxz6hEH2",
+  "current_title": "AI订阅怎么选？别再乱买",
+  "current_url": "https://www.bilibili.com/video/BV1QMxz6hEH2"
 }
