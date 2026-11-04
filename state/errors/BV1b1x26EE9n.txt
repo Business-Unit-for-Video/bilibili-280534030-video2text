@@ -1,0 +1,5 @@
+bvid: BV1b1x26EE9n
+title: BV1b1x26EE9n
+url: https://www.bilibili.com/video/BV1b1x26EE9n
+time: 2026-11-04 19:55:28
+error: CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1b1x26EE9n.%(ext)s', 'https://www.bilibili.com/video/BV1b1x26EE9n'])
