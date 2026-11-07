@@ -1,0 +1,5 @@
+bvid: BV1HS456JEQG
+title: BV1HS456JEQG
+url: https://www.bilibili.com/video/BV1HS456JEQG
+time: 2026-11-07 13:04:42
+error: CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1HS456JEQG.%(ext)s', 'https://www.bilibili.com/video/BV1HS456JEQG'])
