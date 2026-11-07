@@ -1,9 +1,12 @@
 {
   "status": "finished",
-  "note": "all items completed",
+  "note": "one video processed, no more pending",
   "space_url": "https://space.bilibili.com/280534030/video",
-  "queue_total": 550,
-  "queue_index": 538,
-  "updated_at": 1793993195,
-  "updated_at_readable": "2026-11-06 19:26:35"
+  "queue_total": 551,
+  "queue_index": 551,
+  "updated_at": 1794031398,
+  "updated_at_readable": "2026-11-07 06:03:18",
+  "current_bvid": "BV1jt486SE1B",
+  "current_title": "BV1jt486SE1B",
+  "current_url": "https://www.bilibili.com/video/BV1jt486SE1B"
 }
