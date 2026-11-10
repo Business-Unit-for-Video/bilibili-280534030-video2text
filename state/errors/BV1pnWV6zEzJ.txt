@@ -1,0 +1,5 @@
+bvid: BV1pnWV6zEzJ
+title: BV1pnWV6zEzJ
+url: https://www.bilibili.com/video/BV1pnWV6zEzJ
+time: 2026-11-10 19:45:50
+error: CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1pnWV6zEzJ.%(ext)s', 'https://www.bilibili.com/video/BV1pnWV6zEzJ'])
