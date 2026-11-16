@@ -1,12 +1,9 @@
 {
   "status": "finished",
-  "note": "one video processed, no more pending",
+  "note": "all items completed",
   "space_url": "https://space.bilibili.com/280534030/video",
   "queue_total": 560,
-  "queue_index": 560,
-  "updated_at": 1794768940,
-  "updated_at_readable": "2026-11-15 18:55:40",
-  "current_bvid": "BV1G4s36DEZW",
-  "current_title": "BV1G4s36DEZW",
-  "current_url": "https://www.bilibili.com/video/BV1G4s36DEZW"
+  "queue_index": 543,
+  "updated_at": 1794810807,
+  "updated_at_readable": "2026-11-16 06:33:27"
 }
