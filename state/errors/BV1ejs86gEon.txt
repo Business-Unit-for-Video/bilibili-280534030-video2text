@@ -1,0 +1,5 @@
+bvid: BV1ejs86gEon
+title: BV1ejs86gEon
+url: https://www.bilibili.com/video/BV1ejs86gEon
+time: 2026-11-19 07:28:52
+error: CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV1ejs86gEon.%(ext)s', 'https://www.bilibili.com/video/BV1ejs86gEon'])
