@@ -1,12 +1,9 @@
 {
-  "status": "finished_with_errors",
-  "note": "CalledProcessError(1, ['yt-dlp', '--cookies', 'cookies.txt', '--no-playlist', '-f', 'ba/bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '7', '-o', 'tmp_audio/BV16Lsi6NEdZ.%(ext)s', 'https://www.bilibili.com/video/BV16Lsi6NEdZ'])",
+  "status": "finished",
+  "note": "all items completed",
   "space_url": "https://space.bilibili.com/280534030/video",
   "queue_total": 568,
-  "queue_index": 568,
-  "updated_at": 1795159333,
-  "updated_at_readable": "2026-11-20 07:22:13",
-  "current_bvid": "BV16Lsi6NEdZ",
-  "current_title": "BV16Lsi6NEdZ",
-  "current_url": "https://www.bilibili.com/video/BV16Lsi6NEdZ"
+  "queue_index": 544,
+  "updated_at": 1795206267,
+  "updated_at_readable": "2026-11-20 20:24:27"
 }
